@@ -505,7 +505,7 @@ export const translations = {
           ]
         },
         {
-          "badge": "09/2023 - 01/2025 (Part-Time)",
+          "badge": "09/2023 - 08/2026 (Part-Time)",
           "title": "Administrative & IT Support Assistant",
           "location": "Casablanca, Morocco",
           "icon": "fa-solid fa-briefcase",
@@ -1204,7 +1204,7 @@ export const translations = {
           ]
         },
         {
-          "badge": "09/2023 - 01/2025 (Temps Partiel)",
+          "badge": "09/2023 - 08/2026 (Temps Partiel)",
           "title": "Assistant Administratif & Support IT",
           "location": "Casablanca, Maroc",
           "icon": "fa-solid fa-briefcase",
@@ -1903,7 +1903,7 @@ export const translations = {
           ]
         },
         {
-          "badge": "09/2023 - 01/2025 (دوام جزئي)",
+          "badge": "09/2023 - 08/2026 (دوام جزئي)",
           "title": "مساعد إداري ودعم تقني مكتبي",
           "location": "الدار البيضاء، المغرب",
           "icon": "fa-solid fa-briefcase",
