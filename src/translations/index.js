@@ -231,7 +231,7 @@ export const translations = {
       "subtitle": "My academic path combines specialized digital engineering training (OFPPT) with university computer science (FSAC) and rigorous analytical mathematics.",
       "degrees": [
         {
-          "badge": "2024 - 2026 (In Progress)",
+          "badge": "2024 - 2026",
           "title": "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
           "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
           "desc": "Rigorous university computer science curriculum covering advanced algorithms, data structures, Linux operating systems, relational database architecture, and system-level programming.",
@@ -991,7 +991,7 @@ export const translations = {
       "subtitle": "Mon parcours réunit l'expertise appliquée du développement digital (OFPPT) et la rigueur universitaire en informatique et mathématiques (FSAC).",
       "degrees": [
         {
-          "badge": "2024 - 2026 (En cours)",
+          "badge": "2024 - 2026",
           "title": "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
           "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
           "desc": "Formation universitaire approfondie : algorithmique avancée, structures de données, systèmes d’exploitation Linux, conception de bases de données relationnelles et programmation système.",
@@ -1751,7 +1751,7 @@ export const translations = {
       "subtitle": "يجمع مساري التعليمي بين التدريب التقني الرقمي المتخصص (OFPPT) والتكوين الجامعي الأكاديمي في علوم الحاسوب والرياضيات (FSAC).",
       "degrees": [
         {
-          "badge": "2024 - 2026 (قيد الدراسة)",
+          "badge": "2024 - 2026",
           "title": "دبلوم الدراسات الجامعية العامة في المعلوميات (DEUG FLI)",
           "location": "كلية العلوم عين الشق، جامعة الحسن الثاني بالدار البيضاء",
           "desc": "دراسات جامعية متقدمة في الخوارزميات، هياكل البيانات، نظم تشغيل لينكس، قواعد البيانات وهندسة البرمجيات.",
