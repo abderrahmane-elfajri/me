@@ -516,6 +516,38 @@ export const translations = {
             "Maintained organized digital filing systems, data tracking sheets, and verified document accuracy."
           ]
         }
+      ],
+      "professionalTitle": "Professional Work Experience",
+      "professionalSubtitle": "Commercial and enterprise contributions in full-stack web development and technical IT operations.",
+      "academicTitle": "Applied Academic & Capstone Engineering",
+      "academicSubtitle": "End-to-end full-stack software systems architected and delivered during the formal curriculum at ISTA NTIC.",
+      "academicItems": [
+        {
+          "badge": "11/2024 - 03/2025 (NTIC 2)",
+          "title": "Full-Stack Developer — Attendance Management System",
+          "location": "ISTA NTIC Casablanca, Morocco",
+          "icon": "fa-solid fa-clipboard-user",
+          "desc": "Architected a centralized institutional web application digitizing student records, daily roll calls, role-based access control, and automated statistical reporting.",
+          "responsibilities": [
+            "Architected decoupled React single-page frontend consuming secure Laravel RESTful APIs.",
+            "Designed normalized relational MySQL database handling cohorts, schedules, and daily attendances.",
+            "Implemented role-based access control (Admin, Instructor, Student) with session tokens.",
+            "Engineered real-time absence analytics with exportable PDF and CSV reporting sheets."
+          ]
+        },
+        {
+          "badge": "03/2023 - 04/2024 (Capstone Project)",
+          "title": "Full-Stack Web Developer — E-Commerce Platform",
+          "location": "Casablanca, Morocco",
+          "icon": "fa-solid fa-cart-shopping",
+          "desc": "Engineered a modular online retail storefront featuring real-time client-side catalog filtering, shopping cart state persistence, and a Laravel order processing backend.",
+          "responsibilities": [
+            "Built dynamic product discovery interface with multi-attribute filtering and live search.",
+            "Implemented shopping cart state management with persistent storage and total calculations.",
+            "Developed Laravel REST controllers for inventory management and order lifecycle tracking.",
+            "Designed responsive checkout flow with client-side validation and secure error handling."
+          ]
+        }
       ]
     },
     "projects": {
@@ -534,6 +566,35 @@ export const translations = {
       "modalKeyFeatures": "Key Deliverables & Features",
       "modalArchitecture": "Engineering Architecture",
       "items": [
+        {
+          "id": "ocr-cin",
+          "category": "app",
+          "typeLabel": "Computer Vision & AI Web App",
+          "badgeClass": "badge-app",
+          "badgeText": "AI Web App",
+          "icon": "fa-solid fa-id-card",
+          "title": "Morocco CIN OCR — Intelligent Card Extractor",
+          "role": "AI & Python Backend Engineer",
+          "desc": "An AI-powered computer vision and OCR system extracting structured bilingual data (Arabic & French) from Moroccan National Identity Cards (CIN) via automated card orientation and FastAPI endpoints.",
+          "tags": [
+            "Python",
+            "FastAPI",
+            "OCR",
+            "Computer Vision",
+            "REST API",
+            "Vercel"
+          ],
+          "liveUrl": "https://ocr-cin.vercel.app",
+          "liveText": "Live App",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/ocr-cin",
+          "features": [
+            "Automatic FRONT or BACK side detection with perspective and alignment normalization.",
+            "Extracts full CIN metadata: names, CIN number, birth dates, places, and addresses in French and Arabic.",
+            "FastAPI backend with multipart image upload endpoints and sub-second processing.",
+            "Serverless cloud deployment on Vercel with structured JSON response payloads."
+          ],
+          "architecture": "Python computer vision pipeline running OCR extraction behind high-performance FastAPI asynchronous endpoints, containerized and deployed serverless on Vercel."
+        },
         {
           "id": "solva",
           "category": "live",
@@ -1215,6 +1276,38 @@ export const translations = {
             "Gestion rigoureuse du classement électronique et suivi des tableaux de bord."
           ]
         }
+      ],
+      "professionalTitle": "Expérience Professionnelle en Entreprise",
+      "professionalSubtitle": "Parcours en entreprise alliant développement logiciel full-stack et support informatique opérationnel.",
+      "academicTitle": "Projets Académiques & Réalisations d’Études",
+      "academicSubtitle": "Systèmes logiciels full-stack complets conçus et développés dans le cadre du cursus spécialisé à l’ISTA NTIC.",
+      "academicItems": [
+        {
+          "badge": "11/2024 - 03/2025 (Projet NTIC 2)",
+          "title": "Développeur Full-Stack — Système de Gestion d’Assiduité",
+          "location": "ISTA NTIC Casablanca, Maroc",
+          "icon": "fa-solid fa-clipboard-user",
+          "desc": "Conception et développement d’une application web institutionnelle pour numériser le suivi des présences, la gestion des dossiers stagiaires, le contrôle d’accès par rôle et la génération de statistiques.",
+          "responsibilities": [
+            "Architecture découplée : Interface SPA React connectée à des APIs REST Laravel sécurisées.",
+            "Modélisation de la base de données relationnelle MySQL (promotions, filières, séances, pointages).",
+            "Mise en place du contrôle d’accès basé sur les rôles (Administrateur, Formateur, Stagiaire).",
+            "Génération de tableaux de bord statistiques et synthèses d’assiduité exportables."
+          ]
+        },
+        {
+          "badge": "03/2023 - 04/2024 (Projet d’Études)",
+          "title": "Développeur Full-Stack — Plateforme E-Commerce",
+          "location": "Casablanca, Maroc",
+          "icon": "fa-solid fa-cart-shopping",
+          "desc": "Création d’une plateforme de vente en ligne complète intégrant un catalogue dynamique avec filtres instantanés, un panier d’achats persistant et une gestion back-end sous Laravel.",
+          "responsibilities": [
+            "Développement du catalogue interactif avec filtres multi-critères et recherche textuelle.",
+            "Gestion d’état du panier avec persistance locale et calculs instantanés des montants.",
+            "Contrôleurs REST Laravel pour la gestion des stocks, articles et commandes clients.",
+            "Tunnel de commande ergonomique avec validation stricte des formulaires côté client."
+          ]
+        }
       ]
     },
     "projects": {
@@ -1233,6 +1326,35 @@ export const translations = {
       "modalKeyFeatures": "Fonctionnalités & Livrables Clés",
       "modalArchitecture": "Architecture Technique",
       "items": [
+        {
+          "id": "ocr-cin",
+          "category": "app",
+          "typeLabel": "Application IA & Vision par Ordinateur",
+          "badgeClass": "badge-app",
+          "badgeText": "App IA",
+          "icon": "fa-solid fa-id-card",
+          "title": "Morocco CIN OCR — Extracteur Intelligent de Cartes",
+          "role": "Ingénieur IA & Backend Python",
+          "desc": "Système d’extraction OCR et vision par ordinateur extrayant des données bilingues structurées (arabe et français) depuis les Cartes d’Identité Nationales (CIN) marocaines via FastAPI.",
+          "tags": [
+            "Python",
+            "FastAPI",
+            "OCR",
+            "Vision par Ordinateur",
+            "API REST",
+            "Vercel"
+          ],
+          "liveUrl": "https://ocr-cin.vercel.app",
+          "liveText": "App en Ligne",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/ocr-cin",
+          "features": [
+            "Détection automatique du recto/verso avec normalisation de l’angle et de la perspective.",
+            "Extraction exhaustive des données CIN : noms, numéro de CIN, dates et lieux de naissance, adresses en arabe et français.",
+            "Backend FastAPI asynchrone avec endpoint d’upload d’images et réponse en moins d’une seconde.",
+            "Déploiement cloud serverless sur Vercel délivrant un schéma JSON standardisé."
+          ],
+          "architecture": "Pipeline de traitement d’image et moteur OCR conteneurisé derrière des endpoints FastAPI asynchrones, déployé en mode serverless sur Vercel."
+        },
         {
           "id": "solva",
           "category": "live",
@@ -1914,6 +2036,38 @@ export const translations = {
             "تنظيم الأرشفة الرقمية والورقية ومتابعة سجلات العمل بدقة وكفاءة."
           ]
         }
+      ],
+      "professionalTitle": "الخبرات والوظائف المهنية الميدانية",
+      "professionalSubtitle": "المساهمات الوظيفية والتطبيقية في تطوير برمجيات الويب المتكاملة والدعم التقني العملي.",
+      "academicTitle": "الخبرة والمشاريع الأكاديمية التطبيقية",
+      "academicSubtitle": "أنظمة برمجية متكاملة تم تصميمها وهندستها وتطويرها خلال مسار التكوين المتخصص في ISTA NTIC.",
+      "academicItems": [
+        {
+          "badge": "11/2024 - 03/2025 (مشروع NTIC 2)",
+          "title": "مطور Full-Stack — نظام إدارة الحضور والغياب الأكاديمي",
+          "location": "معهد ISTA NTIC الدار البيضاء، المغرب",
+          "icon": "fa-solid fa-clipboard-user",
+          "desc": "تصميم وبناء تطبيق ويب مؤسساتي متكامل لرقمنة تسجيل الحضور اليومي، إدارة ملفات المتدربين، التحكم في صلاحيات المستخدمين وإصدار التقارير الإحصائية الفورية.",
+          "responsibilities": [
+            "بناء واجهة مستخدم تفاعلية بنظام SPA عبر React تتصل بنقاط نهاية RESTful API آمنة في Laravel.",
+            "تصميم قاعدة بيانات علائقية متوافقة مع معايير التطبيع (Filières, Groupes, Séances, Pointages).",
+            "تطبيق نظام صلاحيات متعدد المستويات يفصل بين الإدارة والأساتذة والمتدربين مع حماية الجلسات.",
+            "تطوير لوحات تحكم إحصائية وإصدار ملخصات الغياب التراكمية القابلة للتصدير والطباعة."
+          ]
+        },
+        {
+          "badge": "03/2023 - 04/2024 (مشروع تخرج تطبيقي)",
+          "title": "مطور ويب Full-Stack — منصة تجارة إلكترونية متكاملة",
+          "location": "الدار البيضاء، المغرب",
+          "icon": "fa-solid fa-cart-shopping",
+          "desc": "هندسة منصة تسوق إلكتروني متكاملة تتيح تصفح المنتجات مع الفلترة الفورية، سلة مشتريات ديناميكية مستمرة، ونظام خلفي متكامل لإدارة المخزون والطلبيات عبر Laravel.",
+          "responsibilities": [
+            "تطوير كتالوج منتجات تفاعلي مع إمكانية الفلترة السريعة حسب الفئات والنطاق السعري والبحث اللحظي.",
+            "إدارة الحالة التفاعلية لسلة المشتريات محلياً وتحديث المجاميع الرياضية والضرائب بشكل فوري.",
+            "بناء متحكمات RESTful API في Laravel لإدارة عمليات المخزون وحالات معالجة الطلبات.",
+            "تصميم مسار إتمام الطلب والدفع مع التحقق الصارم من المدخلات في الواجهة الأمامية."
+          ]
+        }
       ]
     },
     "projects": {
@@ -1932,6 +2086,35 @@ export const translations = {
       "modalKeyFeatures": "أبرز الإنجازات والميزات",
       "modalArchitecture": "الهندسة المعمارية للنظام",
       "items": [
+        {
+          "id": "ocr-cin",
+          "category": "app",
+          "typeLabel": "تطبيق ذكاء اصطناعي ورؤية حاسوبية",
+          "badgeClass": "badge-app",
+          "badgeText": "تطبيق ذكاء اصطناعي",
+          "icon": "fa-solid fa-id-card",
+          "title": "Morocco CIN OCR — المستخرج الذكي لبيانات البطاقة الوطنية",
+          "role": "مهندس ذكاء اصطناعي ومطور أنظمة بايثون",
+          "desc": "نظام رؤية حاسوبية واستخراج بصري (OCR) مدعوم بالذكاء الاصطناعي يستخرج البيانات ثنائية اللغة (العربية والفرنسية) بدقة من بطاقة التعريف الوطنية المغربية عبر واجهات برمجة FastAPI سريعة.",
+          "tags": [
+            "Python",
+            "FastAPI",
+            "OCR",
+            "رؤية حاسوبية",
+            "API REST",
+            "Vercel"
+          ],
+          "liveUrl": "https://ocr-cin.vercel.app",
+          "liveText": "معاينة التطبيق الحية",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/ocr-cin",
+          "features": [
+            "كشف تلقائي لوجه البطاقة (أمامي أو خلفي) مع معالجة زاوية التصوير وتطبيع أبعاد الصورة.",
+            "استخراج شامل لبيانات البطاقة: الأسماء، رقم البطاقة، تواريخ وأماكن الولادة والعناوين باللغتين العربية والفرنسية.",
+            "سيرفر برمجي سريع عبر FastAPI يدعم رفع الصور ومعالجتها وإرجاع البيانات في أقل من ثانية.",
+            "نشر سحابي Serverless على Vercel مع تنسيق البيانات بصيغة JSON منظمة وجاهزة للربط الفوري."
+          ],
+          "architecture": "خط معالجة بصري وتحليل OCR بلغة بايثون مدمج خلف واجهات FastAPI غير متزامنة فائقة السرعة، ومبني للعمل السحابي بدون خوادم ثابتة (Serverless) على Vercel."
+        },
         {
           "id": "solva",
           "category": "live",
