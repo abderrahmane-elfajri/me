@@ -1,1375 +1,2099 @@
 export const translations = {
-  en: {
-    nav: {
-      home: 'Home',
-      services: 'Services',
-      skills: 'Skills',
-      education: 'Education',
-      experience: 'Experience',
-      projects: 'Projects',
-      contact: 'Contact',
+  "en": {
+    "nav": {
+      "home": "Home",
+      "services": "What I Can Do",
+      "skills": "Skills",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "downloadCv": "CV"
     },
-    home: {
-      greeting: "Hi, I'm",
-      name: 'Abderrahmane El Fajri',
-      rolePrefix: "I'm a",
-      roles: [
-        'Full-Stack Developer',
-        'Digital Growth Specialist',
-        'Laravel & React Engineer',
-        'SMM & Meta Ads Strategist',
+    "home": {
+      "greeting": "Hi, I'm",
+      "name": "Abderrahmane El Fajri",
+      "rolePrefix": "I'm a",
+      "roles": [
+        "Full-Stack Web Developer",
+        "React & Laravel Developer",
+        "Modern Web Solutions Builder"
       ],
-      bio: 'I build digital products and growth systems for ambitious brands. Based in Casablanca, I design and develop fast, conversion-focused websites and web applications, while helping businesses scale through social media strategy, Canva creatives, and Meta Ads campaigns.',
-      location: 'Sidi Maarouf, Casablanca',
-      availability: 'Freelance & Remote',
-      languages: 'Arabic, French, English',
-      viewWork: 'View My Work',
-      whatsapp: 'WhatsApp Direct',
-      contact: 'Contact Me',
+      "subtitle": "Based in Morocco · Open to Job Opportunities",
+      "bio": "I build modern, responsive web applications and digital solutions, combining front-end development, back-end technologies, and practical problem-solving.",
+      "openToWork": "Open to Work",
+      "jobType": "Full-Time · On-site / Remote",
+      "locationStatus": "Casablanca, Morocco",
+      "location": "Casablanca, Morocco",
+      "availability": "Open to Job Opportunities",
+      "languages": "Arabic, French, English",
+      "downloadCv": "Download CV",
+      "viewProjects": "View Projects",
+      "viewWork": "View Projects",
+      "whatsapp": "WhatsApp Direct",
+      "contact": "Contact Me",
+      "contactMe": "Contact Me"
     },
-    services: {
-      title: 'Connected Expertise',
-      subtitle: 'Build the experience. Grow the opportunity. I turn business goals into high-converting digital products and connect them with targeted content and advertising campaigns.',
-      items: [
+    "services": {
+      "title": "What I Can Do",
+      "subtitle": "Core engineering capabilities and practical digital solutions I deliver to tech teams, companies, and clients.",
+      "items": [
         {
-          title: 'Full-Stack Web Development',
-          desc: 'Building high-performance, responsive web applications with Next.js, React, Laravel, and Node.js. Clean component architecture, accessible UI, and modern coding standards.',
+          "title": "Full-Stack Web Development",
+          "desc": "Developing fast, maintainable web applications using React on the frontend and Laravel/PHP on the backend, built with clean architecture and industry standards."
         },
         {
-          title: 'Business Websites & Landing Pages',
-          desc: 'Designing and developing corporate websites tailored for conversion (as seen in Solva Métallique & GIDAPRINT), complete with local SEO foundations and direct quotation funnels.',
+          "title": "RESTful API Engineering & Integration",
+          "desc": "Designing and integrating secure REST APIs, role-based authentication (RBAC), and connecting third-party services with reliable error handling."
         },
         {
-          title: 'Web Apps & API Integration',
-          desc: 'Architecting secure relational schemas (MySQL) and NoSQL databases (MongoDB), creating RESTful APIs, and implementing robust role-based workflows.',
+          "title": "Relational Database Architecture",
+          "desc": "Structuring relational schemas in MySQL/SQL, writing optimized queries, managing joins, migrations, and ensuring data consistency."
         },
         {
-          title: 'Social Media Strategy & SMM',
-          desc: 'Connecting your brand to your target audience across Instagram and Facebook with structured content calendars, community engagement, and brand storytelling.',
-        },
-        {
-          title: 'Meta Ads Campaign Planning',
-          desc: 'Designing targeted Facebook and Instagram ad campaigns focused on lead-generation journeys, audience segmentation, budget efficiency, and measurable ROAS.',
-        },
-        {
-          title: 'Canva Creative Production',
-          desc: 'Producing eye-catching, platform-ready marketing collateral, promotional banners, and social media carousels designed to grab attention and boost conversion.',
-        },
+          "title": "Responsive UI & Technical SEO",
+          "desc": "Crafting responsive mobile-first interfaces with semantic HTML5, modern CSS3, and structured SEO foundations for discoverability and high performance."
+        }
       ],
-      processTitle: 'One Connected Process',
-      processSubtitle: 'From first question to informed iteration: product, design, and marketing decisions work better when they share the exact same goal.',
-      steps: [
-        { num: '01', title: 'Discover', desc: 'Understanding business goals, user needs, and market opportunities.' },
-        { num: '02', title: 'Plan', desc: 'Mapping information architecture, technical stack, and conversion journeys.' },
-        { num: '03', title: 'Design', desc: 'Crafting intuitive UI mockups, responsive layouts, and brand creatives.' },
-        { num: '04', title: 'Build', desc: 'Writing clean, scalable code with React, Next.js, Laravel, and SQL.' },
-        { num: '05', title: 'Launch', desc: 'Deploying with SEO foundations, speed optimization, and cross-browser QA.' },
-        { num: '06', title: 'Grow', desc: 'Activating targeted Meta Ads and engaging social content systems.' },
-        { num: '07', title: 'Measure', desc: 'Reviewing analytics, user conversion, and optimizing performance.' },
-      ],
+      "processTitle": "Engineering Methodology",
+      "processSubtitle": "A structured 4-phase delivery approach ensuring code quality and dependable deliverables.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Requirements & Discovery",
+          "desc": "Clarifying business goals, user personas, and technical specifications."
+        },
+        {
+          "num": "02",
+          "title": "System Architecture",
+          "desc": "Designing database models, component trees, and API endpoints."
+        },
+        {
+          "num": "03",
+          "title": "Clean Implementation",
+          "desc": "Writing modular code with React, PHP/Laravel, and SQL with version control."
+        },
+        {
+          "num": "04",
+          "title": "Testing & Deployment",
+          "desc": "Cross-browser QA, mobile responsiveness verification, and production release."
+        }
+      ]
     },
-    skills: {
-      title: 'Technical & Growth Skills',
-      subtitle: 'A verified breakdown of my development stack, database proficiencies, cloud tools, digital marketing, and spoken languages.',
-      categories: [
+    "skills": {
+      "title": "Technical Stack",
+      "subtitle": "Technologies and tools I work with daily and can confidently discuss, implement, and defend in technical interviews.",
+      "categories": [
         {
-          title: 'Languages & Frameworks',
-          icon: 'fa-solid fa-code',
-          skills: [
-            { name: 'React & Next.js', icon: 'fa-brands fa-react', level: '85%', className: 'react' },
-            { name: 'Laravel', icon: 'fa-brands fa-laravel', level: '85%', className: 'laravel' },
-            { name: 'PHP', icon: 'fa-brands fa-php', level: '85%', className: 'php' },
-            { name: 'JavaScript & TypeScript', icon: 'fa-brands fa-js', level: '85%', className: 'javascript' },
-            { name: 'Python', icon: 'fa-brands fa-python', level: '75%', className: 'python' },
-            { name: 'HTML5 & CSS3 / Tailwind', icon: 'fa-brands fa-html5', level: '90%', className: 'html' },
+          "title": "Front-End Development",
+          "icon": "fa-solid fa-code",
+          "badge": "Core UI Stack",
+          "skills": [
+            {
+              "name": "React.js",
+              "icon": "fa-brands fa-react",
+              "level": "Production Ready"
+            },
+            {
+              "name": "JavaScript (ES6+)",
+              "icon": "fa-brands fa-js",
+              "level": "Advanced"
+            },
+            {
+              "name": "HTML5 & CSS3",
+              "icon": "fa-brands fa-html5",
+              "level": "Advanced"
+            },
+            {
+              "name": "Tailwind CSS",
+              "icon": "fa-solid fa-wind",
+              "level": "Proficient"
+            },
+            {
+              "name": "Bootstrap & jQuery",
+              "icon": "fa-brands fa-bootstrap",
+              "level": "Certified"
+            }
+          ]
+        },
+        {
+          "title": "Back-End Development",
+          "icon": "fa-solid fa-server",
+          "badge": "Server & Logic",
+          "skills": [
+            {
+              "name": "PHP",
+              "icon": "fa-brands fa-php",
+              "level": "Advanced"
+            },
+            {
+              "name": "Laravel",
+              "icon": "fa-brands fa-laravel",
+              "level": "Production Ready"
+            },
+            {
+              "name": "RESTful APIs",
+              "icon": "fa-solid fa-network-wired",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "icon": "fa-brands fa-python",
+              "level": "Proficient & Certified"
+            }
+          ]
+        },
+        {
+          "title": "Databases & Modeling",
+          "icon": "fa-solid fa-database",
+          "badge": "Data Integrity",
+          "skills": [
+            {
+              "name": "MySQL",
+              "icon": "fa-solid fa-database",
+              "level": "Advanced"
+            },
+            {
+              "name": "SQL Relational",
+              "icon": "fa-solid fa-table",
+              "level": "Certified Specialist"
+            },
+            {
+              "name": "Schema Design & Migrations",
+              "icon": "fa-solid fa-diagram-project",
+              "level": "Proficient"
+            },
+            {
+              "name": "Query Optimization",
+              "icon": "fa-solid fa-bolt",
+              "level": "Proficient"
+            }
+          ]
+        },
+        {
+          "title": "Tools & DevOps",
+          "icon": "fa-solid fa-toolbox",
+          "badge": "Workflow & Control",
+          "skills": [
+            {
+              "name": "Git & GitHub",
+              "icon": "fa-brands fa-git-alt",
+              "level": "Certified"
+            },
+            {
+              "name": "VS Code & Postman",
+              "icon": "fa-solid fa-laptop-code",
+              "level": "Daily Driver"
+            },
+            {
+              "name": "Linux CLI",
+              "icon": "fa-brands fa-linux",
+              "level": "Proficient"
+            },
+            {
+              "name": "Docker Basics",
+              "icon": "fa-brands fa-docker",
+              "level": "Foundations"
+            }
+          ]
+        },
+        {
+          "title": "Engineering Best Practices",
+          "icon": "fa-solid fa-shield-halved",
+          "badge": "Code Quality",
+          "skills": [
+            {
+              "name": "Responsive Mobile-First",
+              "icon": "fa-solid fa-mobile-screen",
+              "level": "Advanced"
+            },
+            {
+              "name": "Technical SEO Foundations",
+              "icon": "fa-solid fa-magnifying-glass",
+              "level": "Proficient"
+            },
+            {
+              "name": "Agile Scrum Collaboration",
+              "icon": "fa-solid fa-people-group",
+              "level": "Proficient"
+            },
+            {
+              "name": "Clean Code & Documentation",
+              "icon": "fa-solid fa-file-lines",
+              "level": "Core Priority"
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Education & Diplomas",
+      "subtitle": "My academic path combines specialized digital engineering training (OFPPT) with university computer science (FSAC) and rigorous analytical mathematics.",
+      "degrees": [
+        {
+          "badge": "2024 - 2026 (In Progress)",
+          "title": "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
+          "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
+          "desc": "Rigorous university computer science curriculum covering advanced algorithms, data structures, Linux operating systems, relational database architecture, and system-level programming.",
+          "icon": "fa-solid fa-graduation-cap"
+        },
+        {
+          "badge": "2023 - 2025",
+          "title": "Technicien Spécialisé en Développement Digital (Option Full Stack)",
+          "location": "OFPPT ISTA NTIC 2, Casablanca",
+          "desc": "Hands-on professional engineering program: Full-stack web architecture, modern frontend development (React, HTML5, CSS3, JavaScript), backend engineering (PHP, Laravel, Python, Node.js), relational & NoSQL databases (SQL, MongoDB), and Agile teamwork.",
+          "icon": "fa-solid fa-laptop-code"
+        },
+        {
+          "badge": "2023 - 2024",
+          "title": "Baccalauréat Libre en Sciences Mathématiques A",
+          "location": "Établissement Aïn Chock, Casablanca",
+          "desc": "Intensive mathematical, logical, and analytical foundation reinforcing abstract reasoning and algorithmic problem-solving capabilities.",
+          "icon": "fa-solid fa-calculator"
+        },
+        {
+          "badge": "2022 - 2023",
+          "title": "1st Year Licence in Physical & Chemical Sciences",
+          "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
+          "desc": "Fundamental scientific coursework focusing on rigorous experimental methodology, physical modeling, and quantitative data analysis.",
+          "icon": "fa-solid fa-flask"
+        },
+        {
+          "badge": "2021 - 2022",
+          "title": "Baccalauréat en Sciences Physiques-Chimie",
+          "location": "Lycée Ibnou Arabi, Casablanca",
+          "desc": "General scientific secondary diploma focusing on mathematics, physics, and empirical problem solving.",
+          "icon": "fa-solid fa-award"
+        }
+      ],
+      "certTitle": "Professional Certifications",
+      "certSubtitle": "12 verified technical credentials, official IDs, and viewable diplomas from recognized global academies and institutions.",
+      "filterAll": "All Certifications",
+      "filterWeb": "Web & Frontend",
+      "filterAI": "AI & Security",
+      "filterData": "Python & Data",
+      "filterTools": "DevOps & Tools",
+      "viewDoc": "View Document (PDF/Image)",
+      "verifyOnline": "Verify Online",
+      "credentialLabel": "Credential ID",
+      "copyId": "Copy ID",
+      "copied": "Copied!",
+      "modalClose": "Close Preview",
+      "modalOpenNewTab": "Open in Full Tab",
+      "certifications": [
+        {
+          "id": "udemy-react",
+          "icon": "fa-brands fa-react",
+          "title": "React Crash Course: From Zero to Hero",
+          "issuer": "Udemy",
+          "date": "Feb 12, 2025",
+          "credentialId": "UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "file": "udemy-react-crash-course.pdf",
+          "verifyUrl": "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "category": "web",
+          "topics": [
+            "React 18",
+            "Components",
+            "Hooks",
+            "SPA Architecture"
+          ]
+        },
+        {
+          "id": "datacamp-ai",
+          "icon": "fa-solid fa-brain",
+          "title": "AI Fundamentals",
+          "issuer": "DataCamp",
+          "date": "Feb 18, 2025",
+          "credentialId": "AIF0024593675737",
+          "file": "datacamp-ai-fundamentals.pdf",
+          "verifyUrl": "https://www.datacamp.com/certificate/AIF0024593675737",
+          "category": "ai",
+          "topics": [
+            "Machine Learning",
+            "Deep Learning",
+            "Generative AI",
+            "AI Ethics"
+          ]
+        },
+        {
+          "id": "365-python-bootcamp",
+          "icon": "fa-brands fa-python",
+          "title": "Python Programmer Bootcamp",
+          "issuer": "365 Data Science",
+          "date": "Nov 6, 2024",
+          "credentialId": "CC-A50846FC72",
+          "file": "365-python-bootcamp.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-A50846FC72/",
+          "category": "data",
+          "topics": [
+            "Python OOP",
+            "Data Structures",
+            "Algorithms",
+            "Automation"
+          ]
+        },
+        {
+          "id": "365-sql",
+          "icon": "fa-solid fa-database",
+          "title": "SQL Specialist",
+          "issuer": "365 Data Science",
+          "date": "Nov 6, 2024",
+          "credentialId": "CC-B3861F4F83",
+          "file": "365-sql.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
+          "category": "data",
+          "topics": [
+            "Relational DB",
+            "Complex Queries",
+            "Joins",
+            "Aggregation"
+          ]
+        },
+        {
+          "id": "digigirlz-ai-workshop",
+          "icon": "fa-solid fa-shield-halved",
+          "title": "Hacking the Future: AI Workshop",
+          "issuer": "DigiGirlz FSAC & Anoual (US Embassy)",
+          "date": "March 9, 2025",
+          "credentialId": "DIGIGIRLZ-FSAC-AI-2025",
+          "file": "digigirlz-fsac-ai-workshop.png",
+          "isImage": true,
+          "verifyUrl": null,
+          "category": "ai",
+          "topics": [
+            "AI Security",
+            "Adversarial Defense",
+            "Cybersecurity",
+            "Hackathon"
+          ]
+        },
+        {
+          "id": "365-git-github",
+          "icon": "fa-brands fa-github",
+          "title": "Git and GitHub",
+          "issuer": "365 Data Science",
+          "date": "Nov 6, 2024",
+          "credentialId": "CC-D6C52F35E3",
+          "file": "365-git-github.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
+          "category": "tools",
+          "topics": [
+            "Git Flow",
+            "Branching",
+            "Pull Requests",
+            "Collaboration"
+          ]
+        },
+        {
+          "id": "udemy-git",
+          "icon": "fa-brands fa-git-alt",
+          "title": "Git for Beginners",
+          "issuer": "Udemy",
+          "date": "Feb 12, 2025",
+          "credentialId": "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "file": "udemy-git-for-beginners.pdf",
+          "verifyUrl": "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "category": "tools",
+          "topics": [
+            "Git CLI",
+            "Commit History",
+            "Conflict Resolution",
+            "Remotes"
+          ]
+        },
+        {
+          "id": "udemy-bootstrap-jquery",
+          "icon": "fa-brands fa-bootstrap",
+          "title": "Bootstrap & jQuery: Certification Course",
+          "issuer": "Udemy",
+          "date": "Feb 12, 2025",
+          "credentialId": "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "file": "udemy-bootstrap-jquery.pdf",
+          "verifyUrl": "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "category": "web",
+          "topics": [
+            "Responsive Layouts",
+            "Bootstrap Grid",
+            "DOM Manipulation",
+            "jQuery Events"
+          ]
+        },
+        {
+          "id": "365-chatgpt",
+          "icon": "fa-solid fa-robot",
+          "title": "Intro to ChatGPT and Generative AI",
+          "issuer": "365 Financial Analyst",
+          "date": "Nov 6, 2024",
+          "credentialId": "CC-F657CE4163",
+          "file": "365-chatgpt-generative-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-F657CE4163/",
+          "category": "ai",
+          "topics": [
+            "Generative AI",
+            "Prompt Engineering",
+            "LLM Workflows",
+            "Productivity"
+          ]
+        },
+        {
+          "id": "365-intro-to-ai",
+          "icon": "fa-solid fa-microchip",
+          "title": "Intro to AI",
+          "issuer": "365 Data Science",
+          "date": "Nov 6, 2024",
+          "credentialId": "CC-6FE6B30A14",
+          "file": "365-intro-to-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
+          "category": "ai",
+          "topics": [
+            "AI Core Concepts",
+            "Machine Learning",
+            "Neural Nets",
+            "Ethics"
+          ]
+        },
+        {
+          "id": "365-intro-to-python",
+          "icon": "fa-brands fa-python",
+          "title": "Introduction to Python",
+          "issuer": "365 Data Science",
+          "date": "Nov 4, 2024",
+          "credentialId": "CC-2B1FF1F1DD",
+          "file": "365-intro-to-python.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
+          "category": "data",
+          "topics": [
+            "Python Syntax",
+            "Data Types",
+            "Functions",
+            "Control Structures"
+          ]
+        },
+        {
+          "id": "365-powerpoint",
+          "icon": "fa-solid fa-file-powerpoint",
+          "title": "Intro to PowerPoint",
+          "issuer": "365 Financial Analyst",
+          "date": "Nov 5, 2024",
+          "credentialId": "CC-C294D1D86B",
+          "file": "365-intro-to-powerpoint.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
+          "category": "tools",
+          "topics": [
+            "Executive Presentations",
+            "Visual Storytelling",
+            "Slide Architecture"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "subtitle": "Verified professional track record in full-stack web development and administrative IT support.",
+      "items": [
+        {
+          "badge": "04/2025 - 07/2025 (PFE Internship)",
+          "title": "Full-Stack Developer Intern — MAMO TRADE",
+          "location": "Casablanca, Morocco",
+          "icon": "fa-solid fa-building",
+          "desc": "Participated in the full development lifecycle of client web solutions: built responsive front-end user interfaces using React, integrated backend RESTful APIs with PHP/Laravel, designed normalized database schemas, and resolved application bugs during sprint cycles.",
+          "responsibilities": [
+            "Engineered responsive UI components and state management with React.",
+            "Built RESTful API endpoints and integrated backend logic using PHP and Laravel.",
+            "Collaborated with senior developers on database schema modeling and query optimization.",
+            "Resolved bug tickets and conducted end-to-end functionality testing prior to deployments."
+          ]
+        },
+        {
+          "badge": "09/2023 - 01/2025 (Part-Time)",
+          "title": "Administrative & IT Support Assistant",
+          "location": "Casablanca, Morocco",
+          "icon": "fa-solid fa-briefcase",
+          "desc": "Provided comprehensive administrative and digital support: prepared, formatted, and digitized corporate records; assisted users with computer operations, software installations, and technical troubleshooting; ensured seamless daily digital workflows.",
+          "responsibilities": [
+            "Provided administrative support, document preparation, formatting, and digital services.",
+            "Assisted customers and staff with computer usage, software installation, basic troubleshooting, printing, and scanning.",
+            "Maintained organized digital filing systems, data tracking sheets, and verified document accuracy."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Selected Projects",
+      "subtitle": "Real-world client websites, full-stack applications, and technical prototypes demonstrating end-to-end software delivery.",
+      "filterAll": "All Projects",
+      "filterLive": "Client & Live Sites",
+      "filterApp": "Full-Stack Applications",
+      "filterProto": "Prototypes",
+      "liveDemo": "Live Demo",
+      "liveSite": "Live Site",
+      "caseDetails": "Case Study",
+      "sourceCode": "Source Code",
+      "closeModal": "Close",
+      "modalTechStack": "Tech Stack",
+      "modalKeyFeatures": "Key Deliverables & Features",
+      "modalArchitecture": "Engineering Architecture",
+      "items": [
+        {
+          "id": "solva",
+          "category": "live",
+          "typeLabel": "Real-World Client Project",
+          "badgeClass": "badge-live",
+          "badgeText": "Live Site",
+          "icon": "fa-solid fa-industry",
+          "title": "Solva Métallique — Corporate Website",
+          "role": "Lead Frontend Developer & SEO Specialist",
+          "desc": "A responsive corporate website for a Casablanca industrial metal construction enterprise, featuring clean service presentations, technical local SEO, and direct quotation conversion funnels.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Technical SEO",
+            "Responsive Design"
           ],
-        },
-        {
-          title: 'Databases & Environments',
-          icon: 'fa-solid fa-database',
-          skills: [
-            { name: 'MySQL & SQL Relational', icon: 'fa-solid fa-database', level: '85%', className: 'sql' },
-            { name: 'MongoDB (NoSQL)', icon: 'fa-solid fa-leaf', level: '75%', className: 'mongodb' },
-            { name: 'Git & GitHub', icon: 'fa-brands fa-git-alt', level: '85%', className: 'git' },
-            { name: 'Docker', icon: 'fa-brands fa-docker', level: '70%', className: 'docker' },
-            { name: 'Linux CLI', icon: 'fa-brands fa-linux', level: '80%', className: 'linux' },
-            { name: 'Agile Scrum & CI/CD', icon: 'fa-solid fa-gears', level: '85%', className: 'agile' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/Solva-Metallique/",
+          "liveText": "Live Site",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Solva-Metallique",
+          "features": [
+            "Mobile-first responsive layout adapted to high-resolution tablets and smartphones.",
+            "On-page Local SEO schema and geo-targeted metadata for the Casablanca industrial market.",
+            "Interactive WhatsApp quotation trigger with pre-filled service inquiries.",
+            "Zero-dependency vanilla JavaScript implementation ensuring sub-second load times."
           ],
+          "architecture": "Semantic HTML5 structure layered with custom modular CSS3 variables, optimized WebP imagery, and micro-interactions powered by native JavaScript."
         },
         {
-          title: 'Digital Growth & Creative Design',
-          icon: 'fa-solid fa-chart-line',
-          skills: [
-            { name: 'Meta Ads (Facebook & Instagram)', icon: 'fa-solid fa-bullhorn', level: '80%', className: 'meta-ads' },
-            { name: 'Social Media Management (SMM)', icon: 'fa-solid fa-share-nodes', level: '85%', className: 'smm' },
-            { name: 'Canva Design & Creatives', icon: 'fa-solid fa-palette', level: '90%', className: 'canva' },
-            { name: 'Technical SEO Foundations', icon: 'fa-solid fa-magnifying-glass-chart', level: '85%', className: 'html' },
+          "id": "gidaprint",
+          "category": "live",
+          "typeLabel": "Real-World Client Project",
+          "badgeClass": "badge-live",
+          "badgeText": "Live Site",
+          "icon": "fa-solid fa-print",
+          "title": "GIDAPRINT — Multi-Service Agency",
+          "role": "Web Developer & UI Implementer",
+          "desc": "A multi-page commercial agency portal structuring printing, signage, promotional merchandise, web development, and social media solutions into an intuitive conversion journey.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "CRO Funnels",
+            "Performance"
           ],
-        },
-        {
-          title: 'Spoken Languages & Values',
-          icon: 'fa-solid fa-language',
-          skills: [
-            { name: 'Arabic (Native Speaker)', icon: 'fa-solid fa-comment-dots', level: '100%', className: 'arabic' },
-            { name: 'French (Fluent / C2)', icon: 'fa-solid fa-comment-dots', level: '90%', className: 'french' },
-            { name: 'English (Professional Working)', icon: 'fa-solid fa-comment-dots', level: '75%', className: 'english' },
-            { name: 'Teamwork & Volunteering', icon: 'fa-solid fa-users', level: '95%', className: 'learning' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/gidaprint/",
+          "liveText": "Live Site",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/gidaprint",
+          "features": [
+            "Multi-service categorization with clear visual hierarchies and detailed pricing cues.",
+            "High-contrast call-to-actions strategically positioned across the user journey.",
+            "Lightweight asset delivery with lazy loading below-the-fold media.",
+            "Cross-browser tested across Safari, Chrome, Firefox, and Edge."
           ],
+          "architecture": "Multi-page architecture with centralized stylesheet design tokens, accessible DOM landmarks, and streamlined lead capture points."
         },
-      ],
+        {
+          "id": "attendance",
+          "category": "app",
+          "typeLabel": "Academic Capstone Project (NTIC 2)",
+          "badgeClass": "badge-app",
+          "badgeText": "Web App",
+          "icon": "fa-solid fa-clipboard-user",
+          "title": "Attendance & Absence Management System",
+          "role": "Full-Stack Developer (Solo Engineering)",
+          "desc": "An enterprise web application developed at ISTA NTIC to digitize institutional attendance tracking, student profiles, role-based access control, and automated statistical reporting.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "MySQL",
+            "RESTful API",
+            "RBAC"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Role-based access control separating Administrator, Instructor, and Student views.",
+            "Daily attendance marking with instant visual cues (Present, Absent, Justified).",
+            "Automated aggregate absence reports and downloadable statistical summaries.",
+            "Normalized relational schema handling cohorts, modules, sessions, and logs."
+          ],
+          "architecture": "Decoupled architecture: React single-page interface consuming secure Laravel RESTful endpoints, with JWT/session token authentication and a normalized MySQL relational database."
+        },
+        {
+          "id": "ecommerce",
+          "category": "app",
+          "typeLabel": "Academic Full-Stack Project",
+          "badgeClass": "badge-app",
+          "badgeText": "Web App",
+          "icon": "fa-solid fa-cart-shopping",
+          "title": "Full-Stack E-Commerce Platform",
+          "role": "Full-Stack Developer",
+          "desc": "A modern e-commerce storefront featuring dynamic catalog filtering, shopping cart state management, checkout simulation, and a Laravel backend for catalog and order management.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "State Management"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Instant client-side product filtering by category, price range, and search keyword.",
+            "Shopping cart with local storage persistence and dynamic quantity calculations.",
+            "Laravel admin controllers for CRUD operations on inventory and categories.",
+            "Responsive checkout interface with client-side form validation and error handling."
+          ],
+          "architecture": "React frontend managing client state via hooks, communicating over HTTP with a Laravel MVC API backend backed by MySQL relational tables."
+        },
+        {
+          "id": "artizan",
+          "category": "prototype",
+          "typeLabel": "Concept Prototype",
+          "badgeClass": "badge-prototype",
+          "badgeText": "Prototype",
+          "icon": "fa-solid fa-hammer",
+          "title": "Artizan — Moroccan Marketplace",
+          "role": "Frontend UI/UX Prototyper",
+          "desc": "A digital marketplace concept engineered to connect local Moroccan artisans with national and international clients through verified profiles, portfolio showcases, and direct quotation requests.",
+          "tags": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "liveUrl": "https://v0-morocco-artisan-platform.vercel.app/",
+          "liveText": "Live Demo",
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Artisan profile showcases with craft categories (pottery, leather, woodwork, zellige).",
+            "Interactive search and city-based artisan filtering across Moroccan regions.",
+            "Direct quote request modals with service description fields.",
+            "Tailwind CSS component styling with modern dark/light contrast accents."
+          ],
+          "architecture": "Next.js App Router component hierarchy leveraging TypeScript interfaces, Tailwind utility styling, and server-side ready data contracts."
+        }
+      ]
     },
-    education: {
-      title: 'Education & Diplomas',
-      subtitle: 'My academic path combines specialized digital engineering training (OFPPT) with university computer science (FSAC) and rigorous analytical mathematics.',
-      degrees: [
-        {
-          badge: '2024 - 2026 (In Progress)',
-          title: "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
-          location: 'Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca',
-          desc: 'Rigorous university computer science curriculum covering advanced algorithms, data structures, Linux operating systems, relational database architecture, and system-level programming.',
-          icon: 'fa-solid fa-graduation-cap',
-        },
-        {
-          badge: '2023 - 2025',
-          title: 'Technicien Spécialisé en Développement Digital (Option Full Stack)',
-          location: 'OFPPT ISTA NTIC 2, Casablanca',
-          desc: 'Hands-on professional engineering program: Full-stack web architecture, modern frontend development (React, HTML5, CSS3, JavaScript), backend engineering (PHP, Laravel, Python, Node.js), relational & NoSQL databases (SQL, MongoDB), and Agile teamwork.',
-          icon: 'fa-solid fa-laptop-code',
-        },
-        {
-          badge: '2023 - 2024',
-          title: 'Baccalauréat Libre en Sciences Mathématiques A',
-          location: 'Établissement Aïn Chock, Casablanca',
-          desc: 'Intensive mathematical, logical, and analytical foundation reinforcing abstract reasoning and algorithmic problem-solving capabilities.',
-          icon: 'fa-solid fa-calculator',
-        },
-        {
-          badge: '2022 - 2023',
-          title: '1st Year Licence in Physical & Chemical Sciences',
-          location: 'Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca',
-          desc: 'Fundamental scientific coursework focusing on rigorous experimental methodology, physical modeling, and quantitative data analysis.',
-          icon: 'fa-solid fa-flask',
-        },
-        {
-          badge: '2021 - 2022',
-          title: 'Baccalauréat en Sciences Physiques-Chimie',
-          location: 'Lycée Ibnou Arabi, Casablanca',
-          desc: 'General scientific secondary diploma focusing on mathematics, physics, and empirical problem solving.',
-          icon: 'fa-solid fa-award',
-        },
-      ],
-            certTitle: "Professional Certifications",
-      certSubtitle: "12 verified technical credentials, official IDs, and viewable diplomas from recognized global academies and institutions.",
-      filterAll: "All Certifications",
-      filterWeb: "Web & Frontend",
-      filterAI: "AI & Security",
-      filterData: "Python & Data",
-      filterTools: "DevOps & Tools",
-      viewDoc: "View Document (PDF/Image)",
-      verifyOnline: "Verify Online",
-      credentialLabel: "Credential ID",
-      copyId: "Copy ID",
-      copied: "Copied!",
-      modalClose: "Close Preview",
-      modalOpenNewTab: "Open in Full Tab",
-      certifications: [
-        {
-          id: "udemy-react",
-          icon: "fa-brands fa-react",
-          title: "React Crash Course: From Zero to Hero",
-          issuer: "Udemy",
-          date: "Feb 12, 2025",
-          credentialId: "UC-630614b3-d648-44fd-a873-f19f291544fa",
-          file: "udemy-react-crash-course.pdf",
-          verifyUrl: "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
-          category: "web",
-          topics: ["React 18", "Components", "Hooks", "SPA Architecture"],
-        },
-        {
-          id: "datacamp-ai",
-          icon: "fa-solid fa-brain",
-          title: "AI Fundamentals",
-          issuer: "DataCamp",
-          date: "Feb 18, 2025",
-          credentialId: "AIF0024593675737",
-          file: "datacamp-ai-fundamentals.pdf",
-          verifyUrl: "https://www.datacamp.com/certificate/AIF0024593675737",
-          category: "ai",
-          topics: ["Machine Learning", "Deep Learning", "Generative AI", "AI Ethics"],
-        },
-        {
-          id: "365-python-bootcamp",
-          icon: "fa-brands fa-python",
-          title: "Python Programmer Bootcamp",
-          issuer: "365 Data Science",
-          date: "Nov 6, 2024",
-          credentialId: "CC-A50846FC72",
-          file: "365-python-bootcamp.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-A50846FC72/",
-          category: "data",
-          topics: ["Python OOP", "Data Structures", "Algorithms", "Automation"],
-        },
-        {
-          id: "365-sql",
-          icon: "fa-solid fa-database",
-          title: "SQL Specialist",
-          issuer: "365 Data Science",
-          date: "Nov 6, 2024",
-          credentialId: "CC-B3861F4F83",
-          file: "365-sql.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
-          category: "data",
-          topics: ["Relational DB", "Complex Queries", "Joins", "Aggregation"],
-        },
-        {
-          id: "digigirlz-ai-workshop",
-          icon: "fa-solid fa-shield-halved",
-          title: "Hacking the Future: AI Workshop",
-          issuer: "DigiGirlz FSAC & Anoual (US Embassy)",
-          date: "March 9, 2025",
-          credentialId: "DIGIGIRLZ-FSAC-AI-2025",
-          file: "digigirlz-fsac-ai-workshop.png",
-          isImage: true,
-          verifyUrl: null,
-          category: "ai",
-          topics: ["AI Security", "Adversarial Defense", "Cybersecurity", "Hackathon"],
-        },
-        {
-          id: "365-git-github",
-          icon: "fa-brands fa-github",
-          title: "Git and GitHub",
-          issuer: "365 Data Science",
-          date: "Nov 6, 2024",
-          credentialId: "CC-D6C52F35E3",
-          file: "365-git-github.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
-          category: "tools",
-          topics: ["Git Flow", "Branching", "Pull Requests", "Collaboration"],
-        },
-        {
-          id: "udemy-git",
-          icon: "fa-brands fa-git-alt",
-          title: "Git for Beginners",
-          issuer: "Udemy",
-          date: "Feb 12, 2025",
-          credentialId: "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          file: "udemy-git-for-beginners.pdf",
-          verifyUrl: "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          category: "tools",
-          topics: ["Git CLI", "Commit History", "Conflict Resolution", "Remotes"],
-        },
-        {
-          id: "udemy-bootstrap-jquery",
-          icon: "fa-brands fa-bootstrap",
-          title: "Bootstrap & jQuery: Certification Course",
-          issuer: "Udemy",
-          date: "Feb 12, 2025",
-          credentialId: "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          file: "udemy-bootstrap-jquery.pdf",
-          verifyUrl: "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          category: "web",
-          topics: ["Responsive Layouts", "Bootstrap Grid", "DOM Manipulation", "jQuery Events"],
-        },
-        {
-          id: "365-chatgpt",
-          icon: "fa-solid fa-robot",
-          title: "Intro to ChatGPT and Generative AI",
-          issuer: "365 Financial Analyst",
-          date: "Nov 6, 2024",
-          credentialId: "CC-F657CE4163",
-          file: "365-chatgpt-generative-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-F657CE4163/",
-          category: "ai",
-          topics: ["Generative AI", "Prompt Engineering", "LLM Workflows", "Productivity"],
-        },
-        {
-          id: "365-intro-to-ai",
-          icon: "fa-solid fa-microchip",
-          title: "Intro to AI",
-          issuer: "365 Data Science",
-          date: "Nov 6, 2024",
-          credentialId: "CC-6FE6B30A14",
-          file: "365-intro-to-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
-          category: "ai",
-          topics: ["AI Core Concepts", "Machine Learning", "Neural Nets", "Ethics"],
-        },
-        {
-          id: "365-intro-to-python",
-          icon: "fa-brands fa-python",
-          title: "Introduction to Python",
-          issuer: "365 Data Science",
-          date: "Nov 4, 2024",
-          credentialId: "CC-2B1FF1F1DD",
-          file: "365-intro-to-python.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
-          category: "data",
-          topics: ["Python Syntax", "Data Types", "Functions", "Control Structures"],
-        },
-        {
-          id: "365-powerpoint",
-          icon: "fa-solid fa-file-powerpoint",
-          title: "Intro to PowerPoint",
-          issuer: "365 Financial Analyst",
-          date: "Nov 5, 2024",
-          credentialId: "CC-C294D1D86B",
-          file: "365-intro-to-powerpoint.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
-          category: "tools",
-          topics: ["Executive Presentations", "Visual Storytelling", "Slide Architecture"],
-        },
-      ],
+    "contact": {
+      "title": "Let's Make The Next Move Count",
+      "subtitle": "Have a project that needs a strong product, a scalable web application, or a digital growth strategy? Reach out directly via WhatsApp, email, or telephone.",
+      "whatsappTitle": "WhatsApp Direct",
+      "emailTitle": "Direct Email",
+      "locationTitle": "Location",
+      "locationVal": "Sidi Maarouf, Casablanca, Morocco",
+      "linkedinTitle": "LinkedIn Profile",
+      "nameLabel": "Your Name / Organization",
+      "namePlaceholder": "e.g. Karim Bennani",
+      "emailLabel": "Your Email Address",
+      "emailPlaceholder": "e.g. karim@enterprise.ma",
+      "msgLabel": "Project Details",
+      "msgPlaceholder": "Describe your web development needs, timeline, or digital growth requirements...",
+      "sendBtn": "Send Message",
+      "sendingBtn": "Sending to Google Sheets...",
+      "successTitle": "Message Delivered Successfully!",
+      "successMsg": "Thank you! Your inquiry has been saved to my Google Sheet and a direct notification was sent to my inbox. I will get back to you shortly.",
+      "errorTitle": "Unable to Send Automatically",
+      "errorMsg": "There was a temporary connection issue. Please send your message directly via WhatsApp or email:"
     },
-    experience: {
-      title: 'My Experience',
-      subtitle: 'A verified track record combining professional internships, client deliverables, and hands-on full-stack application engineering.',
-      items: [
-        {
-          badge: '04/2025 - 07/2025 (PFE Internship)',
-          title: 'Full-Stack Developer Intern — MAMO TRADE',
-          location: 'Casablanca, Morocco',
-          icon: 'fa-solid fa-building',
-          desc: 'Engineered custom web solutions for enterprise clients. Designed scalable application architectures, developed interactive front-end interfaces with React, and integrated performant back-end APIs.',
-        },
-        {
-          badge: '11/2024 - 03/2025',
-          title: 'Full-Stack Developer — Attendance Management System',
-          location: 'Academic Project NTIC 2 — Casablanca',
-          icon: 'fa-solid fa-laptop-code',
-          desc: 'Architected a full-stack platform using React for dynamic user interaction and Laravel for backend data management. Implemented role-based access control, secure student records, and instant statistical reporting.',
-        },
-        {
-          badge: '09/2023 - 01/2025',
-          title: 'Administrative Assistant (Part-Time)',
-          location: 'Casablanca, Morocco',
-          icon: 'fa-solid fa-briefcase',
-          desc: 'Coordinated operational administrative workflows: drafted and styled corporate documents, managed billing and invoice tracking, structured record keeping, and assisted client communications.',
-        },
-        {
-          badge: '03/2023 - 04/2024',
-          title: 'Web Developer — E-Commerce Platform',
-          location: 'Academic Project — Casablanca',
-          icon: 'fa-solid fa-cart-shopping',
-          desc: 'Engineered a modular online retail platform using React and Laravel. Integrated dynamic product search/filtering, live shopping cart state management, and a clean, responsive purchase journey.',
-        },
-      ],
-    },
-    projects: {
-      title: 'Selected Work',
-      subtitle: 'Proof through visible, working projects. A focused selection of live business websites, full-stack prototypes, and production applications.',
-      filterAll: 'All Projects',
-      filterLive: 'Live Sites',
-      filterProto: 'Prototypes',
-      filterApp: 'Web Applications',
-      liveDemo: 'Live Demo',
-      liveSite: 'Live Site',
-      caseDetails: 'Case Details',
-      sourceCode: 'Source Code',
-      items: [
-        {
-          id: 'artizan',
-          category: 'prototype',
-          badgeClass: 'badge-prototype',
-          badgeText: 'Prototype',
-          icon: 'fa-solid fa-hammer',
-          title: 'Artizan — Moroccan Marketplace',
-          desc: 'An interactive marketplace concept designed to connect customers with local Moroccan artisans through service discovery, verified profiles, pricing, availability, and structured onboarding.',
-          tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-          liveUrl: 'https://v0-morocco-artisan-platform.vercel.app/',
-          liveText: 'Live Demo',
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'solva',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'Live',
-          icon: 'fa-solid fa-industry',
-          title: 'Solva Métallique — Corporate Site',
-          desc: 'A responsive corporate website for a Casablanca metal-construction company, combining an industrial identity, clear service presentation, local search foundations, and direct quotation paths.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'Local SEO'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/Solva-Metallique/',
-          liveText: 'Live Site',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/Solva-Metallique',
-        },
-        {
-          id: 'gidaprint',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'Live',
-          icon: 'fa-solid fa-print',
-          title: 'GIDAPRINT — Multi-Service Agency',
-          desc: 'A multi-page agency website organizing printing, signage, promotional products, web development, and social media services into a frictionless, clear customer acquisition journey.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/gidaprint/',
-          liveText: 'Live Site',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/gidaprint',
-        },
-        {
-          id: 'attendance',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'Web App',
-          icon: 'fa-solid fa-clipboard-user',
-          title: 'Attendance & Absence Management System',
-          desc: 'An administrative enterprise web application built with React and Laravel for tracking institutional attendance, role-based reporting, student records, and automated absence notifications.',
-          tags: ['React', 'Laravel', 'MySQL', 'REST API'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'ecommerce',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'Web App',
-          icon: 'fa-solid fa-cart-shopping',
-          title: 'Full-Stack E-Commerce Platform',
-          desc: 'A modern e-commerce web platform featuring dynamic catalog filtering, real-time cart state management, checkout flows, and a secure Laravel order processing backend.',
-          tags: ['React', 'Laravel', 'PHP', 'SQL'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-      ],
-    },
-    contact: {
-      title: "Let's Make The Next Move Count",
-      subtitle: 'Have a project that needs a strong product, a scalable web application, or a digital growth strategy? Reach out directly via WhatsApp, email, or telephone.',
-      whatsappTitle: 'WhatsApp Direct',
-      emailTitle: 'Direct Email',
-      locationTitle: 'Location',
-      locationVal: 'Sidi Maarouf, Casablanca, Morocco',
-      linkedinTitle: 'LinkedIn Profile',
-      nameLabel: 'Your Name / Organization',
-      namePlaceholder: 'e.g. Karim Bennani',
-      emailLabel: 'Your Email Address',
-      emailPlaceholder: 'e.g. karim@enterprise.ma',
-      msgLabel: 'Project Details',
-      msgPlaceholder: 'Describe your web development needs, timeline, or digital growth requirements...',
-      sendBtn: 'Send Message',
-      sendingBtn: 'Sending to Google Sheets...',
-      successTitle: 'Message Delivered Successfully!',
-      successMsg: 'Thank you! Your inquiry has been saved to my Google Sheet and a direct notification was sent to my inbox. I will get back to you shortly.',
-      errorTitle: 'Unable to Send Automatically',
-      errorMsg: 'There was a temporary connection issue. Please send your message directly via WhatsApp or email:',
-    },
-    footer: {
-      rights: 'All Rights Reserved. Sidi Maarouf, Casablanca, Morocco.',
-    },
+    "footer": {
+      "rights": "All Rights Reserved. Sidi Maarouf, Casablanca, Morocco."
+    }
   },
-
-  fr: {
-    nav: {
-      home: 'Accueil',
-      services: 'Services',
-      skills: 'Compétences',
-      education: 'Formations',
-      experience: 'Expériences',
-      projects: 'Projets',
-      contact: 'Contact',
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "services": "Ce que je fais",
+      "skills": "Compétences",
+      "education": "Formation",
+      "experience": "Expérience",
+      "projects": "Projets",
+      "contact": "Contact",
+      "downloadCv": "CV"
     },
-    home: {
-      greeting: 'Bonjour, je suis',
-      name: 'Abderrahmane El Fajri',
-      rolePrefix: 'Je suis',
-      roles: [
-        'Développeur Full-Stack',
-        'Spécialiste Digital Growth',
-        'Ingénieur Laravel & React',
-        'Stratège SMM & Meta Ads',
+    "home": {
+      "greeting": "Bonjour, je suis",
+      "name": "Abderrahmane El Fajri",
+      "rolePrefix": "Je suis",
+      "roles": [
+        "Développeur Web Full-Stack",
+        "Développeur React & Laravel",
+        "Concepteur de Solutions Digitales"
       ],
-      bio: "Je conçois des produits numériques et des systèmes de croissance pour des marques ambitieuses. Basé à Casablanca, je développe des applications web rapides et axées sur la conversion, tout en propulsant les entreprises grâce au marketing social, au design Canva et aux campagnes Meta Ads.",
-      location: 'Sidi Maarouf, Casablanca',
-      availability: 'Freelance & Télétravail',
-      languages: 'Arabe, Français, Anglais',
-      viewWork: 'Voir Mes Projets',
-      whatsapp: 'WhatsApp Direct',
-      contact: 'Me Contacter',
+      "subtitle": "Basé au Maroc · Ouvert aux opportunités professionnelles",
+      "bio": "Je conçois et développe des applications web modernes, réactives et performantes, alliant développement front-end, technologies back-end et résolution pratique des problèmes.",
+      "openToWork": "Disponible immédiatement",
+      "jobType": "Temps plein · Présentiel / Télétravail",
+      "locationStatus": "Casablanca, Maroc",
+      "location": "Casablanca, Maroc",
+      "availability": "Ouvert aux opportunités",
+      "languages": "Arabe, Français, Anglais",
+      "downloadCv": "Télécharger le CV",
+      "viewProjects": "Voir les Projets",
+      "viewWork": "Voir les Projets",
+      "whatsapp": "WhatsApp Direct",
+      "contact": "Me Contacter",
+      "contactMe": "Me Contacter"
     },
-    services: {
-      title: 'Expertises Connectées',
-      subtitle: "Construire l'expérience. Développer l'opportunité. Je transforme les objectifs métier en produits web performants et les relie à des campagnes de contenu et d'acquisition ciblées.",
-      items: [
+    "services": {
+      "title": "Ce que je peux apporter",
+      "subtitle": "Compétences concrètes en ingénierie web et solutions logicielles fiables pour entreprises, équipes techniques et clients.",
+      "items": [
         {
-          title: 'Développement Web Full-Stack',
-          desc: 'Applications web modernes, réactives et performantes conçues avec Next.js, React, Laravel et Node.js. Architecture propre, UI accessible et code conforme aux standards.',
+          "title": "Développement Web Full-Stack",
+          "desc": "Création d’applications web réactives et maintenables avec React en front-end et Laravel/PHP en back-end, dans le respect des standards industriels."
         },
         {
-          title: 'Sites d’Entreprise & Landing Pages',
-          desc: 'Conception de sites vitrines professionnels optimisés pour la conversion (comme Solva Métallique & GIDAPRINT), avec fondations SEO local et formulaires de devis directs.',
+          "title": "Ingénierie & Intégration d’APIs RESTful",
+          "desc": "Conception et intégration d’APIs REST sécurisées, gestion des autorisations (RBAC) et interconnexion de services tiers avec gestion rigoureuse des erreurs."
         },
         {
-          title: 'Applications Web & Intégration d’APIs',
-          desc: 'Modélisation de bases de données relationnelles (MySQL) et NoSQL (MongoDB), création d’APIs RESTful sécurisées et automatisation de processus métier.',
+          "title": "Architecture de Bases de Données Relationnelles",
+          "desc": "Modélisation de schémas relationnels sous MySQL/SQL, écriture de requêtes optimisées, gestion des migrations et garantie de la cohérence des données."
         },
         {
-          title: 'Stratégie Social Media & SMM',
-          desc: 'Développement de votre visibilité sur Instagram et Facebook : calendriers de publication, engagement communautaire et valorisation de votre marque.',
-        },
-        {
-          title: 'Campagnes Publicitaires Meta Ads',
-          desc: 'Conception et gestion de campagnes Facebook & Instagram Ads orientées génération de prospects qualifiés, ciblage d’audience précis et rentabilité (ROAS).',
-        },
-        {
-          title: 'Création Graphique Canva',
-          desc: 'Production de visuels marketing percutants, bannières publicitaires et carrousels réseaux sociaux adaptés pour maximiser l’impact visuel et l’engagement.',
-        },
+          "title": "Interfaces Réactives & SEO Technique",
+          "desc": "Intégration d’interfaces mobiles-first avec HTML5 sémantique, CSS3 moderne et bases SEO structurées pour une visibilité et une rapidité optimales."
+        }
       ],
-      processTitle: 'Un Processus Unifié',
-      processSubtitle: 'De la découverte à l’optimisation continue : la technologie, le design et le marketing produisent de meilleurs résultats lorsqu’ils partagent le même objectif.',
-      steps: [
-        { num: '01', title: 'Découvrir', desc: 'Comprendre vos objectifs d’entreprise, vos cibles et les opportunités de marché.' },
-        { num: '02', title: 'Planifier', desc: 'Définir l’architecture de l’information, la pile technique et le parcours client.' },
-        { num: '03', title: 'Concevoir', desc: 'Créer des maquettes ergonomiques, des interfaces réactives et des visuels de marque.' },
-        { num: '04', title: 'Développer', desc: 'Développer un code robuste et maintenable avec React, Next.js, Laravel et SQL.' },
-        { num: '05', title: 'Déployer', desc: 'Lancement avec optimisations de vitesse, fondations SEO et tests qualité rigoureux.' },
-        { num: '06', title: 'Accélérer', desc: 'Activer les campagnes publicitaires Meta Ads et le contenu social pour acquérir des clients.' },
-        { num: '07', title: 'Mesurer', desc: 'Analyser les conversions, le trafic et optimiser en continu le retour sur investissement.' },
-      ],
+      "processTitle": "Méthodologie de Travail",
+      "processSubtitle": "Une démarche rigoureuse en 4 phases garantissant la qualité logicielle et le respect des délais.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Cahier des charges & Analyse",
+          "desc": "Clarification des objectifs métier, des besoins utilisateurs et des spécifications techniques."
+        },
+        {
+          "num": "02",
+          "title": "Architecture & Modélisation",
+          "desc": "Conception des modèles de données relationnels, des composants UI et des routes API."
+        },
+        {
+          "num": "03",
+          "title": "Développement Propre",
+          "desc": "Écriture d’un code modulaire avec React, PHP/Laravel et SQL sous contrôle de version Git."
+        },
+        {
+          "num": "04",
+          "title": "Recette & Déploiement",
+          "desc": "Tests multi-navigateurs, validation de la réactivité mobile et mise en production."
+        }
+      ]
     },
-    skills: {
-      title: 'Compétences Techniques & Growth',
-      subtitle: 'Inventaire complet de mes compétences en développement, bases de données, outils DevOps, marketing digital et langues.',
-      categories: [
+    "skills": {
+      "title": "Stack Technique",
+      "subtitle": "Technologies et outils que j’utilise au quotidien et que je maîtrise pour des échanges techniques en entretien.",
+      "categories": [
         {
-          title: 'Langages & Frameworks',
-          icon: 'fa-solid fa-code',
-          skills: [
-            { name: 'React & Next.js', icon: 'fa-brands fa-react', level: '85%', className: 'react' },
-            { name: 'Laravel', icon: 'fa-brands fa-laravel', level: '85%', className: 'laravel' },
-            { name: 'PHP', icon: 'fa-brands fa-php', level: '85%', className: 'php' },
-            { name: 'JavaScript & TypeScript', icon: 'fa-brands fa-js', level: '85%', className: 'javascript' },
-            { name: 'Python', icon: 'fa-brands fa-python', level: '75%', className: 'python' },
-            { name: 'HTML5 & CSS3 / Tailwind', icon: 'fa-brands fa-html5', level: '90%', className: 'html' },
+          "title": "Développement Front-End",
+          "icon": "fa-solid fa-code",
+          "badge": "UI & Expérience",
+          "skills": [
+            {
+              "name": "React.js",
+              "icon": "fa-brands fa-react",
+              "level": "Prêt pour la production"
+            },
+            {
+              "name": "JavaScript (ES6+)",
+              "icon": "fa-brands fa-js",
+              "level": "Avancé"
+            },
+            {
+              "name": "HTML5 & CSS3",
+              "icon": "fa-brands fa-html5",
+              "level": "Avancé"
+            },
+            {
+              "name": "Tailwind CSS",
+              "icon": "fa-solid fa-wind",
+              "level": "Maîtrisé"
+            },
+            {
+              "name": "Bootstrap & jQuery",
+              "icon": "fa-brands fa-bootstrap",
+              "level": "Certifié"
+            }
+          ]
+        },
+        {
+          "title": "Développement Back-End",
+          "icon": "fa-solid fa-server",
+          "badge": "Serveur & Logique",
+          "skills": [
+            {
+              "name": "PHP",
+              "icon": "fa-brands fa-php",
+              "level": "Avancé"
+            },
+            {
+              "name": "Laravel",
+              "icon": "fa-brands fa-laravel",
+              "level": "Prêt pour la production"
+            },
+            {
+              "name": "APIs RESTful",
+              "icon": "fa-solid fa-network-wired",
+              "level": "Avancé"
+            },
+            {
+              "name": "Python",
+              "icon": "fa-brands fa-python",
+              "level": "Maîtrisé & Certifié"
+            }
+          ]
+        },
+        {
+          "title": "Bases de Données & Modélisation",
+          "icon": "fa-solid fa-database",
+          "badge": "Données & Intégrité",
+          "skills": [
+            {
+              "name": "MySQL",
+              "icon": "fa-solid fa-database",
+              "level": "Avancé"
+            },
+            {
+              "name": "SQL Relationnel",
+              "icon": "fa-solid fa-table",
+              "level": "Spécialiste Certifié"
+            },
+            {
+              "name": "Modélisation & Migrations",
+              "icon": "fa-solid fa-diagram-project",
+              "level": "Maîtrisé"
+            },
+            {
+              "name": "Optimisation de Requêtes",
+              "icon": "fa-solid fa-bolt",
+              "level": "Maîtrisé"
+            }
+          ]
+        },
+        {
+          "title": "Outils & Environnement",
+          "icon": "fa-solid fa-toolbox",
+          "badge": "Workflow & Outils",
+          "skills": [
+            {
+              "name": "Git & GitHub",
+              "icon": "fa-brands fa-git-alt",
+              "level": "Certifié"
+            },
+            {
+              "name": "VS Code & Postman",
+              "icon": "fa-solid fa-laptop-code",
+              "level": "Usage Quotidien"
+            },
+            {
+              "name": "Linux CLI",
+              "icon": "fa-brands fa-linux",
+              "level": "Maîtrisé"
+            },
+            {
+              "name": "Bases Docker",
+              "icon": "fa-brands fa-docker",
+              "level": "Fondations"
+            }
+          ]
+        },
+        {
+          "title": "Bonnes Pratiques Logicielles",
+          "icon": "fa-solid fa-shield-halved",
+          "badge": "Qualité Code",
+          "skills": [
+            {
+              "name": "Responsive Mobile-First",
+              "icon": "fa-solid fa-mobile-screen",
+              "level": "Avancé"
+            },
+            {
+              "name": "Fondations SEO Technique",
+              "icon": "fa-solid fa-magnifying-glass",
+              "level": "Maîtrisé"
+            },
+            {
+              "name": "Collaboration Agile Scrum",
+              "icon": "fa-solid fa-people-group",
+              "level": "Maîtrisé"
+            },
+            {
+              "name": "Code Propre & Documentation",
+              "icon": "fa-solid fa-file-lines",
+              "level": "Priorité Clé"
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Formations & Diplômes",
+      "subtitle": "Mon parcours réunit l'expertise appliquée du développement digital (OFPPT) et la rigueur universitaire en informatique et mathématiques (FSAC).",
+      "degrees": [
+        {
+          "badge": "2024 - 2026 (En cours)",
+          "title": "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
+          "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
+          "desc": "Formation universitaire approfondie : algorithmique avancée, structures de données, systèmes d’exploitation Linux, conception de bases de données relationnelles et programmation système.",
+          "icon": "fa-solid fa-graduation-cap"
+        },
+        {
+          "badge": "2023 - 2025",
+          "title": "Technicien Spécialisé en Développement Digital (Option Full Stack)",
+          "location": "OFPPT ISTA NTIC 2, Casablanca",
+          "desc": "Formation professionnelle d’excellence : architecture Full-Stack, développement frontend moderne (React, HTML5, CSS3, JS), back-end (PHP, Laravel, Python, Node.js), SQL/NoSQL et méthodes Agiles.",
+          "icon": "fa-solid fa-laptop-code"
+        },
+        {
+          "badge": "2023 - 2024",
+          "title": "Baccalauréat Libre en Sciences Mathématiques A",
+          "location": "Établissement Aïn Chock, Casablanca",
+          "desc": "Renforcement rigoureux des capacités d’analyse, de logique mathématique et de raisonnement abstrait pour la résolution d’algorithmes complexes.",
+          "icon": "fa-solid fa-calculator"
+        },
+        {
+          "badge": "2022 - 2023",
+          "title": "1ère Année Licence en Sciences de la Matière (Physique-Chimie)",
+          "location": "Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca",
+          "desc": "Enseignements scientifiques fondamentaux axés sur la méthode expérimentale, l’analyse quantitative et la modélisation.",
+          "icon": "fa-solid fa-flask"
+        },
+        {
+          "badge": "2021 - 2022",
+          "title": "Baccalauréat en Sciences Physiques-Chimie",
+          "location": "Lycée Ibnou Arabi, Casablanca",
+          "desc": "Diplôme d’études secondaires scientifiques axé sur les sciences exactes et la démarche d’investigation.",
+          "icon": "fa-solid fa-award"
+        }
+      ],
+      "certTitle": "Certifications Professionnelles",
+      "certSubtitle": "12 spécialisations techniques vérifiées avec numéros de référence officiels et documents consultables.",
+      "filterAll": "Toutes les certifications",
+      "filterWeb": "Web & Frontend",
+      "filterAI": "IA & Sécurité",
+      "filterData": "Python & Données",
+      "filterTools": "DevOps & Outils",
+      "viewDoc": "Voir le Document (PDF/Image)",
+      "verifyOnline": "Vérifier l'authenticité",
+      "credentialLabel": "Réf / ID Officiel",
+      "copyId": "Copier l'ID",
+      "copied": "Copié !",
+      "modalClose": "Fermer l'aperçu",
+      "modalOpenNewTab": "Ouvrir dans un nouvel onglet",
+      "certifications": [
+        {
+          "id": "udemy-react",
+          "icon": "fa-brands fa-react",
+          "title": "React Crash Course : De Zéro à Expert",
+          "issuer": "Udemy",
+          "date": "12 Fév 2025",
+          "credentialId": "UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "file": "udemy-react-crash-course.pdf",
+          "verifyUrl": "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "category": "web",
+          "topics": [
+            "React 18",
+            "Composants",
+            "Hooks",
+            "Architecture SPA"
+          ]
+        },
+        {
+          "id": "datacamp-ai",
+          "icon": "fa-solid fa-brain",
+          "title": "Fondamentaux de l'IA (AI Fundamentals)",
+          "issuer": "DataCamp",
+          "date": "18 Fév 2025",
+          "credentialId": "AIF0024593675737",
+          "file": "datacamp-ai-fundamentals.pdf",
+          "verifyUrl": "https://www.datacamp.com/certificate/AIF0024593675737",
+          "category": "ai",
+          "topics": [
+            "Machine Learning",
+            "Deep Learning",
+            "IA Générative",
+            "Éthique IA"
+          ]
+        },
+        {
+          "id": "365-python-bootcamp",
+          "icon": "fa-brands fa-python",
+          "title": "Bootcamp Programmeur Python",
+          "issuer": "365 Data Science",
+          "date": "06 Nov 2024",
+          "credentialId": "CC-A50846FC72",
+          "file": "365-python-bootcamp.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-A50846FC72/",
+          "category": "data",
+          "topics": [
+            "POO Python",
+            "Structures de données",
+            "Algorithmes",
+            "Automatisation"
+          ]
+        },
+        {
+          "id": "365-sql",
+          "icon": "fa-solid fa-database",
+          "title": "Spécialiste SQL",
+          "issuer": "365 Data Science",
+          "date": "06 Nov 2024",
+          "credentialId": "CC-B3861F4F83",
+          "file": "365-sql.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
+          "category": "data",
+          "topics": [
+            "Bases relationnelles",
+            "Requêtes complexes",
+            "Jointures",
+            "Agrégations"
+          ]
+        },
+        {
+          "id": "digigirlz-ai-workshop",
+          "icon": "fa-solid fa-shield-halved",
+          "title": "Hacking the Future : Workshop IA & Sécurité",
+          "issuer": "DigiGirlz FSAC & Anoual (US Embassy)",
+          "date": "09 Mars 2025",
+          "credentialId": "DIGIGIRLZ-FSAC-AI-2025",
+          "file": "digigirlz-fsac-ai-workshop.png",
+          "isImage": true,
+          "verifyUrl": null,
+          "category": "ai",
+          "topics": [
+            "Sécurité IA",
+            "Défense contradictoire",
+            "Cybersécurité",
+            "Hackathon"
+          ]
+        },
+        {
+          "id": "365-git-github",
+          "icon": "fa-brands fa-github",
+          "title": "Git et GitHub",
+          "issuer": "365 Data Science",
+          "date": "06 Nov 2024",
+          "credentialId": "CC-D6C52F35E3",
+          "file": "365-git-github.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
+          "category": "tools",
+          "topics": [
+            "Git Flow",
+            "Branches",
+            "Pull Requests",
+            "Collaboration d'équipe"
+          ]
+        },
+        {
+          "id": "udemy-git",
+          "icon": "fa-brands fa-git-alt",
+          "title": "Git pour Débutants",
+          "issuer": "Udemy",
+          "date": "12 Fév 2025",
+          "credentialId": "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "file": "udemy-git-for-beginners.pdf",
+          "verifyUrl": "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "category": "tools",
+          "topics": [
+            "CLI Git",
+            "Historique de commits",
+            "Gestion des conflits",
+            "Dépôts distants"
+          ]
+        },
+        {
+          "id": "udemy-bootstrap-jquery",
+          "icon": "fa-brands fa-bootstrap",
+          "title": "Bootstrap & jQuery : Formation Certifiante",
+          "issuer": "Udemy",
+          "date": "12 Fév 2025",
+          "credentialId": "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "file": "udemy-bootstrap-jquery.pdf",
+          "verifyUrl": "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "category": "web",
+          "topics": [
+            "Grille Responsive",
+            "Composants UI",
+            "Manipulation DOM",
+            "Événements"
+          ]
+        },
+        {
+          "id": "365-chatgpt",
+          "icon": "fa-solid fa-robot",
+          "title": "Introduction à ChatGPT et l'IA Générative",
+          "issuer": "365 Financial Analyst",
+          "date": "06 Nov 2024",
+          "credentialId": "CC-F657CE4163",
+          "file": "365-chatgpt-generative-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-F657CE4163/",
+          "category": "ai",
+          "topics": [
+            "IA Générative",
+            "Prompt Engineering",
+            "Flux LLM",
+            "Productivité"
+          ]
+        },
+        {
+          "id": "365-intro-to-ai",
+          "icon": "fa-solid fa-microchip",
+          "title": "Introduction à l'Intelligence Artificielle",
+          "issuer": "365 Data Science",
+          "date": "06 Nov 2024",
+          "credentialId": "CC-6FE6B30A14",
+          "file": "365-intro-to-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
+          "category": "ai",
+          "topics": [
+            "Fondements IA",
+            "Apprentissage supervisé",
+            "Réseaux neuronaux",
+            "Éthique"
+          ]
+        },
+        {
+          "id": "365-intro-to-python",
+          "icon": "fa-brands fa-python",
+          "title": "Introduction au Langage Python",
+          "issuer": "365 Data Science",
+          "date": "04 Nov 2024",
+          "credentialId": "CC-2B1FF1F1DD",
+          "file": "365-intro-to-python.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
+          "category": "data",
+          "topics": [
+            "Syntaxe Python",
+            "Types de données",
+            "Fonctions",
+            "Structures de contrôle"
+          ]
+        },
+        {
+          "id": "365-powerpoint",
+          "icon": "fa-solid fa-file-powerpoint",
+          "title": "Introduction à PowerPoint Professionnel",
+          "issuer": "365 Financial Analyst",
+          "date": "05 Nov 2024",
+          "credentialId": "CC-C294D1D86B",
+          "file": "365-intro-to-powerpoint.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
+          "category": "tools",
+          "topics": [
+            "Présentations exécutives",
+            "Communication visuelle",
+            "Conception de slides"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Expérience Professionnelle",
+      "subtitle": "Parcours professionnel vérifié en développement web full-stack et assistance administrative IT.",
+      "items": [
+        {
+          "badge": "04/2025 - 07/2025 (Stage PFE)",
+          "title": "Stagiaire Développeur Full-Stack — MAMO TRADE",
+          "location": "Casablanca, Maroc",
+          "icon": "fa-solid fa-building",
+          "desc": "Participation au cycle complet de développement d’applications web pour clients : création d’interfaces réactives avec React, intégration d’APIs RESTful avec PHP/Laravel, modélisation de bases de données relationnelles et résolution de bugs en sprints.",
+          "responsibilities": [
+            "Développement de composants UI réactifs et gestion d’état sous React.",
+            "Création d’endpoints d’API RESTful et intégration logique avec PHP et Laravel.",
+            "Collaboration avec les développeurs seniors sur la modélisation de données et l’optimisation SQL.",
+            "Résolution de tickets et tests fonctionnels avant déploiement."
+          ]
+        },
+        {
+          "badge": "09/2023 - 01/2025 (Temps Partiel)",
+          "title": "Assistant Administratif & Support IT",
+          "location": "Casablanca, Maroc",
+          "icon": "fa-solid fa-briefcase",
+          "desc": "Support administratif et digital complet : préparation, mise en forme et numérisation de documents d’entreprise ; assistance aux utilisateurs sur l’utilisation des ordinateurs, installation de logiciels, maintenance de base, impression et numérisation.",
+          "responsibilities": [
+            "Assistance administrative, rédaction, mise en forme et gestion de documents d’entreprise.",
+            "Accompagnement technique des utilisateurs : installation de logiciels, dépannage de base, impression et numérisation.",
+            "Gestion rigoureuse du classement électronique et suivi des tableaux de bord."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projets Réalisés",
+      "subtitle": "Sites clients réels, applications full-stack et prototypes techniques démontrant mes compétences concrètes.",
+      "filterAll": "Tous les Projets",
+      "filterLive": "Sites Clients & En Ligne",
+      "filterApp": "Applications Web",
+      "filterProto": "Prototypes",
+      "liveDemo": "Démo en Ligne",
+      "liveSite": "Site en Ligne",
+      "caseDetails": "Étude de Cas",
+      "sourceCode": "Code Source",
+      "closeModal": "Fermer",
+      "modalTechStack": "Stack Technique",
+      "modalKeyFeatures": "Fonctionnalités & Livrables Clés",
+      "modalArchitecture": "Architecture Technique",
+      "items": [
+        {
+          "id": "solva",
+          "category": "live",
+          "typeLabel": "Projet Client Réel",
+          "badgeClass": "badge-live",
+          "badgeText": "En Ligne",
+          "icon": "fa-solid fa-industry",
+          "title": "Solva Métallique — Site Entreprise",
+          "role": "Développeur Frontend & Intégrateur SEO",
+          "desc": "Site web vitrine responsive pour une entreprise casablancaise de construction métallique, combinant présentation claire des activités, SEO local optimisé et conversion directe vers devis WhatsApp.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "SEO Technique",
+            "Design Responsive"
           ],
-        },
-        {
-          title: 'Bases de Données & Environnements',
-          icon: 'fa-solid fa-database',
-          skills: [
-            { name: 'MySQL & SQL Relationnel', icon: 'fa-solid fa-database', level: '85%', className: 'sql' },
-            { name: 'MongoDB (NoSQL)', icon: 'fa-solid fa-leaf', level: '75%', className: 'mongodb' },
-            { name: 'Git & GitHub', icon: 'fa-brands fa-git-alt', level: '85%', className: 'git' },
-            { name: 'Docker', icon: 'fa-brands fa-docker', level: '70%', className: 'docker' },
-            { name: 'Linux CLI', icon: 'fa-brands fa-linux', level: '80%', className: 'linux' },
-            { name: 'Agile Scrum & CI/CD', icon: 'fa-solid fa-gears', level: '85%', className: 'agile' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/Solva-Metallique/",
+          "liveText": "Site en Ligne",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Solva-Metallique",
+          "features": [
+            "Mise en page mobile-first fluide adaptée aux smartphones, tablettes et écrans larges.",
+            "Optimisation SEO technique locale et métadonnées ciblées sur le marché industriel de Casablanca.",
+            "Bouton de demande de devis WhatsApp avec message pré-rempli pour maximiser la conversion.",
+            "Code vanilla JavaScript sans dépendances externes pour un chargement sous la seconde."
           ],
+          "architecture": "Structure HTML5 sémantique, variables CSS3 centralisées, images WebP optimisées et micro-interactions JavaScript natives."
         },
         {
-          title: 'Digital Growth & Design Créatif',
-          icon: 'fa-solid fa-chart-line',
-          skills: [
-            { name: 'Meta Ads (Facebook & Instagram)', icon: 'fa-solid fa-bullhorn', level: '80%', className: 'meta-ads' },
-            { name: 'Gestion des Réseaux Sociaux (SMM)', icon: 'fa-solid fa-share-nodes', level: '85%', className: 'smm' },
-            { name: 'Design Canva & Créations', icon: 'fa-solid fa-palette', level: '90%', className: 'canva' },
-            { name: 'Fondations SEO Technique', icon: 'fa-solid fa-magnifying-glass-chart', level: '85%', className: 'html' },
+          "id": "gidaprint",
+          "category": "live",
+          "typeLabel": "Projet Client Réel",
+          "badgeClass": "badge-live",
+          "badgeText": "En Ligne",
+          "icon": "fa-solid fa-print",
+          "title": "GIDAPRINT — Agence Multi-Services",
+          "role": "Développeur Web & Intégrateur UI",
+          "desc": "Portail commercial multi-pages regroupant impression, signalétique, objets publicitaires, création web et gestion des réseaux sociaux dans un parcours client fluide.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Tunnels de Conversion",
+            "Performance"
           ],
-        },
-        {
-          title: 'Compétences Linguistiques & Valeurs',
-          icon: 'fa-solid fa-language',
-          skills: [
-            { name: 'Arabe (Langue Maternelle)', icon: 'fa-solid fa-comment-dots', level: '100%', className: 'arabic' },
-            { name: 'Français (Courant / C2)', icon: 'fa-solid fa-comment-dots', level: '90%', className: 'french' },
-            { name: 'Anglais (Professionnel / B2)', icon: 'fa-solid fa-comment-dots', level: '75%', className: 'english' },
-            { name: 'Travail en Équipe & Bénévolat', icon: 'fa-solid fa-users', level: '95%', className: 'learning' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/gidaprint/",
+          "liveText": "Site en Ligne",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/gidaprint",
+          "features": [
+            "Organisation claire des pôles de services avec fiches descriptives détaillées.",
+            "Appels à l’action (CTA) stratégiques guidant le visiteur vers la prise de contact.",
+            "Chargement différé (lazy loading) des médias pour une navigation ultra rapide.",
+            "Compatibilité multi-navigateurs rigoureusement vérifiée."
           ],
+          "architecture": "Architecture multi-pages modulaire avec feuille de style partagée et balisage sémantique accessible."
         },
-      ],
+        {
+          "id": "attendance",
+          "category": "app",
+          "typeLabel": "Projet de Fin d’Études (NTIC 2)",
+          "badgeClass": "badge-app",
+          "badgeText": "Application Web",
+          "icon": "fa-solid fa-clipboard-user",
+          "title": "Système de Gestion d’Assiduité & Absences",
+          "role": "Développeur Full-Stack (Projet individuel)",
+          "desc": "Application web complète développée à l’ISTA NTIC pour numériser le suivi des présences, la gestion des dossiers stagiaires, le contrôle d’accès par rôle et la génération de statistiques.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "MySQL",
+            "API REST",
+            "RBAC"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Gestion des accès selon 3 rôles : Administrateur, Formateur et Stagiaire.",
+            "Pointage dynamique des présences (Présent, Absent, Justifié) avec retour visuel immédiat.",
+            "Tableaux de bord statistiques et génération de synthèses d’assiduité.",
+            "Schéma de base de données relationnel normalisé avec clés étrangères et contraintes d’intégrité."
+          ],
+          "architecture": "Architecture découplée : Interface SPA React consommant des APIs REST Laravel sécurisées par tokens, adossée à une base relationnelle MySQL."
+        },
+        {
+          "id": "ecommerce",
+          "category": "app",
+          "typeLabel": "Projet Académique Full-Stack",
+          "badgeClass": "badge-app",
+          "badgeText": "Application Web",
+          "icon": "fa-solid fa-cart-shopping",
+          "title": "Plateforme E-Commerce Full-Stack",
+          "role": "Développeur Full-Stack",
+          "desc": "Plateforme de vente en ligne complète intégrant un catalogue de produits avec filtres dynamiques, un panier d’achats persistant et une gestion back-end sous Laravel.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "State Management"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Filtrage instantané côté client par catégorie, tranche de prix et recherche textuelle.",
+            "Panier d’achats avec persistance locale et calcul automatique des totaux.",
+            "Contrôleurs Laravel assurant les opérations CRUD sur les articles et catégories.",
+            "Tunnel de commande ergonomique avec validation des formulaires côté client."
+          ],
+          "architecture": "Frontend React gérant l’état client via les Hooks, communiquant avec des contrôleurs REST Laravel connectés à MySQL."
+        },
+        {
+          "id": "artizan",
+          "category": "prototype",
+          "typeLabel": "Prototype & Concept",
+          "badgeClass": "badge-prototype",
+          "badgeText": "Prototype",
+          "icon": "fa-solid fa-hammer",
+          "title": "Artizan — Marketplace Marocaine",
+          "role": "Concepteur & Développeur Frontend",
+          "desc": "Concept de marketplace valorisant l’artisanat marocain, connectant artisans locaux et acheteurs grâce à des profils vérifiés, des galeries de créations et des demandes de devis.",
+          "tags": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "liveUrl": "https://v0-morocco-artisan-platform.vercel.app/",
+          "liveText": "Démo en Ligne",
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "Profils d’artisans organisés par métier (poterie, cuir, dinanderie, zellige, bois).",
+            "Recherche interactive et filtrage géographique par villes marocaines.",
+            "Formulaire modal de demande de devis personnalisé.",
+            "Design Tailwind soigné respectant les contrastes modernes et l’accessibilité."
+          ],
+          "architecture": "Architecture Next.js moderne avec routage basé sur les dossiers, typage TypeScript strict et classes utilitaires Tailwind CSS."
+        }
+      ]
     },
-    education: {
-      title: 'Formations & Diplômes',
-      subtitle: "Mon parcours réunit l'expertise appliquée du développement digital (OFPPT) et la rigueur universitaire en informatique et mathématiques (FSAC).",
-      degrees: [
-        {
-          badge: '2024 - 2026 (En cours)',
-          title: "Diplôme d'Études Universitaires Générales (DEUG) en Informatique — FLI",
-          location: 'Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca',
-          desc: 'Formation universitaire approfondie : algorithmique avancée, structures de données, systèmes d’exploitation Linux, conception de bases de données relationnelles et programmation système.',
-          icon: 'fa-solid fa-graduation-cap',
-        },
-        {
-          badge: '2023 - 2025',
-          title: 'Technicien Spécialisé en Développement Digital (Option Full Stack)',
-          location: 'OFPPT ISTA NTIC 2, Casablanca',
-          desc: 'Formation professionnelle d’excellence : architecture Full-Stack, développement frontend moderne (React, HTML5, CSS3, JS), back-end (PHP, Laravel, Python, Node.js), SQL/NoSQL et méthodes Agiles.',
-          icon: 'fa-solid fa-laptop-code',
-        },
-        {
-          badge: '2023 - 2024',
-          title: 'Baccalauréat Libre en Sciences Mathématiques A',
-          location: 'Établissement Aïn Chock, Casablanca',
-          desc: 'Renforcement rigoureux des capacités d’analyse, de logique mathématique et de raisonnement abstrait pour la résolution d’algorithmes complexes.',
-          icon: 'fa-solid fa-calculator',
-        },
-        {
-          badge: '2022 - 2023',
-          title: '1ère Année Licence en Sciences de la Matière (Physique-Chimie)',
-          location: 'Faculté des Sciences Aïn Chock, Université Hassan II de Casablanca',
-          desc: 'Enseignements scientifiques fondamentaux axés sur la méthode expérimentale, l’analyse quantitative et la modélisation.',
-          icon: 'fa-solid fa-flask',
-        },
-        {
-          badge: '2021 - 2022',
-          title: 'Baccalauréat en Sciences Physiques-Chimie',
-          location: 'Lycée Ibnou Arabi, Casablanca',
-          desc: 'Diplôme d’études secondaires scientifiques axé sur les sciences exactes et la démarche d’investigation.',
-          icon: 'fa-solid fa-award',
-        },
-      ],
-            certTitle: "Certifications Professionnelles",
-      certSubtitle: "12 spécialisations techniques vérifiées avec numéros de référence officiels et documents consultables.",
-      filterAll: "Toutes les certifications",
-      filterWeb: "Web & Frontend",
-      filterAI: "IA & Sécurité",
-      filterData: "Python & Données",
-      filterTools: "DevOps & Outils",
-      viewDoc: "Voir le Document (PDF/Image)",
-      verifyOnline: "Vérifier l'authenticité",
-      credentialLabel: "Réf / ID Officiel",
-      copyId: "Copier l'ID",
-      copied: "Copié !",
-      modalClose: "Fermer l'aperçu",
-      modalOpenNewTab: "Ouvrir dans un nouvel onglet",
-      certifications: [
-        {
-          id: "udemy-react",
-          icon: "fa-brands fa-react",
-          title: "React Crash Course : De Zéro à Expert",
-          issuer: "Udemy",
-          date: "12 Fév 2025",
-          credentialId: "UC-630614b3-d648-44fd-a873-f19f291544fa",
-          file: "udemy-react-crash-course.pdf",
-          verifyUrl: "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
-          category: "web",
-          topics: ["React 18", "Composants", "Hooks", "Architecture SPA"],
-        },
-        {
-          id: "datacamp-ai",
-          icon: "fa-solid fa-brain",
-          title: "Fondamentaux de l'IA (AI Fundamentals)",
-          issuer: "DataCamp",
-          date: "18 Fév 2025",
-          credentialId: "AIF0024593675737",
-          file: "datacamp-ai-fundamentals.pdf",
-          verifyUrl: "https://www.datacamp.com/certificate/AIF0024593675737",
-          category: "ai",
-          topics: ["Machine Learning", "Deep Learning", "IA Générative", "Éthique IA"],
-        },
-        {
-          id: "365-python-bootcamp",
-          icon: "fa-brands fa-python",
-          title: "Bootcamp Programmeur Python",
-          issuer: "365 Data Science",
-          date: "06 Nov 2024",
-          credentialId: "CC-A50846FC72",
-          file: "365-python-bootcamp.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-A50846FC72/",
-          category: "data",
-          topics: ["POO Python", "Structures de données", "Algorithmes", "Automatisation"],
-        },
-        {
-          id: "365-sql",
-          icon: "fa-solid fa-database",
-          title: "Spécialiste SQL",
-          issuer: "365 Data Science",
-          date: "06 Nov 2024",
-          credentialId: "CC-B3861F4F83",
-          file: "365-sql.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
-          category: "data",
-          topics: ["Bases relationnelles", "Requêtes complexes", "Jointures", "Agrégations"],
-        },
-        {
-          id: "digigirlz-ai-workshop",
-          icon: "fa-solid fa-shield-halved",
-          title: "Hacking the Future : Workshop IA & Sécurité",
-          issuer: "DigiGirlz FSAC & Anoual (US Embassy)",
-          date: "09 Mars 2025",
-          credentialId: "DIGIGIRLZ-FSAC-AI-2025",
-          file: "digigirlz-fsac-ai-workshop.png",
-          isImage: true,
-          verifyUrl: null,
-          category: "ai",
-          topics: ["Sécurité IA", "Défense contradictoire", "Cybersécurité", "Hackathon"],
-        },
-        {
-          id: "365-git-github",
-          icon: "fa-brands fa-github",
-          title: "Git et GitHub",
-          issuer: "365 Data Science",
-          date: "06 Nov 2024",
-          credentialId: "CC-D6C52F35E3",
-          file: "365-git-github.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
-          category: "tools",
-          topics: ["Git Flow", "Branches", "Pull Requests", "Collaboration d'équipe"],
-        },
-        {
-          id: "udemy-git",
-          icon: "fa-brands fa-git-alt",
-          title: "Git pour Débutants",
-          issuer: "Udemy",
-          date: "12 Fév 2025",
-          credentialId: "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          file: "udemy-git-for-beginners.pdf",
-          verifyUrl: "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          category: "tools",
-          topics: ["CLI Git", "Historique de commits", "Gestion des conflits", "Dépôts distants"],
-        },
-        {
-          id: "udemy-bootstrap-jquery",
-          icon: "fa-brands fa-bootstrap",
-          title: "Bootstrap & jQuery : Formation Certifiante",
-          issuer: "Udemy",
-          date: "12 Fév 2025",
-          credentialId: "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          file: "udemy-bootstrap-jquery.pdf",
-          verifyUrl: "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          category: "web",
-          topics: ["Grille Responsive", "Composants UI", "Manipulation DOM", "Événements"],
-        },
-        {
-          id: "365-chatgpt",
-          icon: "fa-solid fa-robot",
-          title: "Introduction à ChatGPT et l'IA Générative",
-          issuer: "365 Financial Analyst",
-          date: "06 Nov 2024",
-          credentialId: "CC-F657CE4163",
-          file: "365-chatgpt-generative-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-F657CE4163/",
-          category: "ai",
-          topics: ["IA Générative", "Prompt Engineering", "Flux LLM", "Productivité"],
-        },
-        {
-          id: "365-intro-to-ai",
-          icon: "fa-solid fa-microchip",
-          title: "Introduction à l'Intelligence Artificielle",
-          issuer: "365 Data Science",
-          date: "06 Nov 2024",
-          credentialId: "CC-6FE6B30A14",
-          file: "365-intro-to-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
-          category: "ai",
-          topics: ["Fondements IA", "Apprentissage supervisé", "Réseaux neuronaux", "Éthique"],
-        },
-        {
-          id: "365-intro-to-python",
-          icon: "fa-brands fa-python",
-          title: "Introduction au Langage Python",
-          issuer: "365 Data Science",
-          date: "04 Nov 2024",
-          credentialId: "CC-2B1FF1F1DD",
-          file: "365-intro-to-python.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
-          category: "data",
-          topics: ["Syntaxe Python", "Types de données", "Fonctions", "Structures de contrôle"],
-        },
-        {
-          id: "365-powerpoint",
-          icon: "fa-solid fa-file-powerpoint",
-          title: "Introduction à PowerPoint Professionnel",
-          issuer: "365 Financial Analyst",
-          date: "05 Nov 2024",
-          credentialId: "CC-C294D1D86B",
-          file: "365-intro-to-powerpoint.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
-          category: "tools",
-          topics: ["Présentations exécutives", "Communication visuelle", "Conception de slides"],
-        },
-      ],
+    "contact": {
+      "title": "Passons à la Prochaine Étape",
+      "subtitle": "Vous avez un projet nécessitant un produit digital solide, une application web sur mesure ou une stratégie de croissance ? Contactez-moi directement via WhatsApp, email ou téléphone.",
+      "whatsappTitle": "WhatsApp Direct",
+      "emailTitle": "Email Direct",
+      "locationTitle": "Localisation",
+      "locationVal": "Sidi Maarouf, Casablanca, Maroc",
+      "linkedinTitle": "Profil LinkedIn",
+      "nameLabel": "Votre Nom / Entreprise",
+      "namePlaceholder": "ex: Karim Bennani",
+      "emailLabel": "Votre Adresse Email",
+      "emailPlaceholder": "ex: karim@entreprise.ma",
+      "msgLabel": "Détails du Projet",
+      "msgPlaceholder": "Décrivez votre besoin en développement web, vos délais ou vos objectifs marketing...",
+      "sendBtn": "Envoyer le Message",
+      "sendingBtn": "Envoi via Google Sheets...",
+      "successTitle": "Message envoyé avec succès !",
+      "successMsg": "Merci ! Votre message a bien été enregistré dans ma feuille Google Sheets et une notification directe m’a été transmise par email. Je vous répondrai très rapidement.",
+      "errorTitle": "Envoi automatique indisponible",
+      "errorMsg": "Un problème de connexion temporaire est survenu. Veuillez me contacter directement via WhatsApp ou par email :"
     },
-    experience: {
-      title: 'Mes Expériences',
-      subtitle: "Un parcours concret combinant stages en entreprise, livrables clients et développement d'applications web d'envergure.",
-      items: [
-        {
-          badge: '04/2025 - 07/2025 (Stage PFE)',
-          title: 'Stage Développeur Full-Stack — MAMO TRADE',
-          location: 'Casablanca, Maroc',
-          icon: 'fa-solid fa-building',
-          desc: 'Conception et développement de solutions web sur mesure pour des clients professionnels. Création d’interfaces interactives React et intégration d’APIs back-end performantes.',
-        },
-        {
-          badge: '11/2024 - 03/2025',
-          title: 'Développeur Full-Stack — Application de Gestion d’Absences',
-          location: 'Projet Académique NTIC 2 — Casablanca',
-          icon: 'fa-solid fa-laptop-code',
-          desc: 'Architecture complète d’une plateforme de suivi des présences avec React pour l’UI et Laravel pour le stockage sécurisé. Gestion des autorisations utilisateurs et bilans statistiques en temps réel.',
-        },
-        {
-          badge: '09/2023 - 01/2025',
-          title: 'Assistant Administratif (Mi-temps)',
-          location: 'Casablanca, Maroc',
-          icon: 'fa-solid fa-briefcase',
-          desc: 'Gestion des flux opérationnels : rédaction et mise en page de documents, facturation, suivi administratif des dossiers et relation avec la clientèle.',
-        },
-        {
-          badge: '03/2023 - 04/2024',
-          title: 'Développeur Web — Plateforme E-Commerce',
-          location: 'Projet Académique — Casablanca',
-          icon: 'fa-solid fa-cart-shopping',
-          desc: 'Développement d’un site de vente en ligne avec React et Laravel : filtrage dynamique du catalogue, gestion du panier d’achat en temps réel et parcours de commande fluide.',
-        },
-      ],
-    },
-    projects: {
-      title: 'Projets Réalisés',
-      subtitle: 'La preuve par des réalisations concrètes. Une sélection de sites web en ligne, de prototypes complets et d’applications métier.',
-      filterAll: 'Tous les Projets',
-      filterLive: 'Sites en Ligne',
-      filterProto: 'Prototypes',
-      filterApp: 'Applications Web',
-      liveDemo: 'Démo en Ligne',
-      liveSite: 'Voir le Site',
-      caseDetails: 'Détails du Projet',
-      sourceCode: 'Code Source',
-      items: [
-        {
-          id: 'artizan',
-          category: 'prototype',
-          badgeClass: 'badge-prototype',
-          badgeText: 'Prototype',
-          icon: 'fa-solid fa-hammer',
-          title: 'Artizan — Marketplace Marocaine',
-          desc: 'Concept interactif de place de marché connectant les clients aux artisans locaux marocains : recherche de services, profils vérifiés, devis, disponibilités et onboarding guidé.',
-          tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-          liveUrl: 'https://v0-morocco-artisan-platform.vercel.app/',
-          liveText: 'Démo en Ligne',
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'solva',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'En Ligne',
-          icon: 'fa-solid fa-industry',
-          title: 'Solva Métallique — Site Corporate',
-          desc: 'Site web d’entreprise réactif pour une société de construction métallique à Casablanca, alliant identité industrielle, présentation des réalisations, SEO local et demande de devis directe.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'SEO Local'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/Solva-Metallique/',
-          liveText: 'Voir le Site',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/Solva-Metallique',
-        },
-        {
-          id: 'gidaprint',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'En Ligne',
-          icon: 'fa-solid fa-print',
-          title: 'GIDAPRINT — Agence Multi-Services',
-          desc: 'Site multi-pages structurant les prestations d’impression, signalétique, objets publicitaires, développement web et réseaux sociaux dans un parcours d’acquisition fluide.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'UI Réactive'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/gidaprint/',
-          liveText: 'Voir le Site',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/gidaprint',
-        },
-        {
-          id: 'attendance',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'App Web',
-          icon: 'fa-solid fa-clipboard-user',
-          title: 'Système de Gestion des Absences',
-          desc: 'Application administrative pour le suivi institutionnel des présences, statistiques par classe, gestion des justificatifs et notifications automatiques sous React et Laravel.',
-          tags: ['React', 'Laravel', 'MySQL', 'API REST'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'ecommerce',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'App Web',
-          icon: 'fa-solid fa-cart-shopping',
-          title: 'Plateforme E-Commerce Full-Stack',
-          desc: 'Solution complète de commerce électronique avec catalogue interactif, gestion d’état du panier en temps réel, tunnels de commande et backend sécurisé Laravel.',
-          tags: ['React', 'Laravel', 'PHP', 'SQL'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-      ],
-    },
-    contact: {
-      title: 'Passons à la Prochaine Étape',
-      subtitle: 'Vous avez un projet nécessitant un produit digital solide, une application web sur mesure ou une stratégie de croissance ? Contactez-moi directement via WhatsApp, email ou téléphone.',
-      whatsappTitle: 'WhatsApp Direct',
-      emailTitle: 'Email Direct',
-      locationTitle: 'Localisation',
-      locationVal: 'Sidi Maarouf, Casablanca, Maroc',
-      linkedinTitle: 'Profil LinkedIn',
-      nameLabel: 'Votre Nom / Entreprise',
-      namePlaceholder: 'ex: Karim Bennani',
-      emailLabel: 'Votre Adresse Email',
-      emailPlaceholder: 'ex: karim@entreprise.ma',
-      msgLabel: 'Détails du Projet',
-      msgPlaceholder: 'Décrivez votre besoin en développement web, vos délais ou vos objectifs marketing...',
-      sendBtn: 'Envoyer le Message',
-      sendingBtn: 'Envoi via Google Sheets...',
-      successTitle: 'Message envoyé avec succès !',
-      successMsg: 'Merci ! Votre message a bien été enregistré dans ma feuille Google Sheets et une notification directe m’a été transmise par email. Je vous répondrai très rapidement.',
-      errorTitle: 'Envoi automatique indisponible',
-      errorMsg: 'Un problème de connexion temporaire est survenu. Veuillez me contacter directement via WhatsApp ou par email :',
-    },
-    footer: {
-      rights: 'Tous droits réservés. Sidi Maarouf, Casablanca, Maroc.',
-    },
+    "footer": {
+      "rights": "Tous droits réservés. Sidi Maarouf, Casablanca, Maroc."
+    }
   },
-
-  ar: {
-    nav: {
-      home: 'الرئيسية',
-      services: 'الخدمات',
-      skills: 'المهارات',
-      education: 'التعليم',
-      experience: 'الخبرات',
-      projects: 'المشاريع',
-      contact: 'اتصل بي',
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "services": "ما يمكنني تقديمه",
+      "skills": "المهارات التقنية",
+      "education": "التكوين والشهادات",
+      "experience": "الخبرة المهنية",
+      "projects": "المشاريع البرمجية",
+      "contact": "تواصل معي",
+      "downloadCv": "السيرة الذاتية"
     },
-    home: {
-      greeting: 'مرحباً، أنا',
-      name: 'عبد الرحمان الفجري',
-      rolePrefix: 'أنا',
-      roles: [
-        'مطور ويب شامل (Full-Stack)',
-        'أخصائي نمو وتسويق رقمي',
-        'مهندس برمجيات Laravel و React',
-        'خبير إعلانات Meta وإدارة السوشيال ميديا',
+    "home": {
+      "greeting": "مرحباً، أنا",
+      "name": "عبد الرحمن الفجري",
+      "rolePrefix": "أنا",
+      "roles": [
+        "مطور ويب متكامل Full-Stack",
+        "مطور React و Laravel",
+        "بناء الحلول والأنظمة الرقمية الحديثة"
       ],
-      bio: 'أقوم ببناء منتجات رقمية وأنظمة نمو تسويقية متكاملة للعلامات التجارية الطموحة. مقيم بمدينة الدار البيضاء، أصمم وأطور مواقع وتطبيقات ويب فائقة السرعة وعالية التحويل، مع دعم نمو الشركات عبر استراتيجيات وسائل التواصل الاجتماعي وتصاميم Canva وحملات إعلانات Meta.',
-      location: 'سيدي معروف، الدار البيضاء',
-      availability: 'متاح للعمل الحر وعن بُعد',
-      languages: 'العربية، الفرنسية، الإنجليزية',
-      viewWork: 'استعرض أعمالي',
-      whatsapp: 'محادثة واتساب مباشرة',
-      contact: 'تواصل معي',
+      "subtitle": "مقيم بالدار البيضاء، المغرب · منفتح على فرص العمل والتوظيف",
+      "bio": "أبني تطبيقات وحلول ويب حديثة وسريعة ومتجاوبة تجمع بين تطوير الواجهات الأمامية والأنظمة الخلفية وقواعد البيانات مع التركيز على حل المشكلات التقنية بكفاءة.",
+      "openToWork": "متاح للعمل فوراً",
+      "jobType": "دوام كامل · حضوري / عن بُعد",
+      "locationStatus": "الدار البيضاء، المغرب",
+      "location": "الدار البيضاء، المغرب",
+      "availability": "متاح لفرص العمل والتوظيف",
+      "languages": "العربية، الفرنسية، الإنجليزية",
+      "downloadCv": "تحميل السيرة الذاتية (CV)",
+      "viewProjects": "مشاهدة المشاريع",
+      "viewWork": "مشاهدة المشاريع",
+      "whatsapp": "واتساب مباشر",
+      "contact": "تواصل معي",
+      "contactMe": "تواصل معي"
     },
-    services: {
-      title: 'خبرات رقمية متكاملة',
-      subtitle: 'بناء التجربة البرمجية وتوسيع الفرص التسويقية. أحول أهداف الأعمال إلى حلول برمجية عالية الأداء وأربطها بحملات محتوى وإعلانات مستهدفة بدقة.',
-      items: [
+    "services": {
+      "title": "ما يمكنني تقديمه وإنجازه",
+      "subtitle": "كفاءات هندسية متخصصة وحلول رقمية عملية أقدمها للشركات وفرق التطوير التقنية.",
+      "items": [
         {
-          title: 'تطوير الويب الشامل (Full-Stack)',
-          desc: 'بناء تطبيقات ومواقع ويب متجاوبة وسريعة بالاعتماد على Next.js و React و Laravel و Node.js وفق أعلى معايير الجودة والأمان.',
+          "title": "تطوير تطبيقات الويب Full-Stack",
+          "desc": "بناء مواقع وتطبيقات ويب سريعة وقابلة للتطوير باستخدام React للواجهات و Laravel/PHP للأنظمة الخلفية وفق معايير برمجية نظيفة."
         },
         {
-          title: 'مواقع الشركات وصفحات الهبوط',
-          desc: 'تصميم مواقع تعريفية واحترافية للشركات تركز على تحويل الزوار إلى عملاء (مثل Solva Métallique و GIDAPRINT) مع تحسين محركات البحث المحلي (SEO).',
+          "title": "هندسة وربط واجهات البرمجة RESTful APIs",
+          "desc": "تصميم وبناء واجهات API آمنة، إدارة صلاحيات المستخدمين (RBAC)، وربط الخدمات والأنظمة الخارجية مع معالجة دقيقة للأخطاء."
         },
         {
-          title: 'تطبيقات الويب وتكامل واجهات APIs',
-          desc: 'تصميم قواعد بيانات علائقية (MySQL) وغير علائقية (MongoDB)، وتطوير واجهات برمجة تطبيقات RESTful آمنة لإدارة العمليات المعقدة.',
+          "title": "تصميم وإدارة قواعد البيانات المترابطة SQL",
+          "desc": "بناء الجداول والعلاقات في MySQL، كتابة استعلامات سريعة، إدارة الـ Migrations، وضمان سلامة البيانات وتناسقها."
         },
         {
-          title: 'استراتيجيات وإدارة السوشيال ميديا',
-          desc: 'تنمية الوعي بالعلامة التجارية على منصتي Instagram و Facebook من خلال جداول محتوى مدروسة، وتفاعل مستمر وصناعة هوية بصرية مميزة.',
-        },
-        {
-          title: 'تخطيط وإدارة إعلانات Meta Ads',
-          desc: 'إطلاق حملات إعلانية مدفوعة ومستهدفة لجلب العملاء المحتملين (Lead Generation) مع تعظيم العائد على الإنفاق الإعلاني (ROAS).',
-        },
-        {
-          title: 'التصميم الإبداعي عبر Canva',
-          desc: 'تصميم هويات بصرية، منشورات جذابة وكاروسيل احترافي لشبكات التواصل الاجتماعي لجذب الانتباه وزيادة المبيعات.',
-        },
+          "title": "واجهات مستخدم متجاوبة وتهيئة محركات البحث SEO",
+          "desc": "تطوير واجهات متجاوبة كلياً مع الهواتف الذكية عبر HTML5 و CSS3، وتطبيق الأسس التقنية للـ SEO لضمان سرعة التحميل والظهور."
+        }
       ],
-      processTitle: 'مسار عمل موحد',
-      processSubtitle: 'من الفكرة الأولى إلى التحسين المستمر: تحقق القرارات البرمجية والتصميمية والتسويقية أفضل النتائج عندما تتضافر نحو نفس الهدف.',
-      steps: [
-        { num: '01', title: 'الاستكشاف', desc: 'فهم أهداف المشروع، دراسة احتياجات المستخدمين وتحليل فرص السوق.' },
-        { num: '02', title: 'التخطيط', desc: 'هندسة المعلومات واختيار البنية التقنية وتحديد مسار التحويل للعميل.' },
-        { num: '03', title: 'التصميم', desc: 'ابتكار واجهات مستخدم مريحة (UI/UX) وهوية بصرية متناسقة وجذابة.' },
-        { num: '04', title: 'التطوير', desc: 'كتابة شيفرة برمجية نظيفة وقابلة للتوسع باستخدام React و Laravel و SQL.' },
-        { num: '05', title: 'الإطلاق', desc: 'نشر المشروع مع فحص الأداء والسرعة والتوافق مع محركات البحث.' },
-        { num: '06', title: 'النمو', desc: 'تفعيل إعلانات Meta الممولة واستراتيجيات النشر لزيادة المبيعات.' },
-        { num: '07', title: 'القياس', desc: 'متابعة مؤشرات الأداء والتحليلات لتحسين النتائج وعوائد الاستثمار.' },
-      ],
+      "processTitle": "منهجية العمل والإنتاج",
+      "processSubtitle": "مقاربة هندسية منظمة من 4 مراحل تضمن جودة الشيفرة البرمجية والتسليم في المواعيد المحددة.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "تحليل المتطلبات وتحديد الأهداف",
+          "desc": "استيعاب متطلبات العمل، دراسة تجربة المستخدم وتحديد المواصفات التقنية بدقة."
+        },
+        {
+          "num": "02",
+          "title": "الهندسة المعمارية للنظام",
+          "desc": "تصميم نموذج قاعدة البيانات، هيكلة المكونات البرمجية، وتخطيط مسارات الـ API."
+        },
+        {
+          "num": "03",
+          "title": "البرمجة والتطوير النظيف",
+          "desc": "كتابة شيفرة معيارية منظمة باستخدام React و Laravel و SQL مع إدارة التغييرات عبر Git."
+        },
+        {
+          "num": "04",
+          "title": "الاختبار والمراجعة والإطلاق",
+          "desc": "فحص التوافقية مع مختلف الأجهزة والمتصفحات، والتأكد من الأمان وسرعة الأداء."
+        }
+      ]
     },
-    skills: {
-      title: 'المهارات التقنية والتسويقية',
-      subtitle: 'عرض موثق لكافة المهارات البرمجية، قواعد البيانات، أدوات DevOps، التسويق الرقمي واللغات.',
-      categories: [
+    "skills": {
+      "title": "المهارات والقدرات التقنية",
+      "subtitle": "التقنيات والأدوات التي أعمل بها يومياً وأتقنها ويمكنني مناقشتها وتطبيقها بدقة في المقابلات التقنية.",
+      "categories": [
         {
-          title: 'لغات البرمجة وأطر العمل',
-          icon: 'fa-solid fa-code',
-          skills: [
-            { name: 'React و Next.js', icon: 'fa-brands fa-react', level: '85%', className: 'react' },
-            { name: 'Laravel', icon: 'fa-brands fa-laravel', level: '85%', className: 'laravel' },
-            { name: 'PHP', icon: 'fa-brands fa-php', level: '85%', className: 'php' },
-            { name: 'JavaScript و TypeScript', icon: 'fa-brands fa-js', level: '85%', className: 'javascript' },
-            { name: 'Python', icon: 'fa-brands fa-python', level: '75%', className: 'python' },
-            { name: 'HTML5 و CSS3 / Tailwind', icon: 'fa-brands fa-html5', level: '90%', className: 'html' },
+          "title": "تطوير الواجهات الأمامية (Front-End)",
+          "icon": "fa-solid fa-code",
+          "badge": "واجهات المستخدم",
+          "skills": [
+            {
+              "name": "React.js",
+              "icon": "fa-brands fa-react",
+              "level": "جاهز للإنتاج البرمجي"
+            },
+            {
+              "name": "JavaScript (ES6+)",
+              "icon": "fa-brands fa-js",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "HTML5 & CSS3",
+              "icon": "fa-brands fa-html5",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "Tailwind CSS",
+              "icon": "fa-solid fa-wind",
+              "level": "إتقان عملي"
+            },
+            {
+              "name": "Bootstrap & jQuery",
+              "icon": "fa-brands fa-bootstrap",
+              "level": "معتمد بشهادة دولية"
+            }
+          ]
+        },
+        {
+          "title": "تطوير الأنظمة الخلفية (Back-End)",
+          "icon": "fa-solid fa-server",
+          "badge": "المنطق والسيرفر",
+          "skills": [
+            {
+              "name": "PHP",
+              "icon": "fa-brands fa-php",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "Laravel",
+              "icon": "fa-brands fa-laravel",
+              "level": "جاهز للإنتاج البرمجي"
+            },
+            {
+              "name": "واجهات RESTful APIs",
+              "icon": "fa-solid fa-network-wired",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "Python",
+              "icon": "fa-brands fa-python",
+              "level": "إتقان عملي ومعتمد"
+            }
+          ]
+        },
+        {
+          "title": "قواعد البيانات والتصميم العلائقي",
+          "icon": "fa-solid fa-database",
+          "badge": "سلامة البيانات",
+          "skills": [
+            {
+              "name": "MySQL",
+              "icon": "fa-solid fa-database",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "SQL Relational",
+              "icon": "fa-solid fa-table",
+              "level": "أخصائي معتمد"
+            },
+            {
+              "name": "تصميم الجداول و Migrations",
+              "icon": "fa-solid fa-diagram-project",
+              "level": "إتقان عملي"
+            },
+            {
+              "name": "تحسين كفاءة الاستعلامات",
+              "icon": "fa-solid fa-bolt",
+              "level": "إتقان عملي"
+            }
+          ]
+        },
+        {
+          "title": "أدوات العمل والتحكم بالإصدارات",
+          "icon": "fa-solid fa-toolbox",
+          "badge": "بيئة العمل والتحكم",
+          "skills": [
+            {
+              "name": "Git & GitHub",
+              "icon": "fa-brands fa-git-alt",
+              "level": "معتمد بشهادة دولية"
+            },
+            {
+              "name": "VS Code & Postman",
+              "icon": "fa-solid fa-laptop-code",
+              "level": "استخدام يومي احترافي"
+            },
+            {
+              "name": "Linux CLI",
+              "icon": "fa-brands fa-linux",
+              "level": "إتقان عملي"
+            },
+            {
+              "name": "أساسيات Docker",
+              "icon": "fa-brands fa-docker",
+              "level": "أسس تقنية"
+            }
+          ]
+        },
+        {
+          "title": "الممارسات الهندسية وجودة الكود",
+          "icon": "fa-solid fa-shield-halved",
+          "badge": "جودة البرمجيات",
+          "skills": [
+            {
+              "name": "التصميم المتجاوب Mobile-First",
+              "icon": "fa-solid fa-mobile-screen",
+              "level": "مستوى متقدم"
+            },
+            {
+              "name": "الأسس التقنية لـ SEO",
+              "icon": "fa-solid fa-magnifying-glass",
+              "level": "إتقان عملي"
+            },
+            {
+              "name": "العمل الجماعي ومنهجية Scrum",
+              "icon": "fa-solid fa-people-group",
+              "level": "إتقان عملي"
+            },
+            {
+              "name": "الشيفرة النظيفة والتوثيق",
+              "icon": "fa-solid fa-file-lines",
+              "level": "أولوية هندسية"
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "التعليم والشهادات الأكاديمية",
+      "subtitle": "يجمع مساري التعليمي بين التدريب التقني الرقمي المتخصص (OFPPT) والتكوين الجامعي الأكاديمي في علوم الحاسوب والرياضيات (FSAC).",
+      "degrees": [
+        {
+          "badge": "2024 - 2026 (قيد الدراسة)",
+          "title": "دبلوم الدراسات الجامعية العامة في المعلوميات (DEUG FLI)",
+          "location": "كلية العلوم عين الشق، جامعة الحسن الثاني بالدار البيضاء",
+          "desc": "دراسات جامعية متقدمة في الخوارزميات، هياكل البيانات، نظم تشغيل لينكس، قواعد البيانات وهندسة البرمجيات.",
+          "icon": "fa-solid fa-graduation-cap"
+        },
+        {
+          "badge": "2023 - 2025",
+          "title": "تقني متخصص في التطوير الرقمي — خيار التطوير الشامل (Full Stack)",
+          "location": "معهد التكنولوجيا التطبيقية OFPPT ISTA NTIC 2، الدار البيضاء",
+          "desc": "تكوين مهني تطبيقي مكثف في تطوير الواجهات الأمامية (React, JS)، الخوادم الخلفية (Laravel, PHP, Python, Node.js)، قواعد البيانات ومنهجيات Agile.",
+          "icon": "fa-solid fa-laptop-code"
+        },
+        {
+          "badge": "2023 - 2024",
+          "title": "بكالوريا أحرار في العلوم الرياضية (أ)",
+          "location": "مؤسسة عين الشق، الدار البيضاء",
+          "desc": "تعزيز التفكير المنطقي والتحليلي وحل المسائل البرمجية والرياضية المعقدة.",
+          "icon": "fa-solid fa-calculator"
+        },
+        {
+          "badge": "2022 - 2023",
+          "title": "السنة الأولى إجازة في علوم المادة (فيزياء وكيمياء)",
+          "location": "كلية العلوم عين الشق، جامعة الحسن الثاني بالدار البيضاء",
+          "desc": "دراسات علمية في المنهجية التجريبية والنمذجة والتحليل الكمي للبيانات.",
+          "icon": "fa-solid fa-flask"
+        },
+        {
+          "badge": "2021 - 2022",
+          "title": "بكالوريا في العلوم الفيزيائية والكيميائية",
+          "location": "ثانوية ابن العربي، الدار البيضاء",
+          "desc": "شهادة ثانوية علمية بالتركيز على العلوم الدقيقة والتفكير المنهجي.",
+          "icon": "fa-solid fa-award"
+        }
+      ],
+      "certTitle": "الشهادات والاعتمادات المهنية الموثقة",
+      "certSubtitle": "12 شهادة تخصصية معتمدة بروابط تحقق حية ومعرفات رسمية ونسخ وثائق أصلية قابلة للعرض والتحميل.",
+      "filterAll": "جميع الشهادات",
+      "filterWeb": "تطوير الويب",
+      "filterAI": "الذكاء الاصطناعي والأمان",
+      "filterData": "بايثون وقواعد البيانات",
+      "filterTools": "أدوات التطوير وGit",
+      "viewDoc": "عرض الوثيقة (PDF / صورة)",
+      "verifyOnline": "التحقق المباشر عبر المنصة",
+      "credentialLabel": "المرجع / المعرف الرسمي",
+      "copyId": "نسخ الرمز",
+      "copied": "تم النسخ!",
+      "modalClose": "إغلاق المعاينة",
+      "modalOpenNewTab": "فتح في نافذة جديدة",
+      "certifications": [
+        {
+          "id": "udemy-react",
+          "icon": "fa-brands fa-react",
+          "title": "دورة ريآكت المكثفة: من الصفر إلى الاحتراف (React Crash Course)",
+          "issuer": "منصة يوديمي (Udemy)",
+          "date": "12 فبراير 2025",
+          "credentialId": "UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "file": "udemy-react-crash-course.pdf",
+          "verifyUrl": "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
+          "category": "web",
+          "topics": [
+            "React 18",
+            "المكونات",
+            "Hooks",
+            "هندسة SPA"
+          ]
+        },
+        {
+          "id": "datacamp-ai",
+          "icon": "fa-solid fa-brain",
+          "title": "أساسيات الذكاء الاصطناعي (AI Fundamentals)",
+          "issuer": "منصة DataCamp الدولية",
+          "date": "18 فبراير 2025",
+          "credentialId": "AIF0024593675737",
+          "file": "datacamp-ai-fundamentals.pdf",
+          "verifyUrl": "https://www.datacamp.com/certificate/AIF0024593675737",
+          "category": "ai",
+          "topics": [
+            "تعلم الآلة",
+            "التعلم العميق",
+            "الذكاء الاصطناعي التوليدي",
+            "أخلاقيات الـ AI"
+          ]
+        },
+        {
+          "id": "365-python-bootcamp",
+          "icon": "fa-brands fa-python",
+          "title": "معسكر مبرمج بايثون المتقدم (Python Programmer Bootcamp)",
+          "issuer": "منصة 365 Data Science",
+          "date": "06 نوفمبر 2024",
+          "credentialId": "CC-A50846FC72",
+          "file": "365-python-bootcamp.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-A50846FC72/",
+          "category": "data",
+          "topics": [
+            "البرمجة كائنية التوجه OOP",
+            "هياكل البيانات",
+            "الخوارزميات",
+            "أتمتة المهام"
+          ]
+        },
+        {
+          "id": "365-sql",
+          "icon": "fa-solid fa-database",
+          "title": "تخصص قواعد البيانات SQL (SQL Specialist)",
+          "issuer": "منصة 365 Data Science",
+          "date": "06 نوفمبر 2024",
+          "credentialId": "CC-B3861F4F83",
+          "file": "365-sql.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
+          "category": "data",
+          "topics": [
+            "قواعد البيانات العلائقية",
+            "استعلامات معقدة",
+            "الربط Joins",
+            "تجميع البيانات"
+          ]
+        },
+        {
+          "id": "digigirlz-ai-workshop",
+          "icon": "fa-solid fa-shield-halved",
+          "title": "ورشة عمل قرصنة المستقبل: الذكاء الاصطناعي والأمن السيبراني",
+          "issuer": "برنامج DigiGirlz FSAC & Anoual (السفارة الأمريكية)",
+          "date": "09 مارس 2025",
+          "credentialId": "DIGIGIRLZ-FSAC-AI-2025",
+          "file": "digigirlz-fsac-ai-workshop.png",
+          "isImage": true,
+          "verifyUrl": null,
+          "category": "ai",
+          "topics": [
+            "أمن الذكاء الاصطناعي",
+            "الدفاع السيبراني التوليدي",
+            "التحديات الأمنية",
+            "هاكاثون"
+          ]
+        },
+        {
+          "id": "365-git-github",
+          "icon": "fa-brands fa-github",
+          "title": "إدارة المشاريع البرمجية Git و GitHub",
+          "issuer": "منصة 365 Data Science",
+          "date": "06 نوفمبر 2024",
+          "credentialId": "CC-D6C52F35E3",
+          "file": "365-git-github.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
+          "category": "tools",
+          "topics": [
+            "تدفق عمل Git Flow",
+            "الفروع Merging",
+            "طلبات السحب PR",
+            "العمل الجماعي"
+          ]
+        },
+        {
+          "id": "udemy-git",
+          "icon": "fa-brands fa-git-alt",
+          "title": "أساسيات التحكم في الإصدارات Git للمبتدئين",
+          "issuer": "منصة يوديمي (Udemy)",
+          "date": "12 فبراير 2025",
+          "credentialId": "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "file": "udemy-git-for-beginners.pdf",
+          "verifyUrl": "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
+          "category": "tools",
+          "topics": [
+            "أوامر Git الطرفية",
+            "سجل التعديلات",
+            "حل التعارضات",
+            "المستودعات البعيدة"
+          ]
+        },
+        {
+          "id": "udemy-bootstrap-jquery",
+          "icon": "fa-brands fa-bootstrap",
+          "title": "تصميم الويب التفاعلي عبر Bootstrap و jQuery",
+          "issuer": "منصة يوديمي (Udemy)",
+          "date": "12 فبراير 2025",
+          "credentialId": "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "file": "udemy-bootstrap-jquery.pdf",
+          "verifyUrl": "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
+          "category": "web",
+          "topics": [
+            "الشبكات المتجاوبة",
+            "مكونات الواجهة UI",
+            "التحكم في شجرة DOM",
+            "الأحداث والتفاعلات"
+          ]
+        },
+        {
+          "id": "365-chatgpt",
+          "icon": "fa-solid fa-robot",
+          "title": "مقدمة إلى ChatGPT والذكاء الاصطناعي التوليدي",
+          "issuer": "منصة 365 Financial Analyst",
+          "date": "06 نوفمبر 2024",
+          "credentialId": "CC-F657CE4163",
+          "file": "365-chatgpt-generative-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-F657CE4163/",
+          "category": "ai",
+          "topics": [
+            "الذكاء التوليدي",
+            "هندسة الأوامر Prompt",
+            "تطبيقات النماذج الكبيرة",
+            "مضاعفة الإنتاجية"
+          ]
+        },
+        {
+          "id": "365-intro-to-ai",
+          "icon": "fa-solid fa-microchip",
+          "title": "مقدمة شاملة في الذكاء الاصطناعي (Intro to AI)",
+          "issuer": "منصة 365 Data Science",
+          "date": "06 نوفمبر 2024",
+          "credentialId": "CC-6FE6B30A14",
+          "file": "365-intro-to-ai.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
+          "category": "ai",
+          "topics": [
+            "مفاهيم الذكاء الاصطناعي",
+            "التعلم الإشرافي",
+            "الشبكات العصبية",
+            "أخلاقيات التقنية"
+          ]
+        },
+        {
+          "id": "365-intro-to-python",
+          "icon": "fa-brands fa-python",
+          "title": "مقدمة برمجية في لغة بايثون (Intro to Python)",
+          "issuer": "منصة 365 Data Science",
+          "date": "04 نوفمبر 2024",
+          "credentialId": "CC-2B1FF1F1DD",
+          "file": "365-intro-to-python.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
+          "category": "data",
+          "topics": [
+            "قواعد لغة بايثون",
+            "أنواع البيانات",
+            "الدوال والمتغيرات",
+            "بُنى التحكم والشرط"
+          ]
+        },
+        {
+          "id": "365-powerpoint",
+          "icon": "fa-solid fa-file-powerpoint",
+          "title": "تصميم العروض التقديمية الاحترافية PowerPoint",
+          "issuer": "منصة 365 Financial Analyst",
+          "date": "05 نوفمبر 2024",
+          "credentialId": "CC-C294D1D86B",
+          "file": "365-intro-to-powerpoint.pdf",
+          "verifyUrl": "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
+          "category": "tools",
+          "topics": [
+            "العروض التنفيذية",
+            "التسلسل البصري",
+            "تنسيق الشرائح المتقدمة"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "الخبرة والمسار المهني",
+      "subtitle": "سجل مهني موثق يجمع بين التدريب الميداني في التطوير البرمجي والدعم الإداري والتقني.",
+      "items": [
+        {
+          "badge": "04/2025 - 07/2025 (تدريب التخرج PFE)",
+          "title": "متدرب تطوير ويب Full-Stack — شركة MAMO TRADE",
+          "location": "الدار البيضاء، المغرب",
+          "icon": "fa-solid fa-building",
+          "desc": "المشاركة في دورة التطوير الكاملة لحلول الويب الخاصة بالعملاء: بناء وتطوير واجهات المستخدم التفاعلية باستخدام React، ربط وتطوير واجهات برمجة التطبيقات (APIs) باستخدام PHP/Laravel، تصميم نماذج قواعد البيانات وحل المشكلات البرمجية.",
+          "responsibilities": [
+            "تطوير مكونات الواجهة الأمامية وإدارة الحالة التفاعلية باستخدام مكتبة React.",
+            "بناء نقاط نهاية RESTful API وربط المنطق البرمجي الخلفي بواسطة PHP و Laravel.",
+            "التعاون مع المطورين ذوي الخبرة في تصميم هياكل قواعد البيانات وتحسين كفاءة استعلامات SQL.",
+            "معالجة تذاكر الأخطاء البرمجية وإجراء الاختبارات الوظيفية قبل مرحلة الإطلاق."
+          ]
+        },
+        {
+          "badge": "09/2023 - 01/2025 (دوام جزئي)",
+          "title": "مساعد إداري ودعم تقني مكتبي",
+          "location": "الدار البيضاء، المغرب",
+          "icon": "fa-solid fa-briefcase",
+          "desc": "تقديم الدعم الإداري والحلول الرقمية: إعداد وتنسيق المستندات والوثائق المؤسساتية، مساعدة الزبناء في استخدام الحواسيب، تثبيت البرامج، الصيانة الخفيفة واستكشاف الأعطال، وإدارة عمليات الطباعة والمسح الضوئي بدقة.",
+          "responsibilities": [
+            "تقديم الدعم الإداري، إعداد وتنسيق المستندات الرسمية وتقديم الخدمات الرقمية المكتبية.",
+            "مساعدة المستخدمين في استخدام الحاسوب وتثبيت البرمجيات واستكشاف الأخطاء الأساسية وإجراء الطباعة والمسح الضوئي.",
+            "تنظيم الأرشفة الرقمية والورقية ومتابعة سجلات العمل بدقة وكفاءة."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "المشاريع البرمجية المنجزة",
+      "subtitle": "مشاريع حقيقية لعملاء وتطبيقات ويب متكاملة ونماذج تقنية تثبت القدرة على تحويل المتطلبات إلى برمجيات حية.",
+      "filterAll": "جميع المشاريع",
+      "filterLive": "مشاريع حقيقية للعملاء",
+      "filterApp": "تطبيقات ويب متكاملة",
+      "filterProto": "نماذج تقنية",
+      "liveDemo": "معاينة حية",
+      "liveSite": "زيارة الموقع",
+      "caseDetails": "تفاصيل ودراسة المشروع",
+      "sourceCode": "الشيفرة المصدرية",
+      "closeModal": "إغلاق",
+      "modalTechStack": "التقنيات المستخدمة",
+      "modalKeyFeatures": "أبرز الإنجازات والميزات",
+      "modalArchitecture": "الهندسة المعمارية للنظام",
+      "items": [
+        {
+          "id": "solva",
+          "category": "live",
+          "typeLabel": "مشروع حقيقي لعميل",
+          "badgeClass": "badge-live",
+          "badgeText": "موقع مباشر",
+          "icon": "fa-solid fa-industry",
+          "title": "Solva Métallique — موقع شركة إنشاءات معدنية",
+          "role": "مطور الواجهة الأمامية وخبير السيو المحلي",
+          "desc": "موقع مؤسساتي متجاوب لشركة مغربية متخصصة في الإنشاءات المعدنية بالدار البيضاء، يتميز بعرض احترافي للخدمات، سيو محلي متقدم، وقمع تحويل فوري لطلبات عروض الأسعار.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Technical SEO",
+            "تصميم متجاوب"
           ],
-        },
-        {
-          title: 'قواعد البيانات وبيئات العمل',
-          icon: 'fa-solid fa-database',
-          skills: [
-            { name: 'MySQL و SQL العلائقية', icon: 'fa-solid fa-database', level: '85%', className: 'sql' },
-            { name: 'MongoDB (NoSQL)', icon: 'fa-solid fa-leaf', level: '75%', className: 'mongodb' },
-            { name: 'Git و GitHub', icon: 'fa-brands fa-git-alt', level: '85%', className: 'git' },
-            { name: 'Docker', icon: 'fa-brands fa-docker', level: '70%', className: 'docker' },
-            { name: 'بيئة لينكس (Linux CLI)', icon: 'fa-brands fa-linux', level: '80%', className: 'linux' },
-            { name: 'منهجية Agile Scrum و CI/CD', icon: 'fa-solid fa-gears', level: '85%', className: 'agile' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/Solva-Metallique/",
+          "liveText": "زيارة الموقع",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Solva-Metallique",
+          "features": [
+            "تصميم متجاوب بالكامل مع مختلف شاشات الهواتف الذكية والأجهزة اللوحية والحواسيب.",
+            "تهيئة متقدمة للسيو المحلي وSchema بيانات موجهة لسوق الصناعة بالدار البيضاء والمغرب.",
+            "أزرار تواصل وطلب عروض أسعار مباشرة عبر واتساب مع رسائل مجهزة مسبقاً لزيادة التحويل.",
+            "برمجة بلغة JavaScript خام بدون مكتبات ثقيلة مما يحقق سرعة تحميل فائقة تحت الثانية."
           ],
+          "architecture": "هيكلة دلالية متقدمة بـ HTML5، تنسيق مرن عبر متغيرات CSS3، صور حديثة بصيغة WebP، وتفاعلات خفيفة وسريعة."
         },
         {
-          title: 'النمو الرقمي والتصميم الإبداعي',
-          icon: 'fa-solid fa-chart-line',
-          skills: [
-            { name: 'إعلانات Meta (فيسبوك وإنستغرام)', icon: 'fa-solid fa-bullhorn', level: '80%', className: 'meta-ads' },
-            { name: 'إدارة السوشيال ميديا (SMM)', icon: 'fa-solid fa-share-nodes', level: '85%', className: 'smm' },
-            { name: 'تصاميم Canva الإبداعية', icon: 'fa-solid fa-palette', level: '90%', className: 'canva' },
-            { name: 'أساسيات السيو الفني (SEO)', icon: 'fa-solid fa-magnifying-glass-chart', level: '85%', className: 'html' },
+          "id": "gidaprint",
+          "category": "live",
+          "typeLabel": "مشروع حقيقي لعميل",
+          "badgeClass": "badge-live",
+          "badgeText": "موقع مباشر",
+          "icon": "fa-solid fa-print",
+          "title": "GIDAPRINT — وكالة خدمات متعددة",
+          "role": "مطور ويب ومصمم الواجهة",
+          "desc": "بوابة إلكترونية تجارية متعددة الصفحات تنظم خدمات الطباعة والإشهار والهدايا الدعائية وتطوير الويب في مسار تصفح سلس يعزز ثقة الزبناء ويحفزهم على الطلب.",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "تحسين التحويل",
+            "أداء سريع"
           ],
-        },
-        {
-          title: 'اللغات والمهارات الشخصية',
-          icon: 'fa-solid fa-language',
-          skills: [
-            { name: 'العربية (اللغة الأم)', icon: 'fa-solid fa-comment-dots', level: '100%', className: 'arabic' },
-            { name: 'الفرنسية (طلاقة تامة / C2)', icon: 'fa-solid fa-comment-dots', level: '90%', className: 'french' },
-            { name: 'الإنجليزية (مستوى مهني / B2)', icon: 'fa-solid fa-comment-dots', level: '75%', className: 'english' },
-            { name: 'العمل الجماعي والعمل التطوعي', icon: 'fa-solid fa-users', level: '95%', className: 'learning' },
+          "liveUrl": "https://abderrahmane-elfajri.github.io/gidaprint/",
+          "liveText": "زيارة الموقع",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/gidaprint",
+          "features": [
+            "تبويب واضح لأقسام الخدمات مع بطاقات توضيحية وتفاصيل شاملة للمنتجات والحلول.",
+            "دعوات واضحة لاتخاذ إجراء (CTAs) موزعة بشكل استراتيجي لتحفيز الزائر على التواصل.",
+            "تحميل متأخر للصور والوسائط (Lazy Loading) لضمان تجربة تصفح سريعة وسلسة.",
+            "توافق تام ومجرب مع مختلف المتصفحات (Chrome, Safari, Firefox, Edge)."
           ],
+          "architecture": "بنية متعددة الصفحات بتنسيق مركزي موحد، عناصر وصول دلالية، ونقاط تحويل واضحة ومباشرة."
         },
-      ],
+        {
+          "id": "attendance",
+          "category": "app",
+          "typeLabel": "مشروع التخرج الأكاديمي (NTIC 2)",
+          "badgeClass": "badge-app",
+          "badgeText": "تطبيق ويب",
+          "icon": "fa-solid fa-clipboard-user",
+          "title": "نظام إدارة الحضور والغياب الأكاديمي",
+          "role": "مطور Full-Stack (تطوير فردي شامل)",
+          "desc": "تطبيق ويب متكامل تم تطويره في معهد ISTA NTIC لرقمنة تتبع الحضور، إدارة ملفات المتدربين، التحكم في الصلاحيات المتعددة وإصدار تقارير وإحصائيات فورية دقيقة.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "MySQL",
+            "RESTful API",
+            "RBAC"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "إدارة صلاحيات وصول متقدمة تفصل بين مهام الإدارة، الأساتذة، والمتدربين.",
+            "تسجيل الحضور اليومي بضغطة زر مع تمييز فوري للحالات (حاضر، غائب، مبرر).",
+            "لوحات تحكم إحصائية وتقارير تجميعية لنسب الغياب قابلة للطباعة والتصدير.",
+            "تصميم قاعدة بيانات علائقية متوافقة مع معايير التطبيع تضمن سلامة السجلات التاريخية."
+          ],
+          "architecture": "بنية منفصلة: واجهة React تفاعلية (SPA) تتصل بنقاط نهاية REST API آمنة مبنية بإطار Laravel وقاعدة بيانات علائقية MySQL."
+        },
+        {
+          "id": "ecommerce",
+          "category": "app",
+          "typeLabel": "مشروع أكاديمي متكامل",
+          "badgeClass": "badge-app",
+          "badgeText": "تطبيق ويب",
+          "icon": "fa-solid fa-cart-shopping",
+          "title": "منصة تجارة إلكترونية متكاملة Full-Stack",
+          "role": "مطور Full-Stack",
+          "desc": "منصة متجر إلكتروني حديثة تتيح تصفح المنتجات والفلترة الفورية، سلة مشتريات تفاعلية، ومسار إتمام الطلب مع نظام خلفي لإدارة المنتجات والطلبيات عبر Laravel.",
+          "tags": [
+            "React.js",
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "إدارة الحالة"
+          ],
+          "liveUrl": null,
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "فلترة وبحث فوري في المنتجات حسب الفئة والنطاق السعري في واجهة المستخدم.",
+            "سلة مشتريات ديناميكية تحتفظ بالبيانات محلياً وتحدث المجاميع تلقائياً.",
+            "لوحة تحكم للمسؤول تمكن من إدارة المنتجات والتصنيفات وتحديث المخزون.",
+            "صفحة دفع وطلب منظمة مع فحص فوري للمدخلات قبل إرسال الطلب."
+          ],
+          "architecture": "واجهة أمامية باستخدام React تدير الحالة التفاعلية عبر الـ Hooks وتتواصل مع متحكمات Laravel API المرتبطة بـ MySQL."
+        },
+        {
+          "id": "artizan",
+          "category": "prototype",
+          "typeLabel": "نموذج أولي وتصوري",
+          "badgeClass": "badge-prototype",
+          "badgeText": "نموذج أولي",
+          "icon": "fa-solid fa-hammer",
+          "title": "Artizan — منصة الحرفيين المغاربة",
+          "role": "مصمم ومطور الواجهة الأمامية",
+          "desc": "نموذج أولي لمنصة رقمية تسعى للربط بين الحرفيين والصناع التقليديين في المغرب والزبناء عبر ملفات تعريف موثقة، معارض للمنتجات، ونظام طلب عروض أسعار مباشر.",
+          "tags": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "liveUrl": "https://v0-morocco-artisan-platform.vercel.app/",
+          "liveText": "معاينة حية",
+          "githubUrl": "https://github.com/abderrahmane-elfajri",
+          "features": [
+            "صفحات تعريفية متخصصة للحرفيين حسب الصنعة (الفخار، الجلد، النحاسيات، الزليج، الخشب).",
+            "نظام بحث وفلترة جغرافية للمواهب والصناع التقليديين حسب المدن المغربية.",
+            "نافذة منبثقة لطلب عروض الأسعار مع تحديد تفاصيل الخدمة والوقت المطلوب.",
+            "تصميم حديث عبر Tailwind CSS مع دعم التباين العالي وأناقة العرض."
+          ],
+          "architecture": "بنية Next.js مع App Router وأنماط TypeScript لضمان الأمان البرمجي وتنسيق مرن بأدوات Tailwind."
+        }
+      ]
     },
-    education: {
-      title: 'التعليم والشهادات الأكاديمية',
-      subtitle: 'يجمع مساري التعليمي بين التدريب التقني الرقمي المتخصص (OFPPT) والتكوين الجامعي الأكاديمي في علوم الحاسوب والرياضيات (FSAC).',
-      degrees: [
-        {
-          badge: '2024 - 2026 (قيد الدراسة)',
-          title: 'دبلوم الدراسات الجامعية العامة في المعلوميات (DEUG FLI)',
-          location: 'كلية العلوم عين الشق، جامعة الحسن الثاني بالدار البيضاء',
-          desc: 'دراسات جامعية متقدمة في الخوارزميات، هياكل البيانات، نظم تشغيل لينكس، قواعد البيانات وهندسة البرمجيات.',
-          icon: 'fa-solid fa-graduation-cap',
-        },
-        {
-          badge: '2023 - 2025',
-          title: 'تقني متخصص في التطوير الرقمي — خيار التطوير الشامل (Full Stack)',
-          location: 'معهد التكنولوجيا التطبيقية OFPPT ISTA NTIC 2، الدار البيضاء',
-          desc: 'تكوين مهني تطبيقي مكثف في تطوير الواجهات الأمامية (React, JS)، الخوادم الخلفية (Laravel, PHP, Python, Node.js)، قواعد البيانات ومنهجيات Agile.',
-          icon: 'fa-solid fa-laptop-code',
-        },
-        {
-          badge: '2023 - 2024',
-          title: 'بكالوريا أحرار في العلوم الرياضية (أ)',
-          location: 'مؤسسة عين الشق، الدار البيضاء',
-          desc: 'تعزيز التفكير المنطقي والتحليلي وحل المسائل البرمجية والرياضية المعقدة.',
-          icon: 'fa-solid fa-calculator',
-        },
-        {
-          badge: '2022 - 2023',
-          title: 'السنة الأولى إجازة في علوم المادة (فيزياء وكيمياء)',
-          location: 'كلية العلوم عين الشق، جامعة الحسن الثاني بالدار البيضاء',
-          desc: 'دراسات علمية في المنهجية التجريبية والنمذجة والتحليل الكمي للبيانات.',
-          icon: 'fa-solid fa-flask',
-        },
-        {
-          badge: '2021 - 2022',
-          title: 'بكالوريا في العلوم الفيزيائية والكيميائية',
-          location: 'ثانوية ابن العربي، الدار البيضاء',
-          desc: 'شهادة ثانوية علمية بالتركيز على العلوم الدقيقة والتفكير المنهجي.',
-          icon: 'fa-solid fa-award',
-        },
-      ],
-            certTitle: "الشهادات والاعتمادات المهنية الموثقة",
-      certSubtitle: "12 شهادة تخصصية معتمدة بروابط تحقق حية ومعرفات رسمية ونسخ وثائق أصلية قابلة للعرض والتحميل.",
-      filterAll: "جميع الشهادات",
-      filterWeb: "تطوير الويب",
-      filterAI: "الذكاء الاصطناعي والأمان",
-      filterData: "بايثون وقواعد البيانات",
-      filterTools: "أدوات التطوير وGit",
-      viewDoc: "عرض الوثيقة (PDF / صورة)",
-      verifyOnline: "التحقق المباشر عبر المنصة",
-      credentialLabel: "المرجع / المعرف الرسمي",
-      copyId: "نسخ الرمز",
-      copied: "تم النسخ!",
-      modalClose: "إغلاق المعاينة",
-      modalOpenNewTab: "فتح في نافذة جديدة",
-      certifications: [
-        {
-          id: "udemy-react",
-          icon: "fa-brands fa-react",
-          title: "دورة ريآكت المكثفة: من الصفر إلى الاحتراف (React Crash Course)",
-          issuer: "منصة يوديمي (Udemy)",
-          date: "12 فبراير 2025",
-          credentialId: "UC-630614b3-d648-44fd-a873-f19f291544fa",
-          file: "udemy-react-crash-course.pdf",
-          verifyUrl: "https://ude.my/UC-630614b3-d648-44fd-a873-f19f291544fa",
-          category: "web",
-          topics: ["React 18", "المكونات", "Hooks", "هندسة SPA"],
-        },
-        {
-          id: "datacamp-ai",
-          icon: "fa-solid fa-brain",
-          title: "أساسيات الذكاء الاصطناعي (AI Fundamentals)",
-          issuer: "منصة DataCamp الدولية",
-          date: "18 فبراير 2025",
-          credentialId: "AIF0024593675737",
-          file: "datacamp-ai-fundamentals.pdf",
-          verifyUrl: "https://www.datacamp.com/certificate/AIF0024593675737",
-          category: "ai",
-          topics: ["تعلم الآلة", "التعلم العميق", "الذكاء الاصطناعي التوليدي", "أخلاقيات الـ AI"],
-        },
-        {
-          id: "365-python-bootcamp",
-          icon: "fa-brands fa-python",
-          title: "معسكر مبرمج بايثون المتقدم (Python Programmer Bootcamp)",
-          issuer: "منصة 365 Data Science",
-          date: "06 نوفمبر 2024",
-          credentialId: "CC-A50846FC72",
-          file: "365-python-bootcamp.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-A50846FC72/",
-          category: "data",
-          topics: ["البرمجة كائنية التوجه OOP", "هياكل البيانات", "الخوارزميات", "أتمتة المهام"],
-        },
-        {
-          id: "365-sql",
-          icon: "fa-solid fa-database",
-          title: "تخصص قواعد البيانات SQL (SQL Specialist)",
-          issuer: "منصة 365 Data Science",
-          date: "06 نوفمبر 2024",
-          credentialId: "CC-B3861F4F83",
-          file: "365-sql.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-B3861F4F83/",
-          category: "data",
-          topics: ["قواعد البيانات العلائقية", "استعلامات معقدة", "الربط Joins", "تجميع البيانات"],
-        },
-        {
-          id: "digigirlz-ai-workshop",
-          icon: "fa-solid fa-shield-halved",
-          title: "ورشة عمل قرصنة المستقبل: الذكاء الاصطناعي والأمن السيبراني",
-          issuer: "برنامج DigiGirlz FSAC & Anoual (السفارة الأمريكية)",
-          date: "09 مارس 2025",
-          credentialId: "DIGIGIRLZ-FSAC-AI-2025",
-          file: "digigirlz-fsac-ai-workshop.png",
-          isImage: true,
-          verifyUrl: null,
-          category: "ai",
-          topics: ["أمن الذكاء الاصطناعي", "الدفاع السيبراني التوليدي", "التحديات الأمنية", "هاكاثون"],
-        },
-        {
-          id: "365-git-github",
-          icon: "fa-brands fa-github",
-          title: "إدارة المشاريع البرمجية Git و GitHub",
-          issuer: "منصة 365 Data Science",
-          date: "06 نوفمبر 2024",
-          credentialId: "CC-D6C52F35E3",
-          file: "365-git-github.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-D6C52F35E3/",
-          category: "tools",
-          topics: ["تدفق عمل Git Flow", "الفروع Merging", "طلبات السحب PR", "العمل الجماعي"],
-        },
-        {
-          id: "udemy-git",
-          icon: "fa-brands fa-git-alt",
-          title: "أساسيات التحكم في الإصدارات Git للمبتدئين",
-          issuer: "منصة يوديمي (Udemy)",
-          date: "12 فبراير 2025",
-          credentialId: "UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          file: "udemy-git-for-beginners.pdf",
-          verifyUrl: "https://ude.my/UC-8e1d061a-59b5-4fef-9083-d94f2d7699e5",
-          category: "tools",
-          topics: ["أوامر Git الطرفية", "سجل التعديلات", "حل التعارضات", "المستودعات البعيدة"],
-        },
-        {
-          id: "udemy-bootstrap-jquery",
-          icon: "fa-brands fa-bootstrap",
-          title: "تصميم الويب التفاعلي عبر Bootstrap و jQuery",
-          issuer: "منصة يوديمي (Udemy)",
-          date: "12 فبراير 2025",
-          credentialId: "UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          file: "udemy-bootstrap-jquery.pdf",
-          verifyUrl: "https://ude.my/UC-0ba9f6a5-a984-437c-89ab-97076e6c7447",
-          category: "web",
-          topics: ["الشبكات المتجاوبة", "مكونات الواجهة UI", "التحكم في شجرة DOM", "الأحداث والتفاعلات"],
-        },
-        {
-          id: "365-chatgpt",
-          icon: "fa-solid fa-robot",
-          title: "مقدمة إلى ChatGPT والذكاء الاصطناعي التوليدي",
-          issuer: "منصة 365 Financial Analyst",
-          date: "06 نوفمبر 2024",
-          credentialId: "CC-F657CE4163",
-          file: "365-chatgpt-generative-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-F657CE4163/",
-          category: "ai",
-          topics: ["الذكاء التوليدي", "هندسة الأوامر Prompt", "تطبيقات النماذج الكبيرة", "مضاعفة الإنتاجية"],
-        },
-        {
-          id: "365-intro-to-ai",
-          icon: "fa-solid fa-microchip",
-          title: "مقدمة شاملة في الذكاء الاصطناعي (Intro to AI)",
-          issuer: "منصة 365 Data Science",
-          date: "06 نوفمبر 2024",
-          credentialId: "CC-6FE6B30A14",
-          file: "365-intro-to-ai.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-6FE6B30A14/",
-          category: "ai",
-          topics: ["مفاهيم الذكاء الاصطناعي", "التعلم الإشرافي", "الشبكات العصبية", "أخلاقيات التقنية"],
-        },
-        {
-          id: "365-intro-to-python",
-          icon: "fa-brands fa-python",
-          title: "مقدمة برمجية في لغة بايثون (Intro to Python)",
-          issuer: "منصة 365 Data Science",
-          date: "04 نوفمبر 2024",
-          credentialId: "CC-2B1FF1F1DD",
-          file: "365-intro-to-python.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-2B1FF1F1DD/",
-          category: "data",
-          topics: ["قواعد لغة بايثون", "أنواع البيانات", "الدوال والمتغيرات", "بُنى التحكم والشرط"],
-        },
-        {
-          id: "365-powerpoint",
-          icon: "fa-solid fa-file-powerpoint",
-          title: "تصميم العروض التقديمية الاحترافية PowerPoint",
-          issuer: "منصة 365 Financial Analyst",
-          date: "05 نوفمبر 2024",
-          credentialId: "CC-C294D1D86B",
-          file: "365-intro-to-powerpoint.pdf",
-          verifyUrl: "https://learn.365datascience.com/certificates/CC-C294D1D86B/",
-          category: "tools",
-          topics: ["العروض التنفيذية", "التسلسل البصري", "تنسيق الشرائح المتقدمة"],
-        },
-      ],
+    "contact": {
+      "title": "دعنا نحقق خطوتك القادمة بنجاح",
+      "subtitle": "هل لديك فكرة مشروع تتطلب تطبيق ويب احترافي، أو استراتيجية لنمو مبيعاتك وأعمالك؟ تواصل معي مباشرة عبر واتساب، البريد الإلكتروني أو الهاتف.",
+      "whatsappTitle": "واتساب مباشر",
+      "emailTitle": "البريد الإلكتروني",
+      "locationTitle": "الموقع الجغرافي",
+      "locationVal": "سيدي معروف، الدار البيضاء، المغرب",
+      "linkedinTitle": "الملف الشخصي LinkedIn",
+      "nameLabel": "اسمك الكريم / اسم المؤسسة",
+      "namePlaceholder": "مثال: كريم بناني",
+      "emailLabel": "عنوان بريدك الإلكتروني",
+      "emailPlaceholder": "مثال: karim@enterprise.ma",
+      "msgLabel": "تفاصيل المشروع",
+      "msgPlaceholder": "اذكر متطلبات تطوير الموقع، الموعد المحدد، أو الأهداف التسويقية المرغوبة...",
+      "sendBtn": "إرسال الرسالة",
+      "sendingBtn": "جاري الإرسال عبر Google Sheets...",
+      "successTitle": "تم إرسال رسالتك بنجاح!",
+      "successMsg": "شكراً لتواصلك! تم تسجيل رسالتك بنجاح في Google Sheets وإرسال إشعار مباشر إلى بريدي الإلكتروني. سأتواصل معك قريباً.",
+      "errorTitle": "تعذر الإرسال التلقائي",
+      "errorMsg": "حدث خطأ مؤقت في الاتصال. يرجى إرسال رسالتك مباشرة عبر واتساب أو البريد الإلكتروني:"
     },
-    experience: {
-      title: 'الخبرات والمسار المهني',
-      subtitle: 'مسار عملي يجمع بين التدريب الميداني بالشركات، تسليم مشاريع حية للعملاء، وتطوير برمجيات متكاملة.',
-      items: [
-        {
-          badge: '04/2025 - 07/2025 (تدريب التخرج PFE)',
-          title: 'متدرب مطور ويب شامل — شركة MAMO TRADE',
-          location: 'الدار البيضاء، المغرب',
-          icon: 'fa-solid fa-building',
-          desc: 'تطوير حلول برمجية مخصصة لعملاء الشركة، بناء واجهات مستخدم تفاعلية باستخدام React، والربط مع واجهات برمجية خلفية فعالة وآمنة.',
-        },
-        {
-          badge: '11/2024 - 03/2025',
-          title: 'مطور ويب شامل — تطبيق إدارة الغياب والحضور',
-          location: 'مشروع أكاديمي NTIC 2 — الدار البيضاء',
-          icon: 'fa-solid fa-laptop-code',
-          desc: 'هندسة منصة سحابية لتتبع الحضور والغياب، إتاحة صلاحيات متقدمة للمستخدمين، وتصدير الإحصائيات الفورية باستخدام React و Laravel.',
-        },
-        {
-          badge: '09/2023 - 01/2025',
-          title: 'مساعد إداري (دوام جزئي)',
-          location: 'الدار البيضاء، المغرب',
-          icon: 'fa-solid fa-briefcase',
-          desc: 'إدارة المهام الإدارية: تحرير وتنسيق الوثائق، إصدار ومتابعة الفواتير، تنظيم الملفات وتنسيق التواصل مع العملاء.',
-        },
-        {
-          badge: '03/2023 - 04/2024',
-          title: 'مطور ويب — منصة تجارة إلكترونية متكاملة',
-          location: 'مشروع أكاديمي — الدار البيضاء',
-          icon: 'fa-solid fa-cart-shopping',
-          desc: 'تصميم وبناء متجر إلكتروني مع React و Laravel: تصفح المنتجات ديناميكياً، إدارة سلة الشراء لحظياً، وتجربة شراء سلسة وسريعة.',
-        },
-      ],
-    },
-    projects: {
-      title: 'أبرز الأعمال والمشاريع',
-      subtitle: 'البرهان من خلال مشاريع حية وناجحة. باقة مختارة من مواقع الشركات المنشورة، النماذج الأولية والتطبيقات المتكاملة.',
-      filterAll: 'جميع المشاريع',
-      filterLive: 'مواقع حية',
-      filterProto: 'نماذج أولية',
-      filterApp: 'تطبيقات ويب',
-      liveDemo: 'معاينة تجريبية',
-      liveSite: 'زيارة الموقع',
-      caseDetails: 'تفاصيل المشروع',
-      sourceCode: 'الكود المصدري',
-      items: [
-        {
-          id: 'artizan',
-          category: 'prototype',
-          badgeClass: 'badge-prototype',
-          badgeText: 'نموذج أولي',
-          icon: 'fa-solid fa-hammer',
-          title: 'منصة آرتيزان (Artizan) للصناع التقليديين',
-          desc: 'منصة سوق رقمية تفاعلية تهدف لربط الزبائن بالصناع التقليديين المغاربة مع استعراض الخدمات، الملفات الموثقة، الأسعار، الحجوزات ونظام تسجيل متقدم.',
-          tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-          liveUrl: 'https://v0-morocco-artisan-platform.vercel.app/',
-          liveText: 'معاينة تجريبية',
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'solva',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'منشور حي',
-          icon: 'fa-solid fa-industry',
-          title: 'سولفا ميتاليك (Solva Métallique) — موقع شركة',
-          desc: 'موقع مؤسساتي متجاوب لشركة بناء هياكل معدنية بالدار البيضاء، يجمع بين هوية بصرية صناعية، استعراض الخدمات، وسيو محلي مع طلب عروض أسعار مباشر.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'سيو محلي'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/Solva-Metallique/',
-          liveText: 'زيارة الموقع',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/Solva-Metallique',
-        },
-        {
-          id: 'gidaprint',
-          category: 'live',
-          badgeClass: 'badge-live',
-          badgeText: 'منشور حي',
-          icon: 'fa-solid fa-print',
-          title: 'كيدابرنت (GIDAPRINT) — وكالة خدمات إشهارية',
-          desc: 'موقع وكالة متكامل ينظم خدمات الطباعة، اللوحات الإشهارية، الهدايا الترويجية، تطوير الويب وإدارة السوشيال ميديا في مسار طلب سهل وسريع.',
-          tags: ['HTML5', 'CSS3', 'JavaScript', 'واجهة متجاوبة'],
-          liveUrl: 'https://abderrahmane-elfajri.github.io/gidaprint/',
-          liveText: 'زيارة الموقع',
-          githubUrl: 'https://github.com/abderrahmane-elfajri/gidaprint',
-        },
-        {
-          id: 'attendance',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'تطبيق ويب',
-          icon: 'fa-solid fa-clipboard-user',
-          title: 'نظام إدارة الحضور والغياب الإداري',
-          desc: 'تطبيق ويب مؤسساتي لإدارة وتتبع غياب الطلاب، وإصدار التقارير الإحصائية وتوجيه الإشعارات التلقائية باستخدام React و Laravel.',
-          tags: ['React', 'Laravel', 'MySQL', 'REST API'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-        {
-          id: 'ecommerce',
-          category: 'app',
-          badgeClass: 'badge-app',
-          badgeText: 'تطبيق ويب',
-          icon: 'fa-solid fa-cart-shopping',
-          title: 'منصة تجارة إلكترونية كاملة الوظائف',
-          desc: 'متجر إلكتروني متكامل يتميز بتصفح ذكي للمنتجات، إدارة فورية لسلة التسوق، وإنهاء إجراءات الشراء الآمنة بدعم من خادم Laravel.',
-          tags: ['React', 'Laravel', 'PHP', 'SQL'],
-          liveUrl: null,
-          githubUrl: 'https://github.com/abderrahmane-elfajri',
-        },
-      ],
-    },
-    contact: {
-      title: 'دعنا نحقق خطوتك القادمة بنجاح',
-      subtitle: 'هل لديك فكرة مشروع تتطلب تطبيق ويب احترافي، أو استراتيجية لنمو مبيعاتك وأعمالك؟ تواصل معي مباشرة عبر واتساب، البريد الإلكتروني أو الهاتف.',
-      whatsappTitle: 'واتساب مباشر',
-      emailTitle: 'البريد الإلكتروني',
-      locationTitle: 'الموقع الجغرافي',
-      locationVal: 'سيدي معروف، الدار البيضاء، المغرب',
-      linkedinTitle: 'الملف الشخصي LinkedIn',
-      nameLabel: 'اسمك الكريم / اسم المؤسسة',
-      namePlaceholder: 'مثال: كريم بناني',
-      emailLabel: 'عنوان بريدك الإلكتروني',
-      emailPlaceholder: 'مثال: karim@enterprise.ma',
-      msgLabel: 'تفاصيل المشروع',
-      msgPlaceholder: 'اذكر متطلبات تطوير الموقع، الموعد المحدد، أو الأهداف التسويقية المرغوبة...',
-      sendBtn: 'إرسال الرسالة',
-      sendingBtn: 'جاري الإرسال عبر Google Sheets...',
-      successTitle: 'تم إرسال رسالتك بنجاح!',
-      successMsg: 'شكراً لتواصلك! تم تسجيل رسالتك بنجاح في Google Sheets وإرسال إشعار مباشر إلى بريدي الإلكتروني. سأتواصل معك قريباً.',
-      errorTitle: 'تعذر الإرسال التلقائي',
-      errorMsg: 'حدث خطأ مؤقت في الاتصال. يرجى إرسال رسالتك مباشرة عبر واتساب أو البريد الإلكتروني:',
-    },
-    footer: {
-      rights: 'جميع الحقوق محفوظة. سيدي معروف، الدار البيضاء، المغرب.',
-    },
-  },
+    "footer": {
+      "rights": "جميع الحقوق محفوظة. سيدي معروف، الدار البيضاء، المغرب."
+    }
+  }
 };

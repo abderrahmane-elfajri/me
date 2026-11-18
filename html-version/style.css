@@ -1775,3 +1775,102 @@ footer {
         padding: 2.5rem 4%;
     }
 }
+
+
+/* ==========================================================================
+   RECRUITER STYLING: STATUS RIBBON, CV BUTTONS
+   ========================================================================== */
+.hero-status-ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1.8rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 9999px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #cbd5e1;
+  backdrop-filter: blur(8px);
+}
+
+.status-badge i {
+  color: var(--main-color);
+  font-size: 1.2rem;
+}
+
+.status-badge.open-badge {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: rgba(34, 197, 94, 0.45);
+  color: #4ade80;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.2);
+}
+
+.status-badge.open-badge .status-ping-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 10px #22c55e;
+  animation: pulseGreen 1.8s ease-in-out infinite;
+}
+
+@keyframes pulseGreen {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.35); opacity: 0.7; }
+}
+
+.hero-bio {
+  font-size: 1.6rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.btn-cv {
+  background: linear-gradient(135deg, rgba(0, 238, 255, 0.18), rgba(0, 238, 255, 0.05)) !important;
+  border: 2px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+  box-shadow: 0 0 18px rgba(0, 238, 255, 0.25) !important;
+  font-weight: 700 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn-cv:hover {
+  background: var(--main-color) !important;
+  color: var(--bg-color) !important;
+  box-shadow: 0 0 30px rgba(0, 238, 255, 0.55) !important;
+  transform: translateY(-2px);
+}
+
+.nav-cv-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 9999px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: rgba(0, 238, 255, 0.12);
+  border: 1.5px solid var(--main-color);
+  color: var(--main-color) !important;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: 0 0 12px rgba(0, 238, 255, 0.2);
+}
+
+.nav-cv-pill:hover {
+  background: var(--main-color);
+  color: var(--bg-color) !important;
+  box-shadow: 0 0 20px rgba(0, 238, 255, 0.45);
+}

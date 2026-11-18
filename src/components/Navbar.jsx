@@ -7,6 +7,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
   const { language, setLanguage, t } = useLanguage();
+  const cvPath = `${import.meta.env.BASE_URL}Abderrahmane_El_Fajri_CV.pdf`;
 
   // Close menu on route change
   useEffect(() => {
@@ -52,9 +53,26 @@ const Navbar = () => {
         <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
           {t.nav.contact}
         </NavLink>
+        <a
+          href={cvPath}
+          download="Abderrahmane_El_Fajri_CV.pdf"
+          className="nav-mobile-cv"
+        >
+          <i className="fa-solid fa-file-arrow-down"></i> {t.home.downloadCv || 'Download CV'}
+        </a>
       </nav>
 
       <div className="header-actions">
+        <a
+          href={cvPath}
+          download="Abderrahmane_El_Fajri_CV.pdf"
+          className="nav-cv-pill"
+          title="Download Professional CV (PDF)"
+        >
+          <i className="fa-solid fa-file-arrow-down"></i>
+          <span>{t.nav.downloadCv || 'CV'}</span>
+        </a>
+
         <div className="lang-switcher">
           <button
             type="button"

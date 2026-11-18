@@ -2216,3 +2216,592 @@ footer {
     left: auto;
   }
 }
+
+
+/* ==========================================================================
+   RECRUITER PORTFOLIO ENHANCEMENTS: CV, STATUS RIBBON, SKILLS CARDS & CASE STUDIES
+   ========================================================================== */
+
+/* --- Recruiter Quick Status Ribbon --- */
+.hero-status-ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1.8rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 9999px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #cbd5e1;
+  backdrop-filter: blur(8px);
+  transition: var(--transition);
+}
+
+.status-badge i {
+  color: var(--main-color);
+  font-size: 1.2rem;
+}
+
+.status-badge.open-badge {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: rgba(34, 197, 94, 0.45);
+  color: #4ade80;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.2);
+}
+
+.status-badge.open-badge .status-ping-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 10px #22c55e;
+  animation: pulseGreen 1.8s ease-in-out infinite;
+}
+
+@keyframes pulseGreen {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.35);
+    opacity: 0.7;
+  }
+}
+
+.hero-bio {
+  font-size: 1.6rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+/* --- Download CV Buttons --- */
+.btn-cv {
+  background: linear-gradient(135deg, rgba(0, 238, 255, 0.18), rgba(0, 238, 255, 0.05)) !important;
+  border: 2px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+  box-shadow: 0 0 18px rgba(0, 238, 255, 0.25) !important;
+  font-weight: 700 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn-cv:hover {
+  background: var(--main-color) !important;
+  color: var(--bg-color) !important;
+  box-shadow: 0 0 30px rgba(0, 238, 255, 0.55) !important;
+  transform: translateY(-2px);
+}
+
+.nav-cv-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 9999px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: rgba(0, 238, 255, 0.12);
+  border: 1.5px solid var(--main-color);
+  color: var(--main-color);
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: 0 0 12px rgba(0, 238, 255, 0.2);
+}
+
+.nav-cv-pill:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 20px rgba(0, 238, 255, 0.45);
+  transform: translateY(-1px);
+}
+
+.nav-mobile-cv {
+  display: none;
+}
+
+@media (max-width: 995px) {
+  .nav-cv-pill {
+    display: none;
+  }
+  .nav-mobile-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: var(--main-color);
+    color: var(--bg-color);
+    margin-top: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.35);
+  }
+}
+
+/* --- Categorized Skills Stack --- */
+.skills-categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-category-card {
+  background: var(--second-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.6rem;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: var(--transition);
+}
+
+.skills-category-card:hover {
+  border-color: rgba(0, 238, 255, 0.3);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 238, 255, 0.1);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.category-header-title i {
+  font-size: 2.2rem;
+  color: var(--main-color);
+}
+
+.category-header-title h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.category-badge {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.4rem 1.1rem;
+  border-radius: 9999px;
+  background: rgba(0, 238, 255, 0.1);
+  color: var(--main-color);
+  border: 1px solid rgba(0, 238, 255, 0.25);
+}
+
+.skills-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.6rem;
+}
+
+.skill-item-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 1.6rem;
+  background: rgba(11, 17, 32, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 1.2rem;
+  transition: var(--transition);
+}
+
+.skill-item-card:hover {
+  background: rgba(11, 17, 32, 0.9);
+  border-color: rgba(0, 238, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.skill-main-info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.skill-icon-wrapper {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 0.8rem;
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.skill-item-name {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.skill-level-badge {
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.35rem 0.9rem;
+  border-radius: 9999px;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+.badge-level-production {
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #4ade80;
+}
+
+.badge-level-certified {
+  background: rgba(234, 179, 8, 0.15);
+  border: 1px solid rgba(234, 179, 8, 0.4);
+  color: #facc15;
+}
+
+.badge-level-advanced {
+  background: rgba(0, 238, 255, 0.15);
+  border: 1px solid rgba(0, 238, 255, 0.4);
+  color: var(--main-color);
+}
+
+.badge-level-daily {
+  background: rgba(168, 85, 247, 0.15);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  color: #c084fc;
+}
+
+.badge-level-proficient {
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  color: #60a5fa;
+}
+
+/* --- Timeline Responsibilities in Experience --- */
+.timeline-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.timeline-responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 1.4rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.timeline-responsibilities li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 1.35rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+.timeline-responsibilities li i {
+  color: var(--main-color);
+  font-size: 1.2rem;
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+
+/* --- Projects & Case Study Modal --- */
+.project-sub-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--main-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.project-role-tag {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.project-role-tag i {
+  color: #38bdf8;
+}
+
+.btn-case-study {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #f1f5f9 !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-case-study:hover {
+  background: rgba(0, 238, 255, 0.15) !important;
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+.btn-code {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #cbd5e1 !important;
+}
+
+.btn-code:hover {
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+/* Case Study Modal Styles */
+.case-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 10, 20, 0.88);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.case-modal-card {
+  background: var(--second-bg-color);
+  border: 1px solid rgba(0, 238, 255, 0.3);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 238, 255, 0.15);
+  border-radius: 1.8rem;
+  width: 100%;
+  max-width: 720px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp 0.3s ease-out;
+}
+
+.case-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2.2rem 2.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(11, 17, 32, 0.7);
+}
+
+.case-modal-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.case-modal-header-info h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.case-modal-role {
+  font-size: 1.35rem;
+  color: #38bdf8;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.case-modal-close {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cbd5e1;
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.case-modal-close:hover {
+  background: #e05353;
+  color: #fff;
+  border-color: #e05353;
+}
+
+.case-modal-body {
+  padding: 2.5rem 2.8rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.case-modal-section h4 {
+  font-size: 1.6rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.case-modal-section p {
+  font-size: 1.45rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.case-architecture-text {
+  background: rgba(11, 17, 32, 0.6);
+  padding: 1.4rem 1.8rem;
+  border-radius: 1rem;
+  border-left: 3px solid var(--main-color);
+}
+
+[dir="rtl"] .case-architecture-text {
+  border-left: none;
+  border-right: 3px solid var(--main-color);
+}
+
+.case-features-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.case-features-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 1.4rem;
+  color: #e2e8f0;
+  line-height: 1.5;
+}
+
+.case-features-list li i {
+  color: #22c55e;
+  font-size: 1.4rem;
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+
+.case-tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.case-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  padding: 1.8rem 2.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(11, 17, 32, 0.7);
+  flex-wrap: wrap;
+}
+
+.btn-close {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #cbd5e1 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+  color: #fff !important;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Mobile Fixes for Hero Visual --- */
+@media (max-width: 768px) {
+  .hero-status-ribbon {
+    justify-content: center;
+  }
+  .skills-category-card {
+    padding: 2rem 1.8rem;
+  }
+  .case-modal-header,
+  .case-modal-body,
+  .case-modal-footer {
+    padding: 1.8rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-status-ribbon .status-badge {
+    font-size: 1.15rem;
+    padding: 0.45rem 1rem;
+  }
+  .skills-items-grid {
+    grid-template-columns: 1fr;
+  }
+  .case-modal-card {
+    max-height: 94vh;
+    border-radius: 1.4rem;
+  }
+  .case-modal-header-info h2 {
+    font-size: 1.9rem;
+  }
+  .case-modal-footer {
+    justify-content: stretch;
+  }
+  .case-modal-footer .btn {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
