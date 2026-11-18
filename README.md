@@ -41,25 +41,27 @@ npm run preview
 
 ```
 PORTFOLIO/
-├── public/                 # Static assets (hay.jpeg profile picture)
+├── public/                 # Static assets (CV PDF, verified certificates, favicon)
 ├── src/
 │   ├── assets/             # Images & static assets
 │   ├── components/         # Reusable React components
-│   │   ├── Navbar.jsx      # Sticky navbar with mobile hamburger drawer
+│   │   ├── Navbar.jsx      # Sticky navbar with mobile hamburger drawer & CV pill
 │   │   ├── Footer.jsx      # Unified footer with social links
+│   │   ├── HeroVisual.jsx  # High-tech interactive animated developer visual
 │   │   └── Typewriter.jsx  # Dynamic role typing animation
+│   ├── context/            # LanguageContext (EN, FR, AR with native RTL)
 │   ├── pages/              # Routed pages
-│   │   ├── Home.jsx        # Hero intro, bio, highlights, CTAs
-│   │   ├── Services.jsx    # Build & Grow services + 7-step process
-│   │   ├── Skills.jsx      # 4 categorized skill grids with progress bars
-│   │   ├── Education.jsx   # DEUG, OFPPT & certifications
-│   │   ├── Experience.jsx  # MAMO TRADE PFE, web apps & admin roles
-│   │   ├── Projects.jsx    # Artizan, Solva, GIDAPRINT, filters
-│   │   └── Contact.jsx     # WhatsApp direct card & interactive form
+│   │   ├── Home.jsx        # Recruiter hero, status ribbon, CV download, CTAs
+│   │   ├── Services.jsx    # What I Can Do + 4-phase methodology
+│   │   ├── Skills.jsx      # 5 categorized technical skill cards with badges
+│   │   ├── Education.jsx   # 5 Degrees & 12 verified certificates with PDF viewer
+│   │   ├── Experience.jsx  # Verified professional experience with bulleted tasks
+│   │   ├── Projects.jsx    # 5 Projects with interactive Case Study Modals
+│   │   └── Contact.jsx     # Google Apps Script integrated form & direct contact
+│   ├── translations/       # Full trilingual parity (index.js)
 │   ├── App.jsx             # HashRouter setup & route definitions
-│   ├── index.css           # Responsive design system & media queries
+│   ├── index.css           # Responsive design system & animations
 │   └── main.jsx            # React root mounting
-├── html-version/           # Complete backup of the standalone vanilla HTML version
 ├── dist/                   # Production-ready build output
 ├── package.json
 └── vite.config.js
