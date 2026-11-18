@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <header className={isScrolled ? 'header-scrolled' : ''}>
       <Link to="/" className="logo">
-        ABDO<span>.</span>
+        EL FAJRI<span>.</span>
       </Link>
 
       <nav className={isOpen ? 'active' : ''}>
