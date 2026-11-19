@@ -567,6 +567,35 @@ export const translations = {
       "modalArchitecture": "Engineering Architecture",
       "items": [
         {
+          "id": "rsf-travaux",
+          "category": "live",
+          "typeLabel": "Real-World Client Website",
+          "badgeClass": "badge-live",
+          "badgeText": "Live Site",
+          "icon": "fa-solid fa-helmet-safety",
+          "title": "RSF Travaux — Luxury Interior & General Renovation",
+          "role": "Lead Full-Stack Web Developer & Technical SEO",
+          "desc": "A modern, high-performance commercial web platform for a Casablanca interior architecture and renovation enterprise (rsftravaux.ma), featuring 3D project showcases, bilingual routing, local SEO dominance, and high-conversion WhatsApp quotation funnels.",
+          "tags": [
+            "HTML5 / Semantic",
+            "Modern CSS3",
+            "JavaScript ES6+",
+            "Local SEO & Schema.org",
+            "WhatsApp Funnel",
+            "Responsive Architecture"
+          ],
+          "liveUrl": "https://rsftravaux.ma",
+          "liveText": "Live Site",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/rsf_travaux",
+          "features": [
+            "Bilingual architecture (French & Arabic) with optimized hreflang tags and smooth localized navigation.",
+            "Interactive renovation quote engine with automated pre-filled WhatsApp conversion routing.",
+            "Complete LocalBusiness and GeneralContractor Schema.org JSON-LD structured data for Casablanca search rankings.",
+            "Modern WebP image pipeline, architectural theme switcher, and zero-framework sub-second loading speed."
+          ],
+          "architecture": "Clean semantic HTML5 structure with custom CSS variables, vanilla ES6+ interactions, Moroccan geo-location meta tags, and production deployment on a custom .ma domain with SSL."
+        },
+        {
           "id": "ocr-cin",
           "category": "app",
           "typeLabel": "Computer Vision & AI Web App",
@@ -1327,6 +1356,35 @@ export const translations = {
       "modalArchitecture": "Architecture Technique",
       "items": [
         {
+          "id": "rsf-travaux",
+          "category": "live",
+          "typeLabel": "Site Client Réel en Production",
+          "badgeClass": "badge-live",
+          "badgeText": "Site en Ligne",
+          "icon": "fa-solid fa-helmet-safety",
+          "title": "RSF Travaux — Aménagement Intérieur & Rénovation Clé en Main",
+          "role": "Développeur Web Principal & Spécialiste SEO",
+          "desc": "Plateforme commerciale et vitrine web haute performance pour une entreprise casablancaise d'aménagement d'intérieur et de rénovation tous corps d'état (rsftravaux.ma), avec galerie de projets 3D, SEO local optimisé et tunnels de devis WhatsApp.",
+          "tags": [
+            "HTML5 Sémantique",
+            "CSS3 Moderne",
+            "JavaScript ES6+",
+            "SEO Local & Schema.org",
+            "Tunnel WhatsApp",
+            "Design Responsive"
+          ],
+          "liveUrl": "https://rsftravaux.ma",
+          "liveText": "Visiter le Site",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/rsf_travaux",
+          "features": [
+            "Architecture bilingue (Français & Arabe) avec balises hreflang et navigation multilingue fluide.",
+            "Tunnel d'acquisition et formulaire de demande de devis connecté directement à WhatsApp avec messages pré-remplis.",
+            "Balisage Schema.org LocalBusiness et GeneralContractor complet ciblant le marché casablancais et marocain.",
+            "Chargement ultra-rapide sous la seconde grâce à des images WebP optimisées et un code JavaScript vanilla épuré."
+          ],
+          "architecture": "Structure HTML5 sémantique avec variables CSS3 modulaires, interactions JavaScript ES6+ sans dépendances superflues, métadonnées géo-localisées (Casablanca) et hébergement haute disponibilité sur nom de domaine personnalisé .ma."
+        },
+        {
           "id": "ocr-cin",
           "category": "app",
           "typeLabel": "Application IA & Vision par Ordinateur",
@@ -2086,6 +2144,35 @@ export const translations = {
       "modalKeyFeatures": "أبرز الإنجازات والميزات",
       "modalArchitecture": "الهندسة المعمارية للنظام",
       "items": [
+        {
+          "id": "rsf-travaux",
+          "category": "live",
+          "typeLabel": "موقع إلكتروني تجاري حقيقي (عميل)",
+          "badgeClass": "badge-live",
+          "badgeText": "موقع مباشر",
+          "icon": "fa-solid fa-helmet-safety",
+          "title": "RSF Travaux — التهيئة الداخلية وأشغال البناء والتجديد الشامل",
+          "role": "مطور ويب رئيسي وخبير السيو المحلي (SEO)",
+          "desc": "منصة ويب تجارية متكاملة وعالية الأداء لشركة مغربية متخصصة في التهيئة الداخلية وأعمال التجديد الشامل بالدار البيضاء (rsftravaux.ma)، مع عرض تصاميم 3D، وتهيئة متقدمة لمحركات البحث، ومسار مباشر لطلب عروض الأسعار عبر واتساب.",
+          "tags": [
+            "HTML5 دلالي",
+            "CSS3 حديث",
+            "جافاسكريبت ES6+",
+            "سيو محلي & Schema.org",
+            "واتساب مباشر",
+            "تصميم متجاوب"
+          ],
+          "liveUrl": "https://rsftravaux.ma",
+          "liveText": "زيارة الموقع",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/rsf_travaux",
+          "features": [
+            "بنية برمجية ثنائية اللغة (الفرنسية والعربية) مع وسوم hreflang الموجهة لمحركات البحث وسلاسة التنقل.",
+            "نظام متطور لطلب عروض الأسعار السريعة مع توجيه مباشر لمحادثات واتساب برسائل معدة مسبقاً لرفع نسبة التحويل.",
+            "تطبيق كامل لبيانات السيو المنظمة Schema.org (LocalBusiness) لتعزيز تصدر نتائج البحث في الدار البيضاء والمغرب.",
+            "سرعة تحميل فائقة بأقل من ثانية بفضل صور WebP الحديثة وكود جافاسكريبت أصيل وخفيف الوزن بدون أطر عمل ثقيلة."
+          ],
+          "architecture": "بنية برمجية معيارية بـ HTML5 الدلالي وخصائص CSS3 الحديثة، مع تفاعلات برمجية خفيفة بجافاسكريبت، وإعدادات جغرافية للدار البيضاء، ونشر مباشر على نطاق مغربي رسمي (.ma) مع حماية SSL."
+        },
         {
           "id": "ocr-cin",
           "category": "app",
