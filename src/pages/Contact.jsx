@@ -12,7 +12,7 @@ const Contact = () => {
   // Users can set VITE_GOOGLE_SCRIPT_URL in .env, or replace the fallback URL below
   const GOOGLE_SCRIPT_URL =
     import.meta.env.VITE_GOOGLE_SCRIPT_URL ||
-    'https://script.google.com/macros/s/AKfycbyN15O4w1pE8Q7R6s5t4u3v2w1x0y_placeholder/exec';
+    'https://script.google.com/macros/s/AKfycbz6HOx6nGOZ1HsXtEexWPjNtwjg4g1aQILAuNGOvahvzchdZnZo_mvsXCOcwqr8X-lW/exec';
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
