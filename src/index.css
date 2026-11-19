@@ -1834,391 +1834,6 @@ footer {
 }
 
 /* ==========================================================================
-   Responsive Breakpoints Hierarchy (Zero Overflow)
-   ========================================================================== */
-
-/* 1. Laptops & Small Desktops (max-width: 1200px) */
-@media (max-width: 1200px) {
-  html {
-    font-size: 58%;
-  }
-}
-
-/* 2. Tablets & Mobile Landscape (max-width: 995px) */
-@media (max-width: 995px) {
-  #menu-icon {
-    display: block;
-  }
-
-  nav {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    max-height: calc(100vh - 8rem);
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 2.5rem 9%;
-    background-color: rgba(18, 18, 18, 0.98);
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    border-bottom: 2px solid var(--main-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-  }
-
-  nav.active {
-    display: flex;
-  }
-
-  nav a {
-    display: block;
-    font-size: 2rem;
-    margin: 1rem 0;
-    width: 100%;
-  }
-
-  .home {
-    flex-direction: column;
-    text-align: center;
-    gap: 3.5rem;
-    padding-top: 13rem;
-  }
-
-  .home-visual-area {
-    margin: 0 auto;
-  }
-
-  .hero-visual-wrapper {
-    width: 320px;
-    height: 320px;
-  }
-
-  .radar-ring-outer {
-    width: 310px;
-    height: 310px;
-  }
-
-  .radar-ring-middle {
-    width: 260px;
-    height: 260px;
-  }
-
-  .radar-ring-inner {
-    width: 210px;
-    height: 210px;
-  }
-
-  .developer-core {
-    width: 180px;
-    height: 180px;
-  }
-
-  .home-content h1 {
-    font-size: 4rem;
-  }
-
-  .home-content p {
-    margin: 0 auto;
-  }
-
-  .typing-text {
-    justify-content: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-  }
-
-  .home-buttons {
-    justify-content: center;
-  }
-
-  .hero-highlights {
-    justify-content: center;
-  }
-
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-/* 3. Phablets & Large Phones (max-width: 768px) */
-@media (max-width: 768px) {
-  html {
-    font-size: 58%;
-  }
-
-  header {
-    padding: 1.6rem 6%;
-  }
-
-  section {
-    padding: 12rem 6% 6rem;
-  }
-
-  .services-container,
-  .project-list,
-  .skills-grid,
-  .cert-grid,
-  .cert-grid-v2,
-  .contact-info-grid,
-  .process-container {
-    grid-template-columns: 1fr;
-  }
-
-  .section-title {
-    font-size: 3.4rem;
-    margin-bottom: 3.5rem;
-  }
-
-  .section-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 3.5rem;
-  }
-
-  .timeline {
-    padding-left: 2.2rem;
-  }
-
-  .timeline-item::before {
-    left: -2.9rem;
-  }
-}
-
-/* 4. Standard & Small Mobile Screens (max-width: 480px) */
-@media (max-width: 480px) {
-  html {
-    font-size: 56%;
-  }
-
-  header {
-    padding: 1.4rem 4%;
-  }
-
-  section {
-    padding: 10rem 4% 4rem;
-  }
-
-  .section-title {
-    font-size: 3rem;
-  }
-
-  .home-content h1 {
-    font-size: 3.2rem;
-  }
-
-  .home-content h3 {
-    font-size: 2.2rem;
-  }
-
-  .hero-visual-wrapper {
-    width: 260px;
-    height: 260px;
-  }
-
-  .radar-ring-outer {
-    width: 250px;
-    height: 250px;
-  }
-
-  .radar-ring-middle {
-    width: 210px;
-    height: 210px;
-  }
-
-  .radar-ring-inner {
-    width: 170px;
-    height: 170px;
-  }
-
-  .developer-core {
-    width: 140px;
-    height: 140px;
-  }
-
-  .orbit-badge {
-    padding: 0.4rem 0.8rem;
-    font-size: 1.1rem;
-    gap: 0.4rem;
-  }
-
-  .badge-react {
-    top: 5px;
-    left: 0;
-  }
-
-  .badge-python {
-    top: 10px;
-    right: 0;
-  }
-
-  .badge-laravel {
-    bottom: 15px;
-    left: 0;
-  }
-
-  .badge-database {
-    bottom: 10px;
-    right: 0;
-  }
-
-  .hero-status-pill {
-    top: -15px;
-    padding: 0.35rem 0.9rem;
-  }
-
-  .status-text {
-    font-size: 1.05rem;
-  }
-
-  .hero-role-pill {
-    bottom: -12px;
-    padding: 0.35rem 0.9rem;
-    font-size: 1.05rem;
-  }
-
-  .home-buttons {
-    flex-direction: column;
-    width: 100%;
-    gap: 1.2rem;
-  }
-
-  .home-buttons .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .project-links {
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-  }
-
-  .project-links .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-highlights {
-    flex-direction: column;
-    width: 100%;
-    gap: 0.8rem;
-  }
-
-  .highlight-badge {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .timeline {
-    padding-left: 1.8rem;
-  }
-
-  .timeline-item {
-    padding: 1.8rem 1.6rem;
-  }
-
-  .timeline-item h4 {
-    font-size: 1.8rem;
-  }
-
-  .timeline-item::before {
-    left: -2.5rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    top: 2rem;
-  }
-
-  .contact-form {
-    padding: 2.5rem 1.6rem;
-    border-radius: 1.2rem;
-  }
-
-  .service-box,
-  .project-content,
-  .skill-box,
-  .contact-card,
-  .cert-card,
-  .cert-card-v2 {
-    padding: 2.2rem 1.8rem;
-  }
-
-  .cert-actions {
-    flex-direction: column;
-  }
-
-  .btn-cert-preview,
-  .btn-cert-doc,
-  .btn-cert-verify {
-    width: 100%;
-  }
-
-  .cert-modal-content {
-    width: 98%;
-    height: 94vh;
-    border-radius: 1.2rem;
-  }
-
-  .cert-modal-header {
-    padding: 1.2rem 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .cert-modal-header-actions {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  footer {
-    padding: 2.5rem 4%;
-  }
-}
-
-/* RTL Media Queries */
-@media (max-width: 995px) {
-  [dir="rtl"] nav {
-    text-align: right;
-    align-items: flex-end;
-  }
-
-  [dir="rtl"] nav a {
-    margin: 1rem 0;
-  }
-
-  [dir="rtl"] .home {
-    text-align: center;
-  }
-
-  [dir="rtl"] .timeline {
-    padding-left: 0;
-    padding-right: 2.2rem;
-  }
-
-  [dir="rtl"] .timeline-item::before {
-    left: auto;
-    right: -2.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  [dir="rtl"] .timeline {
-    padding-right: 1.8rem;
-  }
-
-  [dir="rtl"] .timeline-item::before {
-    right: -2.5rem;
-    left: auto;
-  }
-}
-
-
-/* ==========================================================================
    RECRUITER PORTFOLIO ENHANCEMENTS: CV, STATUS RIBBON, SKILLS CARDS & CASE STUDIES
    ========================================================================== */
 
@@ -2329,27 +1944,6 @@ footer {
 
 .nav-mobile-cv {
   display: none;
-}
-
-@media (max-width: 995px) {
-  .nav-cv-pill {
-    display: none;
-  }
-  .nav-mobile-cv {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.8rem;
-    padding: 1.2rem 2.4rem;
-    border-radius: 0.8rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    background: var(--main-color);
-    color: var(--bg-color);
-    margin-top: 1.5rem;
-    text-decoration: none;
-    box-shadow: 0 0 15px rgba(0, 238, 255, 0.35);
-  }
 }
 
 /* --- Categorized Skills Stack --- */
@@ -2768,44 +2362,6 @@ footer {
 }
 
 /* --- Mobile Fixes for Hero Visual --- */
-@media (max-width: 768px) {
-  .hero-status-ribbon {
-    justify-content: center;
-  }
-  .skills-category-card {
-    padding: 2rem 1.8rem;
-  }
-  .case-modal-header,
-  .case-modal-body,
-  .case-modal-footer {
-    padding: 1.8rem 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-status-ribbon .status-badge {
-    font-size: 1.15rem;
-    padding: 0.45rem 1rem;
-  }
-  .skills-items-grid {
-    grid-template-columns: 1fr;
-  }
-  .case-modal-card {
-    max-height: 94vh;
-    border-radius: 1.4rem;
-  }
-  .case-modal-header-info h2 {
-    font-size: 1.9rem;
-  }
-  .case-modal-footer {
-    justify-content: stretch;
-  }
-  .case-modal-footer .btn {
-    flex: 1 1 100%;
-    text-align: center;
-  }
-}
-
 
 /* --- Experience Subsections Styling --- */
 .experience-subsection {
@@ -2883,20 +2439,718 @@ footer {
   color: #c084fc !important;
 }
 
+
+
+/* ==========================================================================
+   UNIFIED RESPONSIVE ARCHITECTURE — ALL SCREEN SIZES (ZERO OVERFLOW)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Large Desktops & Ultrawide (> 1200px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1201px) {
+  .home,
+  .services,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .contact {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Laptops & Small Desktops (max-width: 1200px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+  html {
+    font-size: 58%;
+  }
+
+  header {
+    padding: 1.8rem 6%;
+  }
+
+  section {
+    padding: 10rem 6% 6rem;
+  }
+
+  .home {
+    gap: 4.5rem;
+    padding: 11rem 6% 6rem;
+  }
+
+  .hero-visual-wrapper {
+    width: 340px;
+    height: 340px;
+  }
+
+  .developer-core {
+    width: 190px;
+    height: 190px;
+  }
+
+  .radar-ring-outer {
+    width: 330px;
+    height: 330px;
+  }
+
+  .radar-ring-middle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .radar-ring-inner {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. Tablets & Mobile Landscape (max-width: 995px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 995px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav-cv-pill {
+    display: none;
+  }
+
+  .nav-mobile-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: var(--main-color);
+    color: var(--bg-color);
+    margin-top: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.35);
+    width: 100%;
+  }
+
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: calc(100vh - 7.5rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 2.5rem 6%;
+    background-color: rgba(11, 17, 32, 0.98);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  nav.active {
+    display: flex;
+    animation: slideDownNav 0.25s ease-out forwards;
+  }
+
+  nav a {
+    display: block;
+    font-size: 1.8rem;
+    margin: 0.6rem 0;
+    width: 100%;
+    padding: 0.6rem 0;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    gap: 3.5rem;
+    padding-top: 12rem;
+  }
+
+  .home-visual-area {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .home-content {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-content h1 {
+    font-size: 3.8rem;
+  }
+
+  .home-content p {
+    margin: 0 auto 2rem;
+  }
+
+  .typing-text,
+  .social-icons,
+  .home-buttons,
+  .hero-highlights,
+  .hero-status-ribbon {
+    justify-content: center;
+  }
+
+  .hero-visual-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .developer-core {
+    width: 170px;
+    height: 170px;
+  }
+
+  .radar-ring-outer {
+    width: 290px;
+    height: 290px;
+  }
+
+  .radar-ring-middle {
+    width: 245px;
+    height: 245px;
+  }
+
+  .radar-ring-inner {
+    width: 200px;
+    height: 200px;
+  }
+
+  .orbit-badge {
+    font-size: 1.15rem;
+    padding: 0.5rem 0.9rem;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.8rem;
+    padding: 2.5rem 5%;
+  }
+
+  /* RTL Mode at 995px */
+  [dir="rtl"] nav {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  [dir="rtl"] nav a {
+    margin: 0.6rem 0;
+    text-align: right;
+  }
+
+  [dir="rtl"] .home {
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Phablets & Portrait Tablets (max-width: 768px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
+  html {
+    font-size: 56%;
+  }
+
+  header {
+    padding: 1.4rem 5%;
+  }
+
+  section {
+    padding: 9.5rem 5% 5rem;
+  }
+
+  .section-title {
+    font-size: 3.2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.45rem;
+    margin-bottom: 3rem;
+  }
+
+  .services-container,
+  .process-container,
+  .project-list,
+  .cert-grid,
+  .cert-grid-v2,
+  .certifications-grid,
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .skills-items-grid {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .skills-category-card {
+    padding: 2rem 1.8rem;
+  }
+
+  .experience-subsection {
+    margin-bottom: 4rem;
+  }
+
   .subsection-header {
     padding: 1.4rem 1.6rem;
     gap: 1.2rem;
   }
+
   .subsection-icon-badge {
-    width: 4rem;
-    height: 4rem;
-    font-size: 1.8rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 2rem;
   }
+
   .subsection-title {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
+
   .subsection-desc {
+    font-size: 1.3rem;
+  }
+
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-item {
+    padding: 1.8rem 1.8rem;
+  }
+
+  .timeline-item::before {
+    left: -2.7rem;
+  }
+
+  [dir="rtl"] .timeline {
+    padding-left: 0;
+    padding-right: 2rem;
+  }
+
+  [dir="rtl"] .timeline-item::before {
+    left: auto;
+    right: -2.7rem;
+  }
+
+  .project-filter-tabs,
+  .cert-filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .filter-btn {
+    padding: 0.75rem 1.4rem;
     font-size: 1.25rem;
+  }
+
+  /* Modals */
+  .case-modal-card,
+  .cert-modal-content {
+    width: 95vw;
+    max-height: 90vh;
+    border-radius: 1.4rem;
+  }
+
+  .case-modal-header,
+  .case-modal-body,
+  .case-modal-footer {
+    padding: 1.8rem 2rem;
+  }
+
+  .case-modal-footer {
+    justify-content: stretch;
+    gap: 1rem;
+  }
+
+  .case-modal-footer .btn {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Standard Smartphones (max-width: 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  html {
+    font-size: 54%;
+  }
+
+  header {
+    padding: 1.2rem 4%;
+  }
+
+  section {
+    padding: 8.5rem 4% 4rem;
+  }
+
+  .section-title {
+    font-size: 2.9rem;
+  }
+
+  .home-content h1 {
+    font-size: 2.9rem;
+    line-height: 1.25;
+  }
+
+  .home-content h3 {
+    font-size: 2rem;
+  }
+
+  .hero-visual-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .developer-core {
+    width: 140px;
+    height: 140px;
+  }
+
+  .radar-ring-outer {
+    width: 240px;
+    height: 240px;
+  }
+
+  .radar-ring-middle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .radar-ring-inner {
+    width: 165px;
+    height: 165px;
+  }
+
+  .orbit-badge {
+    padding: 0.4rem 0.75rem;
+    font-size: 1.05rem;
+    gap: 0.4rem;
+  }
+
+  .badge-react {
+    top: 5px;
+    left: 0;
+  }
+
+  .badge-python {
+    top: 10px;
+    right: 0;
+  }
+
+  .badge-laravel {
+    bottom: 15px;
+    left: 0;
+  }
+
+  .badge-database {
+    bottom: 10px;
+    right: 0;
+  }
+
+  .hero-status-pill {
+    top: -14px;
+    padding: 0.35rem 0.9rem;
+    font-size: 1.1rem;
+  }
+
+  .hero-role-pill {
+    bottom: -12px;
+    padding: 0.35rem 0.9rem;
+    font-size: 1.1rem;
+  }
+
+  .hero-status-ribbon {
+    gap: 0.6rem;
+  }
+
+  .hero-status-ribbon .status-badge {
+    font-size: 1.15rem;
+    padding: 0.45rem 1rem;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .home-buttons .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.9rem;
+  }
+
+  .project-links .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-highlights {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .highlight-badge {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .skills-items-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .skill-item-card {
+    padding: 1.1rem 1.4rem;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .timeline {
+    padding-left: 1.8rem;
+  }
+
+  .timeline-item {
+    padding: 1.6rem 1.4rem;
+  }
+
+  .timeline-item h4 {
+    font-size: 1.75rem;
+  }
+
+  .timeline-item::before {
+    left: -2.4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 1.8rem;
+  }
+
+  [dir="rtl"] .timeline {
+    padding-left: 0;
+    padding-right: 1.8rem;
+  }
+
+  [dir="rtl"] .timeline-item::before {
+    right: -2.4rem;
+    left: auto;
+  }
+
+  .cert-actions {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .btn-cert-preview,
+  .btn-cert-doc,
+  .btn-cert-verify {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cert-modal-content {
+    width: 96vw;
+    height: 92vh;
+    border-radius: 1.2rem;
+  }
+
+  .cert-modal-header {
+    padding: 1.2rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .cert-modal-header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .case-modal-card {
+    max-height: 94vh;
+    border-radius: 1.4rem;
+  }
+
+  .case-modal-header-info h2 {
+    font-size: 1.9rem;
+  }
+
+  .contact-form {
+    padding: 2rem 1.6rem;
+    border-radius: 1.2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px; /* Prevents iOS auto-zoom on input focus */
+    padding: 1.2rem 1.4rem;
+  }
+
+  footer {
+    padding: 2.2rem 4%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Extra-Small Mobile Screens (max-width: 380px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    padding: 1rem 3%;
+  }
+
+  .logo {
+    font-size: 2.1rem;
+  }
+
+  .header-actions {
+    gap: 0.8rem;
+  }
+
+  .lang-btn {
+    padding: 0.35rem 0.65rem;
+    font-size: 1.1rem;
+  }
+
+  #menu-icon {
+    font-size: 2.4rem;
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h3 {
+    font-size: 1.75rem;
+  }
+
+  .hero-bio {
+    font-size: 1.35rem;
+  }
+
+  .hero-visual-wrapper {
+    width: 210px;
+    height: 210px;
+  }
+
+  .developer-core {
+    width: 115px;
+    height: 115px;
+  }
+
+  .radar-ring-outer {
+    width: 205px;
+    height: 205px;
+  }
+
+  .radar-ring-middle {
+    width: 175px;
+    height: 175px;
+  }
+
+  .radar-ring-inner {
+    width: 140px;
+    height: 140px;
+  }
+
+  .orbit-badge {
+    font-size: 0.95rem;
+    padding: 0.3rem 0.55rem;
+    gap: 0.3rem;
+  }
+
+  .hero-status-pill,
+  .hero-role-pill {
+    font-size: 0.95rem;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.35rem;
+  }
+
+  .skills-category-card {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .category-header-title h3 {
+    font-size: 1.7rem;
+  }
+
+  .skill-item-card {
+    padding: 0.9rem 1.1rem;
+  }
+
+  .subsection-title {
+    font-size: 1.65rem;
+  }
+
+  .case-modal-card {
+    max-width: 98vw;
+    border-radius: 1.2rem;
+  }
+
+  .case-modal-header,
+  .case-modal-body,
+  .case-modal-footer {
+    padding: 1.4rem 1.5rem;
+  }
+
+  .case-modal-header-info h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7. Touch Devices Specific Ergonomics
+   -------------------------------------------------------------------------- */
+@media (hover: none) and (pointer: coarse) {
+  .btn,
+  .filter-btn,
+  .lang-btn,
+  .nav a,
+  .case-modal-close,
+  .cert-modal-close {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
