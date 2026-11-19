@@ -15,10 +15,36 @@ const RECIPIENT_EMAIL = 'abderrahmanelfajri@gmail.com';
  */
 function doPost(e) {
   try {
-    // 1. Extract form fields
-    const name = (e && e.parameter && e.parameter.name) ? e.parameter.name.trim() : 'Anonymous Visitor';
-    const email = (e && e.parameter && e.parameter.email) ? e.parameter.email.trim() : 'No reply email';
-    const message = (e && e.parameter && e.parameter.message) ? e.parameter.message.trim() : '(No message body provided)';
+    // 1. Extract form fields (supports both form-urlencoded parameters and JSON postData)
+    let name = (e && e.parameter && e.parameter.name) ? e.parameter.name.trim() : '';
+    let email = (e && e.parameter && e.parameter.email) ? e.parameter.email.trim() : '';
+    let message = (e && e.parameter && e.parameter.message) ? e.parameter.message.trim() : '';
+
+    // If e.parameter was empty, try parsing postData (JSON or raw URL-encoded string)
+    if ((!name || !email || !message) && e && e.postData && e.postData.contents) {
+      try {
+        const parsed = JSON.parse(e.postData.contents);
+        if (parsed.name && !name) name = parsed.name.trim();
+        if (parsed.email && !email) email = parsed.email.trim();
+        if (parsed.message && !message) message = parsed.message.trim();
+      } catch (err) {
+        // Fallback for raw urlencoded string
+        const parts = e.postData.contents.split('&');
+        for (let i = 0; i < parts.length; i++) {
+          const pair = parts[i].split('=');
+          const key = decodeURIComponent(pair[0] || '');
+          const val = decodeURIComponent(pair[1] || '');
+          if (key === 'name' && !name) name = val.trim();
+          if (key === 'email' && !email) email = val.trim();
+          if (key === 'message' && !message) message = val.trim();
+        }
+      }
+    }
+
+    // Set safe defaults
+    if (!name) name = 'Website Visitor';
+    if (!email || email.indexOf('@') === -1) email = 'no-reply@portfolio.dev';
+    if (!message) message = '(No message body provided)';
     
     // Format timestamp in Casablanca time
     const timestampStr = new Date().toLocaleString('fr-FR', {
