@@ -240,7 +240,7 @@ nav a.active {
 /* Sections Global */
 section {
   min-height: 100vh;
-  padding: 13rem 9% 7rem;
+  padding: 12rem 5% 6rem;
 }
 
 .section-title {
@@ -328,8 +328,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
-  max-width: 1280px;
+  gap: 6rem;
+  max-width: 1380px;
   margin: 0 auto;
   width: 100%;
 }
@@ -714,35 +714,35 @@ span {
 }
 
 .home-content {
-  flex: 1 1 500px;
+  flex: 1 1 540px;
   min-width: 0;
-  max-width: 650px;
+  max-width: 720px;
 }
 
 .home-content h1 {
-  font-size: clamp(3.2rem, 4.2vw, 4.8rem);
+  font-size: clamp(3.4rem, 4.2vw, 5.2rem);
   font-weight: 700;
   line-height: 1.25;
 }
 
 .home-content h3 {
-  font-size: clamp(2rem, 2.8vw, 2.8rem);
+  font-size: clamp(2.2rem, 2.8vw, 3.2rem);
   margin: 0.8rem 0 1.4rem;
   font-weight: 600;
 }
 
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 1.65rem;
   color: var(--text-muted);
   line-height: 1.8;
-  max-width: 580px;
+  max-width: 620px;
 }
 
 .typing-text {
-  font-size: clamp(2rem, 2.8vw, 2.8rem);
+  font-size: clamp(2.2rem, 2.8vw, 3.2rem);
   font-weight: 600;
   line-height: 1.35;
-  min-height: 4.2rem;
+  min-height: 4.4rem;
   margin: 0.8rem 0 1.4rem;
   display: block;
   word-break: normal;
@@ -1827,7 +1827,7 @@ span {
 /* Footer */
 footer {
   background-color: var(--second-bg-color);
-  padding: 3rem 9%;
+  padding: 3rem 5%;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   justify-content: space-between;
@@ -2483,9 +2483,13 @@ footer {
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   1. Large Desktops & Ultrawide (> 1200px)
+   1a. Standard Desktops (1201px to 1440px)
    -------------------------------------------------------------------------- */
 @media (min-width: 1201px) {
+  html {
+    font-size: 62.5%;
+  }
+
   .home,
   .services,
   .skills,
@@ -2493,16 +2497,419 @@ footer {
   .experience,
   .projects,
   .contact {
-    max-width: 1280px;
+    max-width: 1380px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  header {
+    padding: 1.6rem calc((100% - 1380px) / 2 + 2.5rem);
+  }
+
+  header.header-scrolled {
+    padding: 1.2rem calc((100% - 1380px) / 2 + 2.5rem);
+  }
+
+  footer {
+    padding: 3rem calc((100% - 1380px) / 2 + 2.5rem);
+  }
+
+  .home {
+    gap: 6.5rem;
+    padding: 12rem 2.5rem 6rem;
+  }
+
+  .home-content {
+    flex: 1 1 540px;
+    max-width: 720px;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-content h3 {
+    font-size: 3rem;
+  }
+
+  .typing-text {
+    font-size: 3rem;
+    min-height: 4.4rem;
+  }
+
+  .hero-visual-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  .developer-core {
+    width: 230px;
+    height: 230px;
+  }
+
+  .radar-ring-outer {
+    width: 390px;
+    height: 390px;
+  }
+
+  .radar-ring-middle {
+    width: 330px;
+    height: 330px;
+  }
+
+  .radar-ring-inner {
+    width: 270px;
+    height: 270px;
+  }
+
+  .skills-categories-container {
+    max-width: 1320px;
+  }
+
+  .timeline {
+    max-width: 950px;
+  }
+
+  .contact-container {
+    max-width: 1150px;
   }
 }
 
 /* --------------------------------------------------------------------------
-   2. Laptops & Small Desktops (max-width: 1250px)
+   1b. Large Monitors & Full HD Displays (1441px to 1920px) — The Big Screen
    -------------------------------------------------------------------------- */
-@media (max-width: 1250px) {
+@media (min-width: 1441px) {
+  html {
+    font-size: 66%; /* 1rem = 10.56px - gracefully scales typography, cards, and buttons */
+  }
+
+  .home,
+  .services,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .contact {
+    max-width: 1480px;
+  }
+
+  header {
+    padding: 1.8rem calc((100% - 1480px) / 2 + 3.5rem);
+  }
+
+  header.header-scrolled {
+    padding: 1.3rem calc((100% - 1480px) / 2 + 3.5rem);
+  }
+
+  footer {
+    padding: 3.5rem calc((100% - 1480px) / 2 + 3.5rem);
+  }
+
+  .logo {
+    font-size: 2.8rem;
+  }
+
+  nav a {
+    font-size: 1.65rem;
+    margin-left: 2.6rem;
+  }
+
+  [dir="rtl"] nav a {
+    margin-left: 0;
+    margin-right: 2.6rem;
+  }
+
+  section {
+    padding: 13rem 3.5rem 7rem;
+  }
+
+  .section-title {
+    font-size: 4.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.75rem;
+    max-width: 700px;
+    margin-bottom: 5rem;
+  }
+
+  .home {
+    gap: 8rem;
+    padding: 13rem 3.5rem 7rem;
+  }
+
+  .home-content {
+    flex: 1 1 620px;
+    max-width: 820px;
+  }
+
+  .home-content h1 {
+    font-size: 5.6rem;
+    line-height: 1.22;
+  }
+
+  .home-content h3 {
+    font-size: 3.3rem;
+  }
+
+  .typing-text {
+    font-size: 3.3rem;
+    min-height: 4.8rem;
+  }
+
+  .home-content p {
+    font-size: 1.75rem;
+    max-width: 680px;
+    line-height: 1.85;
+  }
+
+  .hero-visual-wrapper {
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero-visual-glow {
+    width: 390px;
+    height: 390px;
+  }
+
+  .developer-core {
+    width: 255px;
+    height: 255px;
+  }
+
+  .radar-ring-outer {
+    width: 440px;
+    height: 440px;
+  }
+
+  .radar-ring-middle {
+    width: 370px;
+    height: 370px;
+  }
+
+  .radar-ring-inner {
+    width: 300px;
+    height: 300px;
+  }
+
+  .orbit-badge {
+    font-size: 1.35rem;
+    padding: 0.65rem 1.25rem;
+  }
+
+  .hero-highlights {
+    gap: 1.4rem;
+    margin: 2.4rem 0;
+  }
+
+  .highlight-badge {
+    padding: 0.75rem 1.6rem;
+    font-size: 1.45rem;
+  }
+
+  .social-icons a {
+    width: 4.8rem;
+    height: 4.8rem;
+    font-size: 2.2rem;
+  }
+
+  .home-buttons {
+    gap: 1.8rem;
+  }
+
+  .home-buttons .btn {
+    padding: 1.3rem 2.8rem;
+    font-size: 1.6rem;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .service-box {
+    padding: 3.5rem 3rem;
+  }
+
+  .service-box h3 {
+    font-size: 2.4rem;
+  }
+
+  .service-box p {
+    font-size: 1.55rem;
+  }
+
+  .project-list {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 3.5rem;
+  }
+
+  .skills-categories-container {
+    max-width: 1420px;
+  }
+
+  .skills-items-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.8rem;
+  }
+
+  .timeline {
+    max-width: 1050px;
+  }
+
+  .timeline-item {
+    padding: 2.6rem 3rem;
+  }
+
+  .contact-container {
+    max-width: 1250px;
+  }
+
+  .contact-card {
+    padding: 3.5rem 2.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   1c. Ultra-Wide, 2K & 4K Displays (> 1920px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1921px) {
+  html {
+    font-size: 70%; /* 1rem = 11.2px */
+  }
+
+  .home,
+  .services,
+  .skills,
+  .education,
+  .experience,
+  .projects,
+  .contact {
+    max-width: 1680px;
+  }
+
+  header {
+    padding: 2rem calc((100% - 1680px) / 2 + 4.5rem);
+  }
+
+  header.header-scrolled {
+    padding: 1.5rem calc((100% - 1680px) / 2 + 4.5rem);
+  }
+
+  footer {
+    padding: 4rem calc((100% - 1680px) / 2 + 4.5rem);
+  }
+
+  .logo {
+    font-size: 3.2rem;
+  }
+
+  nav a {
+    font-size: 1.8rem;
+    margin-left: 3rem;
+  }
+
+  [dir="rtl"] nav a {
+    margin-left: 0;
+    margin-right: 3rem;
+  }
+
+  section {
+    padding: 15rem 4.5rem 8rem;
+  }
+
+  .home {
+    gap: 10rem;
+    padding: 15rem 4.5rem 8rem;
+  }
+
+  .home-content {
+    flex: 1 1 720px;
+    max-width: 950px;
+  }
+
+  .home-content h1 {
+    font-size: 6.4rem;
+  }
+
+  .home-content h3 {
+    font-size: 3.8rem;
+  }
+
+  .typing-text {
+    font-size: 3.8rem;
+    min-height: 5.4rem;
+  }
+
+  .home-content p {
+    font-size: 1.9rem;
+    max-width: 780px;
+  }
+
+  .hero-visual-wrapper {
+    width: 520px;
+    height: 520px;
+  }
+
+  .hero-visual-glow {
+    width: 450px;
+    height: 450px;
+  }
+
+  .developer-core {
+    width: 300px;
+    height: 300px;
+  }
+
+  .radar-ring-outer {
+    width: 510px;
+    height: 510px;
+  }
+
+  .radar-ring-middle {
+    width: 430px;
+    height: 430px;
+  }
+
+  .radar-ring-inner {
+    width: 350px;
+    height: 350px;
+  }
+
+  .orbit-badge {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+
+  .skills-categories-container {
+    max-width: 1600px;
+  }
+
+  .timeline {
+    max-width: 1200px;
+  }
+
+  .contact-container {
+    max-width: 1400px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Laptops & Small Desktops (max-width: 1200px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
   html {
     font-size: 58%;
   }
