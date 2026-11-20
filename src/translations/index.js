@@ -596,6 +596,36 @@ export const translations = {
           "architecture": "Clean semantic HTML5 structure with custom CSS variables, vanilla ES6+ interactions, Moroccan geo-location meta tags, and production deployment on a custom .ma domain with SSL."
         },
         {
+          "id": "souqly",
+          "category": "live",
+          "typeLabel": "Full-Stack E-Commerce Platform",
+          "badgeClass": "badge-live",
+          "badgeText": "Live Platform",
+          "icon": "fa-solid fa-bag-shopping",
+          "title": "SOUQLY — Smart Multi-Category Commerce Platform",
+          "role": "Full-Stack Laravel & Web Developer",
+          "desc": "A modern luxury e-commerce web platform engineered for the Moroccan market (ecom-one-puce.vercel.app), featuring multi-category cataloging, trilingual localization (FR, AR, EN), MAD currency support, instant search, and integrated Cash on Delivery (COD) checkout funnels.",
+          "tags": [
+            "Laravel",
+            "PHP",
+            "Tailwind CSS",
+            "JavaScript",
+            "Cash on Delivery",
+            "Trilingual (FR/AR/EN)",
+            "Vercel"
+          ],
+          "liveUrl": "https://ecom-one-puce.vercel.app/",
+          "liveText": "Live Platform",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Souqly-E-Commerce-Project-Setup",
+          "features": [
+            "Trilingual localization system supporting French, Arabic (RTL), and English localized routes.",
+            "Seamless Moroccan Cash on Delivery (COD) ordering funnel with automated validation and inspection terms.",
+            "Multi-category catalog architecture with responsive filtering for Horology, Electronics, Fashion, and Home.",
+            "Fast serverless deployment on Vercel with structured OnlineStore Schema.org JSON-LD for Moroccan commerce."
+          ],
+          "architecture": "Full-stack Laravel MVC architecture with modular Blade templates, Tailwind CSS design tokens, dynamic cart state management, and optimized serverless cloud hosting on Vercel."
+        },
+        {
           "id": "ocr-cin",
           "category": "app",
           "typeLabel": "Computer Vision & AI Web App",
@@ -1385,6 +1415,36 @@ export const translations = {
           "architecture": "Structure HTML5 sémantique avec variables CSS3 modulaires, interactions JavaScript ES6+ sans dépendances superflues, métadonnées géo-localisées (Casablanca) et hébergement haute disponibilité sur nom de domaine personnalisé .ma."
         },
         {
+          "id": "souqly",
+          "category": "live",
+          "typeLabel": "Plateforme E-Commerce Full-Stack",
+          "badgeClass": "badge-live",
+          "badgeText": "Plateforme en Ligne",
+          "icon": "fa-solid fa-bag-shopping",
+          "title": "SOUQLY — Plateforme E-Commerce Multi-Catégories Intelligente",
+          "role": "Développeur Full-Stack Laravel & Web",
+          "desc": "Plateforme e-commerce haut de gamme conçue pour le marché marocain (ecom-one-puce.vercel.app), avec catalogue multi-catégories, interface trilingue (FR, Arabe, EN), devises en MAD, recherche instantanée et tunnel de commande avec paiement à la livraison (Cash on Delivery).",
+          "tags": [
+            "Laravel",
+            "PHP",
+            "Tailwind CSS",
+            "JavaScript",
+            "Paiement à la Livraison",
+            "Trilingue (FR/AR/EN)",
+            "Vercel"
+          ],
+          "liveUrl": "https://ecom-one-puce.vercel.app/",
+          "liveText": "Visiter la Plateforme",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Souqly-E-Commerce-Project-Setup",
+          "features": [
+            "Système de localisation trilingue fluide avec support complet du Français, de l'Arabe (RTL) et de l'Anglais.",
+            "Tunnel de commande optimisé avec paiement à la livraison (COD) adapté aux standards du marché marocain.",
+            "Architecture de catalogue multi-catégories (Horlogerie, Électronique, Mode, Maison) avec filtrage instantané.",
+            "Déploiement serverless haute performance sur Vercel et balisage Schema.org OnlineStore complet."
+          ],
+          "architecture": "Architecture MVC Laravel avec composants Blade modulaires, styles utilitaires Tailwind CSS, gestion dynamique du panier et hébergement cloud serverless optimisé sur Vercel."
+        },
+        {
           "id": "ocr-cin",
           "category": "app",
           "typeLabel": "Application IA & Vision par Ordinateur",
@@ -2172,6 +2232,36 @@ export const translations = {
             "سرعة تحميل فائقة بأقل من ثانية بفضل صور WebP الحديثة وكود جافاسكريبت أصيل وخفيف الوزن بدون أطر عمل ثقيلة."
           ],
           "architecture": "بنية برمجية معيارية بـ HTML5 الدلالي وخصائص CSS3 الحديثة، مع تفاعلات برمجية خفيفة بجافاسكريبت، وإعدادات جغرافية للدار البيضاء، ونشر مباشر على نطاق مغربي رسمي (.ma) مع حماية SSL."
+        },
+        {
+          "id": "souqly",
+          "category": "live",
+          "typeLabel": "منصة تجارة إلكترونية متكاملة (Full-Stack)",
+          "badgeClass": "badge-live",
+          "badgeText": "منصة مباشرة",
+          "icon": "fa-solid fa-bag-shopping",
+          "title": "سوقلي (SOUQLY) — منصة التجارة الإلكترونية الذكية متعددة الفئات",
+          "role": "مطور أنظمة ويب متكاملة (Laravel Full-Stack)",
+          "desc": "منصة تجارة إلكترونية عصرية ومبتكرة مخصصة للسوق المغربي (ecom-one-puce.vercel.app)، تتيح تصفح منتجات متعددة الفئات، وتدعم 3 لغات (العربية، الفرنسية، الإنجليزية)، والتسعير بالدرهم المغربي (MAD)، والدفع عند الاستلام.",
+          "tags": [
+            "Laravel",
+            "PHP",
+            "Tailwind CSS",
+            "JavaScript",
+            "الدفع عند الاستلام",
+            "3 لغات (عربي/فرنسي/EN)",
+            "Vercel"
+          ],
+          "liveUrl": "https://ecom-one-puce.vercel.app/",
+          "liveText": "زيارة المنصة",
+          "githubUrl": "https://github.com/abderrahmane-elfajri/Souqly-E-Commerce-Project-Setup",
+          "features": [
+            "نظام تعريب وتوطين ثلاثي اللغات يدعم العربية بالكامل (RTL) مع الفرنسية والإنجليزية.",
+            "مسار شراء مرن وسريع يدعم الدفع عند الاستلام (Cash on Delivery) والفحص عند التسليم في جميع مدن المغرب.",
+            "كتالوج منتجات واسع يشمل الساعات الفاخرة، الإلكترونيات، الأزياء، ومستلزمات المنزل مع بحث وفلترة سريعة.",
+            "استضافة سحابية فائقة السرعة على Vercel مع تطبيق معايير السيو المنظمة Schema.org (OnlineStore)."
+          ],
+          "architecture": "بنية برمجية قائمة على نمط Laravel MVC مع قوالب Blade وتصميم مرن بـ Tailwind CSS، وإدارة حالة السلة برمجياً ونشر سحابي مباشر على منصة Vercel."
         },
         {
           "id": "ocr-cin",
