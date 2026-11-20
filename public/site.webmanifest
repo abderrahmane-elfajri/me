@@ -1,0 +1,23 @@
+{
+  "name": "Abderrahmane El Fajri | Full-Stack Developer",
+  "short_name": "El Fajri",
+  "description": "Portfolio of Abderrahmane El Fajri - Full-Stack Developer based in Casablanca, Morocco.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0b",
+  "theme_color": "#0b0b0b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/profile.jpg",
+      "sizes": "800x800",
+      "type": "image/jpeg"
+    }
+  ]
+}

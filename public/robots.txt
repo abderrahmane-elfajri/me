@@ -1,0 +1,9 @@
+# Robots.txt for Abderrahmane El Fajri Portfolio
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abderrahmanelfajri.space
+
+# Sitemaps
+Sitemap: https://abderrahmanelfajri.space/sitemap.xml

@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SEOUpdater from './components/SEOUpdater';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Skills from './pages/Skills';
@@ -15,6 +16,7 @@ function App() {
   return (
     <LanguageProvider>
       <Router>
+        <SEOUpdater />
         <Navbar />
         <main>
           <Routes>
