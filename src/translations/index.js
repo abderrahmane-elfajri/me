@@ -567,6 +567,34 @@ export const translations = {
       "modalArchitecture": "Engineering Architecture",
       "items": [
         {
+          "id": "emi-engineering-group",
+          "category": "live",
+          "typeLabel": "Real-World Client Website",
+          "badgeClass": "badge-live",
+          "badgeText": "Live Site",
+          "icon": "fa-solid fa-compass-drafting",
+          "title": "EMI Engineering Group — Civil Engineering & Technical Studies (BET)",
+          "role": "Full-Stack Web Developer & Technical SEO",
+          "desc": "A corporate web platform for a Moroccan civil engineering and technical studies firm (emiengineeringgroup.com), showcasing structural engineering, VRD infrastructure, MEP fluids, 3D LiDAR scanning, and construction supervision across Casablanca, Laâyoune, Agadir, and Dakhla.",
+          "tags": [
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "Technical SEO",
+            "Responsive UI",
+            "Custom Domain"
+          ],
+          "liveUrl": "https://emiengineeringgroup.com/",
+          "liveText": "Live Site",
+          "features": [
+            "Structured engineering service showcase covering structural calculation, VRD, fluids, BMR diagnostics, and 3D LiDAR scanning.",
+            "Multi-city regional SEO targeting Casablanca, Laâyoune, Agadir, and Dakhla with canonical and Open Graph metadata.",
+            "Fast, responsive corporate interface with smooth navigation and direct client contact funnels.",
+            "Production deployment on custom domain emiengineeringgroup.com with SSL and optimized asset delivery."
+          ],
+          "architecture": "Modern React and Tailwind CSS frontend bundled with Vite, featuring responsive layout architecture, semantic HTML5 structure, and production SEO configuration."
+        },
+        {
           "id": "rsf-travaux",
           "category": "live",
           "typeLabel": "Real-World Client Website",
@@ -624,34 +652,6 @@ export const translations = {
             "Fast serverless deployment on Vercel with structured OnlineStore Schema.org JSON-LD for Moroccan commerce."
           ],
           "architecture": "Full-stack Laravel MVC architecture with modular Blade templates, Tailwind CSS design tokens, dynamic cart state management, and optimized serverless cloud hosting on Vercel."
-        },
-        {
-          "id": "emi-engineering-group",
-          "category": "live",
-          "typeLabel": "Real-World Client Website",
-          "badgeClass": "badge-live",
-          "badgeText": "Live Site",
-          "icon": "fa-solid fa-compass-drafting",
-          "title": "EMI Engineering Group — Civil Engineering & Technical Studies (BET)",
-          "role": "Full-Stack Web Developer & Technical SEO",
-          "desc": "A corporate web platform for a Moroccan civil engineering and technical studies firm (emiengineeringgroup.com), showcasing structural engineering, VRD infrastructure, MEP fluids, 3D LiDAR scanning, and construction supervision across Casablanca, Laâyoune, Agadir, and Dakhla.",
-          "tags": [
-            "React",
-            "Tailwind CSS",
-            "Vite",
-            "Technical SEO",
-            "Responsive UI",
-            "Custom Domain"
-          ],
-          "liveUrl": "https://emiengineeringgroup.com/",
-          "liveText": "Live Site",
-          "features": [
-            "Structured engineering service showcase covering structural calculation, VRD, fluids, BMR diagnostics, and 3D LiDAR scanning.",
-            "Multi-city regional SEO targeting Casablanca, Laâyoune, Agadir, and Dakhla with canonical and Open Graph metadata.",
-            "Fast, responsive corporate interface with smooth navigation and direct client contact funnels.",
-            "Production deployment on custom domain emiengineeringgroup.com with SSL and optimized asset delivery."
-          ],
-          "architecture": "Modern React and Tailwind CSS frontend bundled with Vite, featuring responsive layout architecture, semantic HTML5 structure, and production SEO configuration."
         },
         {
           "id": "ocr-cin",
@@ -1414,6 +1414,34 @@ export const translations = {
       "modalArchitecture": "Architecture Technique",
       "items": [
         {
+          "id": "emi-engineering-group",
+          "category": "live",
+          "typeLabel": "Site Client Réel en Production",
+          "badgeClass": "badge-live",
+          "badgeText": "Site en Ligne",
+          "icon": "fa-solid fa-compass-drafting",
+          "title": "EMI Engineering Group — Bureau d'Études Techniques BTP",
+          "role": "Développeur Web Full-Stack & SEO Technique",
+          "desc": "Plateforme web institutionnelle pour un bureau d'études techniques BTP au Maroc (emiengineeringgroup.com) : calcul de structures, génie civil, VRD, fluides, diagnostics BMR, scan 3D LiDAR et suivi de travaux à Casablanca, Laâyoune, Agadir et Dakhla.",
+          "tags": [
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "SEO Technique",
+            "Design Responsive",
+            "Domaine Personnalisé"
+          ],
+          "liveUrl": "https://emiengineeringgroup.com/",
+          "liveText": "Visiter le Site",
+          "features": [
+            "Présentation structurée des pôles d'expertise : structures, VRD, fluides, diagnostics BMR et scan 3D LiDAR.",
+            "Optimisation SEO multi-villes ciblant Casablanca, Laâyoune, Agadir et Dakhla avec balises canoniques et Open Graph.",
+            "Interface corporate rapide et responsive avec navigation fluide et tunnel de prise de contact direct.",
+            "Déploiement en production sur emiengineeringgroup.com avec certificat SSL et chargement optimisé."
+          ],
+          "architecture": "Frontend moderne développé avec React, Tailwind CSS et Vite, doté d'une structure HTML5 sémantique, d'un design responsive et d'une configuration SEO complète."
+        },
+        {
           "id": "rsf-travaux",
           "category": "live",
           "typeLabel": "Site Client Réel en Production",
@@ -1471,34 +1499,6 @@ export const translations = {
             "Déploiement serverless haute performance sur Vercel et balisage Schema.org OnlineStore complet."
           ],
           "architecture": "Architecture MVC Laravel avec composants Blade modulaires, styles utilitaires Tailwind CSS, gestion dynamique du panier et hébergement cloud serverless optimisé sur Vercel."
-        },
-        {
-          "id": "emi-engineering-group",
-          "category": "live",
-          "typeLabel": "Site Client Réel en Production",
-          "badgeClass": "badge-live",
-          "badgeText": "Site en Ligne",
-          "icon": "fa-solid fa-compass-drafting",
-          "title": "EMI Engineering Group — Bureau d'Études Techniques BTP",
-          "role": "Développeur Web Full-Stack & SEO Technique",
-          "desc": "Plateforme web institutionnelle pour un bureau d'études techniques BTP au Maroc (emiengineeringgroup.com) : calcul de structures, génie civil, VRD, fluides, diagnostics BMR, scan 3D LiDAR et suivi de travaux à Casablanca, Laâyoune, Agadir et Dakhla.",
-          "tags": [
-            "React",
-            "Tailwind CSS",
-            "Vite",
-            "SEO Technique",
-            "Design Responsive",
-            "Domaine Personnalisé"
-          ],
-          "liveUrl": "https://emiengineeringgroup.com/",
-          "liveText": "Visiter le Site",
-          "features": [
-            "Présentation structurée des pôles d'expertise : structures, VRD, fluides, diagnostics BMR et scan 3D LiDAR.",
-            "Optimisation SEO multi-villes ciblant Casablanca, Laâyoune, Agadir et Dakhla avec balises canoniques et Open Graph.",
-            "Interface corporate rapide et responsive avec navigation fluide et tunnel de prise de contact direct.",
-            "Déploiement en production sur emiengineeringgroup.com avec certificat SSL et chargement optimisé."
-          ],
-          "architecture": "Frontend moderne développé avec React, Tailwind CSS et Vite, doté d'une structure HTML5 sémantique, d'un design responsive et d'une configuration SEO complète."
         },
         {
           "id": "ocr-cin",
@@ -2261,6 +2261,34 @@ export const translations = {
       "modalArchitecture": "الهندسة المعمارية للنظام",
       "items": [
         {
+          "id": "emi-engineering-group",
+          "category": "live",
+          "typeLabel": "موقع إلكتروني تجاري حقيقي (عميل)",
+          "badgeClass": "badge-live",
+          "badgeText": "موقع مباشر",
+          "icon": "fa-solid fa-compass-drafting",
+          "title": "EMI Engineering Group — مكتب الدراسات التقنية والهندسة المدنية",
+          "role": "مطور ويب متكامل (Full-Stack) وخبير SEO",
+          "desc": "منصة ويب احترافية لمكتب دراسات تقنية وهندسة مدنية في المغرب (emiengineeringgroup.com)، تعرض خدمات حساب الهياكل، البنية التحتية، السوائل، المسح ثلاثي الأبعاد LiDAR ومتابعة الأشغال في الدار البيضاء والعيون وأكادير والداخلة.",
+          "tags": [
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "SEO تقني",
+            "تصميم متجاوب",
+            "نطاق مخصص"
+          ],
+          "liveUrl": "https://emiengineeringgroup.com/",
+          "liveText": "زيارة الموقع",
+          "features": [
+            "عرض متكامل للخدمات الهندسية: دراسة الهياكل، الشبكات والطرق (VRD)، الفحوصات التقنية والمسح ثلاثي الأبعاد LiDAR.",
+            "تحسين محركات البحث (SEO) لاستهداف المدن المغربية الكبرى (الدار البيضاء، العيون، أكادير، الداخلة) مع بيانات Open Graph.",
+            "واجهة استخدام مؤسسية سريعة ومتجاوبة مع تصفح سلس ومسار تواصل مباشر مع العملاء.",
+            "نشر مباشر في بيئة الإنتاج على النطاق الرسمي emiengineeringgroup.com مع شهادة أمان SSL."
+          ],
+          "architecture": "واجهة أمامية حديثة مبنية بـ React و Tailwind CSS عبر أداة Vite، مع بنية HTML5 دلالية وتصميم متجاوب وتهيئة شاملة لمحركات البحث."
+        },
+        {
           "id": "rsf-travaux",
           "category": "live",
           "typeLabel": "موقع إلكتروني تجاري حقيقي (عميل)",
@@ -2318,34 +2346,6 @@ export const translations = {
             "استضافة سحابية فائقة السرعة على Vercel مع تطبيق معايير السيو المنظمة Schema.org (OnlineStore)."
           ],
           "architecture": "بنية برمجية قائمة على نمط Laravel MVC مع قوالب Blade وتصميم مرن بـ Tailwind CSS، وإدارة حالة السلة برمجياً ونشر سحابي مباشر على منصة Vercel."
-        },
-        {
-          "id": "emi-engineering-group",
-          "category": "live",
-          "typeLabel": "موقع إلكتروني تجاري حقيقي (عميل)",
-          "badgeClass": "badge-live",
-          "badgeText": "موقع مباشر",
-          "icon": "fa-solid fa-compass-drafting",
-          "title": "EMI Engineering Group — مكتب الدراسات التقنية والهندسة المدنية",
-          "role": "مطور ويب متكامل (Full-Stack) وخبير SEO",
-          "desc": "منصة ويب احترافية لمكتب دراسات تقنية وهندسة مدنية في المغرب (emiengineeringgroup.com)، تعرض خدمات حساب الهياكل، البنية التحتية، السوائل، المسح ثلاثي الأبعاد LiDAR ومتابعة الأشغال في الدار البيضاء والعيون وأكادير والداخلة.",
-          "tags": [
-            "React",
-            "Tailwind CSS",
-            "Vite",
-            "SEO تقني",
-            "تصميم متجاوب",
-            "نطاق مخصص"
-          ],
-          "liveUrl": "https://emiengineeringgroup.com/",
-          "liveText": "زيارة الموقع",
-          "features": [
-            "عرض متكامل للخدمات الهندسية: دراسة الهياكل، الشبكات والطرق (VRD)، الفحوصات التقنية والمسح ثلاثي الأبعاد LiDAR.",
-            "تحسين محركات البحث (SEO) لاستهداف المدن المغربية الكبرى (الدار البيضاء، العيون، أكادير، الداخلة) مع بيانات Open Graph.",
-            "واجهة استخدام مؤسسية سريعة ومتجاوبة مع تصفح سلس ومسار تواصل مباشر مع العملاء.",
-            "نشر مباشر في بيئة الإنتاج على النطاق الرسمي emiengineeringgroup.com مع شهادة أمان SSL."
-          ],
-          "architecture": "واجهة أمامية حديثة مبنية بـ React و Tailwind CSS عبر أداة Vite، مع بنية HTML5 دلالية وتصميم متجاوب وتهيئة شاملة لمحركات البحث."
         },
         {
           "id": "ocr-cin",
