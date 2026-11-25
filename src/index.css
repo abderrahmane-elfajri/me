@@ -2092,7 +2092,7 @@ footer {
 
 .skills-items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.6rem;
 }
 
@@ -2100,11 +2100,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 1.6rem;
+  gap: 1.2rem;
+  padding: 1.3rem 1.6rem;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 1rem;
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  min-width: 0;
 }
 
 .skill-item-card:hover {
@@ -2118,6 +2120,8 @@ footer {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  flex: 1;
+  min-width: 0;
 }
 
 .skill-icon-wrapper {
@@ -2138,14 +2142,16 @@ footer {
   font-size: 1.45rem;
   font-weight: 600;
   color: var(--text-color);
+  line-height: 1.35;
 }
 
 .skill-level-badge {
   font-size: 1.15rem;
   font-weight: 700;
-  padding: 0.35rem 0.9rem;
+  padding: 0.35rem 0.95rem;
   border-radius: 9999px;
   white-space: nowrap;
+  flex-shrink: 0;
   letter-spacing: 0.02em;
 }
 
@@ -2799,7 +2805,7 @@ footer {
   }
 
   .skills-items-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.8rem;
   }
 
@@ -3240,7 +3246,7 @@ footer {
   }
 
   .skills-items-grid {
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 
